@@ -1,0 +1,9 @@
+stratum,n_population
+stars:10-99|pushed:0-180d,104211
+stars:10-99|pushed:181-730d,98638
+stars:100-499|pushed:0-180d,21437
+stars:100-499|pushed:181-730d,14985
+stars:2000-*|pushed:0-180d,3455
+stars:2000-*|pushed:181-730d,1024
+stars:500-1999|pushed:0-180d,6804
+stars:500-1999|pushed:181-730d,3391

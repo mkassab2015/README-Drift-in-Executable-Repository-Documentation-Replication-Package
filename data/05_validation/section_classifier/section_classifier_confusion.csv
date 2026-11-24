@@ -1,0 +1,11 @@
+coder_class,installation,usage,run,test,build,development,deployment,ci,documentation,other
+installation,32,4,1,0,6,0,8,0,3,0
+usage,5,24,8,8,4,1,6,9,3,12
+run,2,2,23,3,0,0,1,0,0,0
+test,0,1,1,6,0,1,0,0,0,0
+build,0,0,0,0,11,0,0,0,0,0
+development,0,0,1,5,0,34,0,0,1,2
+deployment,0,1,2,0,1,0,16,2,0,0
+ci,0,0,1,1,1,0,0,3,0,0
+documentation,0,1,0,0,2,0,0,0,20,2
+other,1,7,3,17,15,4,9,26,13,24

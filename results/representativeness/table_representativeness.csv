@@ -1,0 +1,18 @@
+attribute,corpus,filtered_ref,smd_filtered,smd_unfiltered
+Stars,"597 [119, 2205]","626 [128, 2234]",0.2,0.14
+Forks,"80 [16, 319]","84 [17, 311]",0.11,0.18
+Open issues,"16 [3, 73]","18 [3, 64]",0.08,0.34
+Age (years),"3.5 [1.2, 8.3]","4.5 [1.7, 9.3]",-0.17,0.07
+Days since last push,"0 [0, 185]","86 [5, 296]",-1.18,-1.55
+Repository size (KB),"16134 [2286, 103380]","7078 [1282, 31002]",0.42,0.43
+Tree entries,"203 [71, 743]","156 [60, 394]",0.27,0.48
+Contributors,"16 [4, 59]","10 [3, 32]",0.41,0.72
+Commits,"720 [172, 3222]","286 [93, 839]",0.63,0.92
+Releases,"9 [0, 48]","3 [0, 23]",0.37,0.57
+Recognised licence (%),79,79,-0.0,
+Packaging manifest (%),99,99,-0.0,
+Source directory (%),33,31,0.05,
+Test directory (%),61,61,-0.0,
+CI workflow (%),76,66,0.23,
+Container file (%),38,31,0.13,
+Makefile (%),40,40,-0.01,

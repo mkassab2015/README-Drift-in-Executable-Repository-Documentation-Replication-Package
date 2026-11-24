@@ -1,0 +1,7 @@
+Logistic model of any drifted claim per repository (Section 4.7 covariates + one activity term)
+contributors     adjusted OR per log unit 0.96  p=0.70  n=747
+commits          adjusted OR per log unit 0.98  p=0.79  n=747
+releases         adjusted OR per log unit 1.02  p=0.79  n=747
+size_kb          adjusted OR per log unit 0.97  p=0.56  n=747
+n_tree_entries   adjusted OR per log unit 1.01  p=0.86  n=763
+claim-level drift rate by contributor tertile (%): low=3.4, mid=4.3, high=3.0

@@ -1,0 +1,12 @@
+channel,subset,elements,extracted,share_extracted
+fenced block,all,5776,2389,0.414
+fenced block,other language,588,39,0.066
+fenced block,python-tagged,1193,41,0.034
+fenced block,shell-tagged,2776,1869,0.673
+fenced block,untagged,1219,440,0.361
+inline code,all,19991,2917,0.146
+markdown link,external target,13783,170,0.012
+markdown link,"local target, all",2428,344,0.142
+markdown link,"local target, admitted section",567,339,0.598
+markdown link,"local target, non-admitted section",1861,5,0.003
+prose line,all,126444,3214,0.025

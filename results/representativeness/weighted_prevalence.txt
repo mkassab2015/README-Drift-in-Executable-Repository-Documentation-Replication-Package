@@ -1,0 +1,4 @@
+unweighted: claims 3.5%  repositories 18.9%
+population-weighted: claims 3.8% (95% CI 2.8-5.0), repositories 21.5% (95% CI 16.4-26.6)
+per-stratum claim rate (%): stars:10-99|pushed:0-180d=3.4, stars:10-99|pushed:181-730d=4.1, stars:100-499|pushed:0-180d=4.4, stars:100-499|pushed:181-730d=4.3, stars:2000-*|pushed:0-180d=3.0, stars:2000-*|pushed:181-730d=2.3, stars:500-1999|pushed:0-180d=3.6, stars:500-1999|pushed:181-730d=3.4
+per-stratum repository rate (%): stars:10-99|pushed:0-180d=21.4, stars:10-99|pushed:181-730d=22.6, stars:100-499|pushed:0-180d=19.8, stars:100-499|pushed:181-730d=20.8, stars:2000-*|pushed:0-180d=14.9, stars:2000-*|pushed:181-730d=14.9, stars:500-1999|pushed:0-180d=19.3, stars:500-1999|pushed:181-730d=19.4

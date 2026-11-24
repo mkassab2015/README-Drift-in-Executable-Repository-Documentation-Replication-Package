@@ -1,0 +1,652 @@
+id,full_name,heading_text,context,section_class,operational_hint,line_no
+H001,coveragepy/coveragepy,For Enterprise,.. |tideliftlogo| image:: https://nedbatchelder.com/pix/Tidelift_Logo_small.png | :alt: Tidelift | :target: https://tidelift.com/subscription/pkg/pypi-coverage?utm_source=pypi-coverage&utm_medium=referral&utm_campaign=readme,other,0,39
+H002,awslabs/amazon-redshift-utils,Automation Module,This [project](src/RedshiftAutomation) includes code that is able to run the Amazon Redshift Utilities via AWS Lambda. By using a Lambda function scheduled via  | This [project](src/RedshiftAutomation) includes code that is able to run the Amazon Redshift Utilities via AWS Lambda. By using a Lambda function scheduled via ,ci,0,62
+H003,QuantaAlpha/GitTaskBench,Contribution Types,- 🐛 Bug fixes | - ✨ New feature development | - 📚 Documentation improvements,development,1,381
+H004,neulab/nn4nlp-concepts,Contributing,"There are several ways to contribute: | * **Perform annotation:** We could use more manual annotations of the concepts covered by papers, so please take a look | below if you're interested in helping out in this regard.",development,1,15
+H005,SpotOnInc/dbt_object_mgmt,command line,"[code] dbt run-operation create_integration \
+    --args 'file: ./snowflake/integration/s3_to_snowflake_integration.yml'",usage,1,74
+H006,nerdai/llm-agents-from-scratch,Part 3 — Building Multi-Agent Systems,| Ch | Title | Notebook | | | -- | ----- | -------- | | | 9 | Multi-Agent Systems with Agent2Agent | — |,build,1,56
+H007,SaiAkhil066/DeepSeek-RAG-Chatbot,**Step C: Run the Chatbot**,1. Make sure **Ollama** is running on your system: | [code] ollama serve | 2. Launch the Streamlit app:,run,1,120
+H008,apocas/restai,Kubernetes (Helm),"chart/restai/ | A Helm chart is provided in `chart/restai/`. | [code] helm install restai chart/restai/ \
+  --set config.database.postgres.host=my-postgres \
+  --set secrets.postgresPassword=mypassword",deployment,1,273
+H009,psi-oss/get-physics-done,Common Starting Points,| Command | What it does | | |---------|--------------| | map-research,run,1,203
+H010,evilsocket/pwnagotchi,Documentation,https://www.pwnagotchi.ai,documentation,0,34
+H011,jgravelle/jcodemunch-mcp,Better engineering workflows,"Useful for onboarding, debugging, refactoring, impact analysis, and exploring unfamiliar repos without brute-force file reading.",ci,1,142
+H012,neulab/REALSumm,Outline,* ### [Leaderboard](https://github.com/neulab/Leaderboard-1) | * ### [Leaderboard](https://github.com/neulab/Leaderboard-1) | * ### [Motivation](https://github.com/neulab/REALSumm#Motivation-1),other,0,6
+H013,guyru/man-mcp-server,Contributing,Contributions are welcome! Please feel free to submit a Pull Request.,development,1,240
+H014,THU-MIG/yoloe,Zero-shot detection evaluation,minival | - *Fixed AP* is reported on LVIS `minival` set with text (T) / visual (V) prompts. | - Training time is for text prompts with detection based on 8 Nvidia RTX4090 GPUs.,test,0,39
+H015,huggingface/upskill,Quick Start,"Install upskill: | [code] pip install upskill
+# or just use uv
+uvx upskill | Create a new skill",installation,1,7
+H016,apple/ml-l3m,Usage,"Launch a training run as: | [code] torchrun --nnodes=1 \
+  --nproc_per_node=1 \
+  --standalone run/launcher.py \
+  --debug \
+  --config <CONFIG_PATH> | Additionally, it is possible to override some configs to make debugging easier, for instance:",usage,1,47
+H017,Altimis/Scweet,Hosted Version,"For production workloads, or if you'd rather skip account and proxy management entirely, Scweet is available as a hosted actor on Apify with a free tier. | [![Run on Apify](https://apify.com/static/run-on-apify-button.svg)](https://apify.com/altimis/scweet?fpr=a40q9&fp_sid=jeb97) | [![Run on Apify](https://apify.com/static/run-on-apify-button.svg)](https://apify.com/altimis/scweet?fpr=a40q9&fp_sid=jeb97)",deployment,0,152
+H018,syncsoftco/tickr,GitHub Actions,.github/workflows/update_candles.yml | Tickr uses GitHub Actions to schedule and automate the data fetching process. The workflow is defined in `.github/workflows/update_candles.yml` and is set to ru,ci,1,73
+H019,NVIDIA/Megatron-LM,Performance Benchmarking,"For our latest performance benchmarking results, please refer to [NVIDIA Megatron Bridge Performance Summary](https://docs.nvidia.com/nemo/megatron-bridge/lates | For our latest performance benchmarking results, please refer to [NVIDIA Megatron Bridge Performance Summary](https://docs.nvidia.com/nemo/megatron-bridge/lates | Our codebase efficiently trains models from 2B to 462B parameters across thousands of GPUs, achieving up to **47% Model FLOP Utilization (MFU)** on H100 cluster",test,1,94
+H020,hzwer/ECCV2022-RIFE,Run,**Video Frame Interpolation** | You can use our [demo video](https://drive.google.com/file/d/1i3xlKb7ax7Y70khcTcuePi6E7crO_dFc/view?usp=sharing) or your own video. | You can use our [demo video](https://drive.google.com/file/d/1i3xlKb7ax7Y70khcTcuePi6E7crO_dFc/view?usp=sharing) or your own video.,run,1,54
+H021,Clause-Logic/exoclaw,GitHub Actions bot,"The quickest way to run exoclaw in production — zero infrastructure, no servers. See [exoclaw-github](https://github.com/Clause-Logic/exoclaw-github) for the fu | The quickest way to run exoclaw in production — zero infrastructure, no servers. See [exoclaw-github](https://github.com/Clause-Logic/exoclaw-github) for the fu | The quickest way to run exoclaw in production — zero infrastructure, no servers. See [exoclaw-github](https://github.com/Clause-Logic/exoclaw-github) for the fu",ci,1,305
+H022,pyload/pyload,Contribute to pyLoad,Please refer to [CONTRIBUTING](https://github.com/pyload/pyload/blob/main/CONTRIBUTING.md) to read our contribution guidelines. | Please refer to [CONTRIBUTING](https://github.com/pyload/pyload/blob/main/CONTRIBUTING.md) to read our contribution guidelines.,development,1,212
+H023,themanojdesai/python-a2a,3. **Real-World Integration Examples**,- **Zerodha Kite MCP**: Complete trading assistant with real portfolio analysis | - **No Mock Data**: All examples use actual MCP servers and real data | - **Production Ready**: Examples designed for real-world deployment,usage,1,857
+H024,realgam3/pymultitor,Command Line Arguments,"[code] pymultitor --help | [code] usage: pymultitor.py [-h] [-v] [-lh LISTEN_HOST] [-lp LISTEN_PORT] [-s] [-a AUTH] [-i] [-d] [-p PROCESSES] [-c CMD] [-e CONFIG] [-t TIMEOUT] [-r TRIES]
+ ",usage,1,126
+H025,spaam/svtplay-dl,Add the release PGP keys:,[code] curl -s https://svtplay-dl.se/release-key.txt | sudo apt-key add -,build,0,19
+H026,zaina-ml/ml_forge,3. Training tab,"Add these four nodes from the palette and wire them up: | [code] DataLoaderBlock.images  ->  ModelBlock.images
+ModelBlock.predictions  ->  Loss.pred
+DataLoaderBlock.labels  ->  Loss.target
+Loss.loss               ->  O | Configure epochs, device, checkpointing and early stopping in the right panel, then press **RUN**.",run,1,87
+H027,ray-project/ray,More Information,Documentation | - `Documentation`_ | Ray Architecture whitepaper,other,0,68
+H028,thinking-machines-lab/tinker-cookbook,Citation,"If you use Tinker for your research, please cite it as: | [code] Thinking Machines Lab, 2025. Tinker. https://thinkingmachines.ai/tinker/. | Or use this BibTeX citation:",documentation,0,110
+H029,nardew/talipp,Installation,"[code] pip install talipp | In case you want to install the latest version from the repo, use | [code] pip install git+https://github.com/nardew/talipp.git@main",installation,1,91
+H030,AstrBotDevs/AstrBot,Development Environment,"ruff | AstrBot uses `ruff` for code formatting and linting. | [code] git clone https://github.com/AstrBotDevs/AstrBot
+pip install pre-commit
+pre-commit install",development,1,213
+H031,junyanz/pytorch-CycleGAN-and-pix2pix,Prerequisites,- Linux or macOS | - Python 3 | - CPU or NVIDIA GPU + CUDA CuDNN,installation,1,95
+H032,OWASP/cornucopia,Release process,This repository follows [semver](https://semver.org/) approach. Release a new | This repository follows [semver](https://semver.org/) approach. Release a new | master,build,0,136
+H033,saxix/django-concurrency,Django Concurrency,[![Pypi](https://badge.fury.io/py/django-concurrency.svg)](https://badge.fury.io/py/django-concurrency) | [![Pypi](https://badge.fury.io/py/django-concurrency.svg)](https://badge.fury.io/py/django-concurrency) | [![coverage](https://codecov.io/github/saxix/django-concurrency/coverage.svg?branch=develop)](https://codecov.io/github/saxix/django-concurrency?branch=develop),other,0,1
+H034,QData/TextAttack,To check datasets: `textattack peek-dataset`,"textattack peek-dataset | To take a closer look at a dataset, use `textattack peek-dataset`. TextAttack will print some cursory statistics about the inputs and outputs from the dataset.  | [code] textattack peek-dataset --dataset-from-huggingface snli",test,0,453
+H035,Nezreka/SoulSync,SoulSync - Intelligent Music Discovery & Automation Platform,"**Spotify-quality music discovery for self-hosted libraries.** Automates downloads, curates playlists, monitors artists, and organizes your collection with zero | http://localhost:5030/shares | > **IMPORTANT**: Configure file sharing in slskd to avoid Soulseek bans. Set up shared folders at `http://localhost:5030/shares`.",ci,0,5
+H036,OthersideAI/self-operating-computer,Follow HyperWriteAI for More Updates,Stay updated with the latest developments: | - Follow HyperWriteAI on [Twitter](https://twitter.com/HyperWriteAI). | - Follow HyperWriteAI on [Twitter](https://twitter.com/HyperWriteAI).,usage,0,181
+H037,themanojdesai/python-a2a,3. Workflow Engine,"The new workflow engine allows you to define complex agent interactions: | [code] from python_a2a import AgentNetwork, Flow
+import asyncio
+
+async def main():
+    # Set up agent network
+    network = AgentNetwork()
+    network.add(""rese",ci,1,265
+H038,LlmKira/fast-langdetect,Prerequisites,"- If the sample is too long (generally over 80 characters) or too short, accuracy will be reduced. | - The model downloads to the system temporary directory by default. You can customize it by: | FTLANG_CACHE",installation,1,57
+H039,ProGamerGov/ComfyUI_pytorch360convert,git install,"If using Windows, you can install git from here: https://git-scm.com/download/win if you have not done so already and wish to use Git. Then navigate to the cust | [code] git clone https://github.com/ProGamerGov/ComfyUI_pytorch360convert --recursive | Then install the dependency for Linux and MacOS:",installation,1,39
+H040,itanishqshelar/SmartRAG,Deployment Options,**Standard** - All-in-one container with Ollama | [code] docker-compose up -d | **Lightweight** - External Ollama on host,deployment,1,179
+H041,pedroCabrera/PyFlow,Manual,1. Clone or download repository. | requirements.txt | 2. Install requirements `requirements.txt`,documentation,0,51
+H042,pocketpaw/pocketpaw,🔑 Setting up your first API key,"If the dashboard shows **UNHEALTHY** on first run, PocketPaw is usually installed correctly. You just need to configure at least one model provider (API key or  | 1. Open **Settings > API Keys** in the dashboard. | 2. Add a key for at least one provider:",documentation,0,228
+H043,skfolio/skfolio,Maximum Sortino Ratio,".. code-block:: python | model = MeanRisk( | objective_function=ObjectiveFunction.MAXIMIZE_RATIO,",other,0,383
+H044,ikalchev/HAP-python,"Run at boot <a name=""AtBoot""></a>",HAP-python | This is a quick way to get `HAP-python` to run at boot on a Raspberry Pi. It is recommended | raspi-config,run,1,215
+H045,D4Vinci/Scrapling,Docker,You can also install a Docker image with all extras and browsers with the following command from DockerHub: | [code] docker pull pyd4vinci/scrapling | Or download it from the GitHub registry:,deployment,1,488
+H046,conda-forge/staged-recipes,FAQ,,usage,0,238
+H047,SoongNoonien/plattenalbum,Contributing,Please try to follow the [GNOME Code of Conduct](https://conduct.gnome.org). | Please try to follow the [GNOME Code of Conduct](https://conduct.gnome.org).,development,1,49
+H048,aiming-lab/AutoResearchClaw,Quick Setup,"[code] # 1. Install MetaClaw (if not already)
+pip install metaclaw
+
+# 2. Enable in your config | [code] # config.arc.yaml
+metaclaw_bridge:
+  enabled: true
+  proxy_url: ""http://localhost:30000""        # MetaClaw proxy (optional)
+  skills_dir: ""~/.metaclaw/sk | [code] # 3. Run as usual — MetaClaw works transparently
+researchclaw run --config config.arc.yaml --topic ""Your idea"" --auto-approve",installation,1,343
+H049,mindsdb/mindsdb,What you can build with MindsDB Query Engine,"| CONVERSATIONAL ANALYTICS AGENTS | SEMANTIC SEARCH AGENTS | | | --- | --- | | | Get precise, data-driven answers using natural language. <br /><br /> Unify and query data across sources (MySQL, Salesforce, Shopify, etc.), without ETL. <br",build,1,46
+H050,buildbot/buildbot,The Continuous Integration Framework,"Buildbot is based on original work from `Brian Warner <mailto:warner-buildbot @ | _, and currently maintained by | lothar . com>`_, and currently maintained by `the Botherders",ci,1,6
+H051,Jamie-BitFlight/claude_skills,Python and Package Management,| Plugin | What It Does | | | --- | --- | | | [litellm](./plugins/litellm) | Call any LLM API (OpenAI/Anthropic/local) from Python with unified interface and retry logic |,build,1,81
+H052,openagents-org/openagents,Build Your Own Network,pip install openagents[sdk] | Developers can build self-hosted agent networks with the [OpenAgents SDK](https://openagents.org/docs/getting-started/overview). Install with `pip install opena | Developers can build self-hosted agent networks with the [OpenAgents SDK](https://openagents.org/docs/getting-started/overview). Install with `pip install opena,build,1,130
+H053,g-dolphin/WorldCarbonPricingDatabase,Contribution,"The dataset is under continuous development. While every precaution has been taken to accurately record coverage and price information, the size of the undertak",development,1,47
+H054,computationalmodelling/nbval,Help,"py.test | py.test -h | The `py.test` system help can be obtained with `py.test -h`, which will",usage,0,124
+H055,pyro-ppl/pyro,Installing Pyro dev branch,For recent features you can install Pyro from source. | **Install Pyro using pip:** | [code] pip install git+https://github.com/pyro-ppl/pyro.git,installation,1,63
+H056,cocoindex-io/cocoindex-code,Install,"Using [pipx](https://pipx.pypa.io/stable/installation/): | Using [pipx](https://pipx.pypa.io/stable/installation/): | [code] pipx install cocoindex-code       # first install
+pipx upgrade cocoindex-code       # upgrade",installation,1,45
+H057,vectorize-io/hindsight,Adding Hindsight to Your AI Agents,"The easiest way to use Hindsight with an existing agent is with the LLM Wrapper. You can add memory to your agent with 2 lines of code. That will swap your curr | If you need more control over how and when your agent stores and recalls memories, there's also a simple API you can integrate with using the SDKs or directly v | ![Hindsight Banner](./hindsight-docs/static/img/migration-code.png)",other,0,39
+H058,comet-ml/opik,Self-Hosting with Kubernetes & Helm (for Scalable Deployments),"For production or larger-scale self-hosted deployments, Opik can be installed on a Kubernetes cluster using our Helm chart. Click the badge for the full [Kubern | For production or larger-scale self-hosted deployments, Opik can be installed on a Kubernetes cluster using our Helm chart. Click the badge for the full [Kubern | [![Kubernetes](https://img.shields.io/badge/Kubernetes-%23326ce5.svg?&logo=kubernetes&logoColor=white)](https://www.comet.com/docs/opik/self-host/kubernetes/#ku",deployment,1,149
+H059,bitwize-music-studio/claude-ai-music-skills,Tutorial: Create Your Album,Let's walk through creating an album from scratch.,usage,1,261
+H060,Fiestaboard/FiestaBoard,Docker Issues,- Make sure Docker Desktop is running (look for the whale icon) | docker ps | - Check if the container is running: `docker ps`,deployment,1,210
+H061,digitalfox/pydici,Development environment,"To install all python prerequisites, please do the following: pip install -r requirements.txt. It is strongly advised to use a virtual env. | You will need a running mysql or mariadb with a database named pydici (see pydici/settings.py for default credential) | For development (and only for development), a docker-compose file can be used with mariadb, redis, memcached setup :",development,1,33
+H062,art1415926535/graphene-sqlalchemy-filter,Example: multiple filters sharing the same join,"Membership | User | ""member_user""",usage,1,164
+H063,coleam00/mcp-crawl4ai-rag,Using uv directly (no Docker),"1. Clone this repository: | [code] git clone https://github.com/coleam00/mcp-crawl4ai-rag.git
+   cd mcp-crawl4ai-rag | 2. Install uv if you don't have it:",usage,1,97
+H064,justrach/turboAPI,Zig-native validation via [dhi](https://github.com/justrach/dhi),"[code] from dhi import BaseModel, Field
+
+class CreateUser(BaseModel):
+    name: str = Field(min_length=1, max_length=100)
+    email: str
+    age: int = Field(gt | 422 | Model schemas are extracted at startup and compiled into Zig. Invalid requests get rejected with a `422` **before touching Python** — no GIL acquired, no handle",test,1,256
+H065,OSU-NLP-Group/HippoRAG,Local Deployment (vLLM),hipporag | This simple example will illustrate how to use `hipporag` with any vLLM-compatible locally deployed LLM. | 1. Run a local [OpenAI-compatible vLLM server](https://docs.vllm.ai/en/latest/getting_started/quickstart.html#quickstart-online) with specified GPUs (make sure ,deployment,1,138
+H066,AllenMaxi/ContextGraph,10-Minute Evaluation Path,"[code] python3 examples/support_memory_workflow.py
+python3 examples/research_memory_workflow.py | Use the support workflow as the primary product story when evaluating the repo with a team.",test,0,396
+H067,conda-forge/staged-recipes,"11. **Some checks failed, but it wasn't my recipe! How do I trigger a rebuild?**","Sometimes, some of the CI tools' builds fail due to no error within your recipe. If that happens, you can trigger a rebuild by re-creating the last commit and f | [code] # edit your last commit, giving it a new time stamp and hash
+# (you can just leave the message as it is)
+git commit --amend
+# push to github, overwriting | staged-recipes",test,0,325
+H068,Quivnex/blankly-finance,Installation,pip | 1. First install Blankly using `pip`. Blankly is hosted on [PyPi](https://pypi.org/project/Blankly/). | 1. First install Blankly using `pip`. Blankly is hosted on [PyPi](https://pypi.org/project/Blankly/).,installation,1,128
+H069,QuantaAlpha/GitTaskBench,📊 Benchmark Overview,GitTaskBench is a comprehensive benchmark designed to evaluate the capabilities of intelligent agents across multiple modalities and task complexities. It encom | Each domain features a curated set of tasks that reflect real-world applications and research challenges. These tasks assess an agent's autonomous ability to in | The GitTaskBench data curation and processing pipeline is illustrated below.,test,1,178
+H070,SolaceLabs/solace-agent-mesh,🧪 Running Tests,pytest | hatch | pytest,run,1,192
+H071,themanojdesai/python-a2a,6. Use the Command Line Interface,"[code] # Send a message to an agent
+a2a send http://localhost:5000 ""What is artificial intelligence?""
+
+# Stream a response in real-time
+a2a stream http://localh",usage,1,420
+H072,NicolasHug/Surprise,Contributors,"The following persons have contributed to [Surprise](https://surpriselib.com): | The following persons have contributed to [Surprise](https://surpriselib.com): | ashtou, Abhishek Bhatia, bobbyinfj, caoyi, Chieh-Han Chen,  Raphael-Dayan, Олег",development,0,195
+H073,infrahouse/terraform-aws-secret,Resources,| Name | Type | | |------|------| | | [aws_secretsmanager_secret.secret](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/secretsmanager_secret) | resource |,documentation,0,143
+H074,Q00/ouroboros,Quick Start,"**Step 1 — Install the plugin** (in your terminal): | [code] claude plugin marketplace add Q00/ouroboros
+claude plugin install ouroboros@ouroboros | **Step 2 — Run setup** (inside a Claude Code session):",installation,1,83
+H075,dhondta/python-codext,":computer: Usage (main CLI tool) <a href=""https://twitter.com/intent/tweet?text=CodExt%20-%20Encode%2Fdecode%20anything.%0D%0APython%20tool%20for%20encoding%20and%20decoding%20almost%20anything,%20including%20a%20guess%20feature%20based%20on%20AI.%0D%0Ahttps%3a%2f%2fgithub%2ecom%2fdhondta%2fpython-codext%0D%0A&hashtags=python,encodings,codecs,cryptography,morse,base,stegano,steganography,ctftools""><img src=""https://img.shields.io/badge/Tweet%20(codext)--lightgrey?logo=twitter&style=social"" alt=""Tweet on codext"" height=""20""/></a>","[code] $ codext -i test.txt encode dna-1
+GTGAGCGGGTATGTGA
+
+$ echo -en ""test"" | codext encode morse
+- . ... -
+
+$ echo -en ""test"" | codext encode braille
+⠞⠑⠎⠞
+
+$ ",usage,1,30
+H076,agent0ai/agent-zero,⚡ Quick Start,"[code] # Pull and run with Docker
+
+docker pull agent0ai/agent-zero
+docker run -p 50001:80 agent0ai/agent-zero
+
+# Visit http://localhost:50001 to start",installation,1,58
+H077,kubeflow/pipelines,Overview of the Kubeflow pipelines service,"[Kubeflow](https://www.kubeflow.org/) is a machine learning (ML) toolkit that is dedicated to making deployments of ML workflows on Kubernetes simple, portable, | [Kubeflow](https://www.kubeflow.org/) is a machine learning (ML) toolkit that is dedicated to making deployments of ML workflows on Kubernetes simple, portable, | **Kubeflow pipelines** are reusable end-to-end ML workflows built using the Kubeflow Pipelines SDK.",ci,1,9
+H078,chubin/wttr.in,Usage,"You can access the service from a shell or from a Web browser like this: | $ curl wttr.in | Weather for City: Paris, France",usage,1,16
+H079,vitaliistarr/pta-learn,Integrated transient identification workflow,- Identify both shut-in transients and flowing transient | - Result visualization | ti_worflow,ci,1,184
+H080,kubeflow/pipelines,Kubeflow Pipelines Community,,ci,1,70
+H081,huashengdun/webssh,Custom Font,"webssh/static/css/fonts/ | To use custom font, put your font file in the directory `webssh/static/css/fonts/` and restart the server.",other,0,104
+H082,vectorize-io/hindsight,Architecture & Operations,![Overview](./hindsight-docs/static/img/hindsight-overview.webp) | ![Overview](./hindsight-docs/static/img/hindsight-overview.webp) | Most agent memory implementations rely on basic vector search or sometimes use a knowledge graph. Hindsight uses biomimetic data structures to organize agent me,deployment,0,182
+H083,qualiaenjoyer/polymarket-apis,PolymarketGraphQLClient/AsyncPolymarketGraphQLClient - Goldsky hosted Subgraphs queries,- instantiate with an endpoint name from: | - activity_subgraph | - fpmm_subgraph,deployment,0,201
+H084,nomadkaraoke/karaoke-gen,Core Pipeline,"- **Audio Separation**: AI-powered vocal/instrumental separation using MDX and Demucs models | - **Lyrics Transcription**: Word-level timestamps via AudioShake API | - **Lyrics Correction**: Match transcription against online lyrics (Genius, Spotify, Musixmatch)",ci,1,32
+H085,openakita/openakita,License,Apache License 2.0 — See [LICENSE](LICENSE) | Apache License 2.0 — See [LICENSE](LICENSE) | Third-party licenses: [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md),other,0,475
+H086,leo-lilinxiao/codex-autoresearch,Dual-gate verification,"Two commands serve different purposes: | - **Verify** = ""Did the target metric improve?"" (measures progress) | - **Guard** = ""Did anything else break?"" (prevents regressions)",test,0,235
+H087,dj-bolt/django-bolt,🔧 Development,,development,1,117
+H088,ipa-lab/hackingBuddyGPT,Getting help,"If you need help or want to chat about using AI for security or education, please join our [discord server where we talk about all things AI + Offensive Securit | If you need help or want to chat about using AI for security or education, please join our [discord server where we talk about all things AI + Offensive Securit",usage,0,48
+H089,aiming-lab/AutoResearchClaw,"🔬 Pipeline: 23 Stages, 8 Phases","[code] Phase A: Research Scoping          Phase E: Experiment Execution
+  1. TOPIC_INIT                      12. EXPERIMENT_RUN
+  2. PROBLEM_DECOMPOSE           | --auto-approve | > **Gate stages** (5, 9, 20) pause for human approval or auto-approve with `--auto-approve`. On rejection, the pipeline rolls back.",ci,1,260
+H090,matt-kempster/m2c,Coverage,./run_tests.py --coverage | Code branch coverage can be computed by running `./run_tests.py --coverage`. | ./htmlcov/index.html,test,0,360
+H091,C-Loftus/sight-free-talon,Contributing / Support,"If you benefit from this repo, please star it on GitHub. It helps put more attention on an otherwise niche accessibility challenge. | I appreciate _all contributions in any form_. For more info read [CONTRIBUTING.md](./docs/src/CONTRIBUTING.md). Feel free to reach out personally through the li | I appreciate _all contributions in any form_. For more info read [CONTRIBUTING.md](./docs/src/CONTRIBUTING.md). Feel free to reach out personally through the li",development,1,56
+H092,zhudotexe/fanoutqa,Evaluation,"To evaluate a model's generation, first ensure that you have installed all the evaluation dependencies (see above). | To use the GPT-as-judge metric, you will need to provide your OpenAI API key. We intentionally do not read | OPENAI_API_KEY",test,0,121
+H093,recommenders-team/recommenders,Algorithm Comparison,k=10 | We provide a [benchmark notebook](examples/06_benchmarks/movielens.ipynb) to illustrate how different algorithms could be evaluated and compared. In this notebo | We provide a [benchmark notebook](examples/06_benchmarks/movielens.ipynb) to illustrate how different algorithms could be evaluated and compared. In this notebo,other,0,136
+H094,Hipo/drf-extra-fields,Usage,Install the package | [code] pip install drf-extra-fields | **Note:**,usage,1,44
+H095,vectimus/vectimus,Documentation,Full docs at [vectimus.com/docs](https://vectimus.com/docs): | Full docs at [vectimus.com/docs](https://vectimus.com/docs): | - [Getting started](https://vectimus.com/docs/getting-started),documentation,0,291
+H096,joeyan/gaussian_splatting,Training on Mip-Nerf 360 Scenes,1. Download the [Mip-NeRF 360](https://jonbarron.info/mipnerf360/) dataset and unzip | 1. Download the [Mip-NeRF 360](https://jonbarron.info/mipnerf360/) dataset and unzip | [code] wget http://storage.googleapis.com/gresearch/refraw360/360_v2.zip && unzip 360_v2.zip,run,1,77
+H097,itsDNNS/docsight,Core Evidence Workflow,"| Feature | Description | | |---|---| | | **[Live Dashboard](https://github.com/itsDNNS/docsight/wiki/Features-Dashboard)** | Real-time channel data with health assessment, actionable insights, and ex",ci,1,124
+H098,felipeall/resumeio-to-pdf,How to run the application,Clone the repository | [code] git clone https://github.com/felipeall/resumeio-to-pdf.git | Go to the project's root folder,run,1,20
+H099,krinkuto11/streamflow,Documentation,"| Doc                                                    | Contents                                                    | | | ------------------------------------------------------ | ----------------------------------------------------------- | | | [docs/automation.md](docs/automation.md)               | Profiles, periods, scheduling, EPG                          |",documentation,0,33
+H100,ruhyadi/YOLO3D,Docker Engine,Docker engine is easy way to install all you need. Pull docker image from repository: | [code] docker pull ruhyadi/yolo3d:latest | run docker container from docker image with,deployment,1,27
+H101,imhotep/hass-unifi-access,Example automation,"[code] alias: Unlock Front Gate when motion is detected in Entryway
+description: """"
+trigger:
+  - platform: state
+    entity_id:
+      - binary_sensor.entryway_m",usage,1,89
+H102,pyload/pyload,Docker Images,[![Docker build status](https://img.shields.io/docker/build/pyload/pyload?style=flat-square)](https://hub.docker.com/r/pyload/pyload) | [![Docker build status](https://img.shields.io/docker/build/pyload/pyload?style=flat-square)](https://hub.docker.com/r/pyload/pyload),deployment,1,216
+H103,roryeckel/wyoming_openai,7. Deploying with Chatterbox TTS,"For users who want high-quality local text-to-speech with voice cloning capabilities, Chatterbox TTS provides an OpenAI-compatible API with advanced voice cloni | - **Chatterbox TTS Setup**: | - Local OpenAI-compatible text-to-speech API with voice cloning capabilities",deployment,1,308
+H104,lightning-rod-labs/sculpt,Schema Validation and Field Types,"Sculptor supports the following types in the schema's ""type"" field: | • string | • number",test,1,243
+H105,benkehoe/aws-sso-util,Adding Identity Center support to AWS SDKs,aws-sso-util configure | The credential process is added automatically (by default) by the `aws-sso-util configure` commands; you only need to read this section if you're not using that | aws-sso-util credential-process,deployment,0,135
+H106,qlands/FormShare,Form and submission management,- Easy setup of ODK Collect Projects using configurable QR images. | - Support for form version updates. | - With testing and production stages.,other,0,53
+H107,janushendersonassetallocation/loman,👥 Contributing,"We welcome contributions! 🎉 | Whether you're fixing bugs, adding features, or improving documentation, your help makes Loman better for everyone.",development,1,186
+H108,binref/refinery,Release Schedule,"There is no release schedule, but releases happen very frequently and it is recommended to update periodically. | Bugfixes are not documented outside of GIT, but all other changes (i.e. new features) are documented in the [changelog](CHANGELOG.md). | Bugfixes are not documented outside of GIT, but all other changes (i.e. new features) are documented in the [changelog](CHANGELOG.md).",build,0,36
+H109,nomadkaraoke/karaoke-gen,List Jobs,/api/jobs | **GET** `/api/jobs` | List all jobs with optional status filter.,other,0,453
+H110,LlmKira/fast-langdetect,License 📄,LICENSE | - Code: Released under the MIT License (see `LICENSE`). | lid.176.ftz,other,0,269
+H111,takuseno/d3rlpy,Online Training,"[code] import d3rlpy
+import gym
+
+# prepare environment
+env = gym.make('Hopper-v3')
+eval_env = gym.make('Hopper-v3')
+
+# prepare algorithm
+sac = d3rlpy.algos.SACC",run,1,178
+H112,mlrun/mlrun,Deploy models and applications,"MLRun rapidly deploys and manages production-grade real-time or batch application pipelines using elastic and resilient serverless functions. MLRun addresses th | **Docs:** [Deploy models and applications](https://docs.mlrun.org/en/stable/deployment/index.html), [Realtime Pipelines](https://docs.mlrun.org/en/stable/servin | **Docs:** [Deploy models and applications](https://docs.mlrun.org/en/stable/deployment/index.html), [Realtime Pipelines](https://docs.mlrun.org/en/stable/servin",deployment,1,137
+H113,GustavoPeredo/Font-Downloader,How to compile,"If you use GNOME Builder, simply cloning the project is enough, otherwise you need to install libhandy as a dependency. | Dependencies in Fedora: | [code] sudo dnf install cmake meson ninja 
+sudo dnf install libhandy1-dev",build,1,20
+H114,spruceUI/spruceOS,UPDATING TO THE LATEST RELEASE,To update: | See our updating spruce [Wiki page for more info](https://github.com/spruceUI/spruceOS/wiki/01.-Installation-Instructions) | See our updating spruce [Wiki page for more info](https://github.com/spruceUI/spruceOS/wiki/01.-Installation-Instructions),build,0,48
+H115,pymc-labs/CausalPy,Methods and Workflows,CausalPy provides methods for common causal inference decision contexts: | | Decision context | Methods | | |------------------|---------|,ci,1,105
+H116,junyanz/pytorch-CycleGAN-and-pix2pix,CycleGAN train/test,- Download a CycleGAN dataset (e.g. maps): | [code] bash ./datasets/download_cyclegan_dataset.sh maps | --use_wandb,run,1,127
+H117,vectimus/vectimus,Contributing,"Contributions welcome. Please open an issue before submitting large changes. | 1. Fork and clone the repository | uv pip install -e "".[dev]""",development,1,337
+H118,mortoray/mdl,Running,There is an entry point defined on the module that that reads MDL files and emits either HTML or Markdown. | [code] python -m mdl --help | Example:,run,1,15
+H119,enoch3712/ExtractThinker,📚 Documentation and Resources,- **Examples**: Check out the examples directory for Jupyter notebooks and scripts demonstrating various use cases. | - **Medium Articles**: Read articles about ExtractThinker on the author's Medium page. | - **Test Suite**: Explore the test suite in the tests/ directory for more advanced usage examples and test cases.,documentation,0,260
+H120,nyeinkokoaung404/V2ray-Configs,Requirements and How to Use,📲 Here are best ways to use V2ray on different operating systems:,installation,1,110
+H121,HOLYKEYZ/mayo,🧬 Triple-AI Pipeline,"Every improvement goes through 3 AI models before it becomes a PR: | [code] flowchart TD
+    A[""Hourly Cron Trigger""] --> R0[""REVIEWER: Audit pending PR statuses""]
+    R0 --> B[""SCANNER: Deep codebase analysis""]
+    B -->|""Text-o | | Role | Model | Purpose |",ci,1,8
+H122,nuster1128/learn_to_memorize,📝 3 Run Experiments.,,run,1,68
+H123,mother-of-all-self-hosting/mash-playbook,Mother-of-All-Self-Hosting Ansible playbook,**MASH** (**M**other-of-**A**ll-**S**elf-**H**osting) is an [Ansible](https://www.ansible.com/) playbook that helps you self-host services as [Docker](https://w | **MASH** (**M**other-of-**A**ll-**S**elf-**H**osting) is an [Ansible](https://www.ansible.com/) playbook that helps you self-host services as [Docker](https://w | **MASH** (**M**other-of-**A**ll-**S**elf-**H**osting) is an [Ansible](https://www.ansible.com/) playbook that helps you self-host services as [Docker](https://w,deployment,0,3
+H124,florimondmanca/arel,arel,[![Build Status](https://dev.azure.com/florimondmanca/public/_apis/build/status/florimondmanca.arel?branchName=master)](https://dev.azure.com/florimondmanca/pub | [![Build Status](https://dev.azure.com/florimondmanca/public/_apis/build/status/florimondmanca.arel?branchName=master)](https://dev.azure.com/florimondmanca/pub | [![Coverage](https://codecov.io/gh/florimondmanca/arel/branch/master/graph/badge.svg)](https://codecov.io/gh/florimondmanca/arel),other,0,1
+H125,cmubig/Frida,Run with a robot,"We currently support UFactory XArm and Franka Emika robots. To use a Rethink Sawyer robot, please install the ""ICRA 2023"" tag version of the github repository.",run,1,90
+H126,inyokaproject/inyoka,Build states,Master |Build Status Master|   Staging |Build Status Staging|,build,1,20
+H127,bionicles/tree_plus,Local Hackable Install,1. Clone the repository and cd into the tree_plus directory | [code] gh repo clone https://github.com/bionicles/tree_plus.git && cd tree_plus | 2. Install tree_plus using Makefile,installation,1,867
+H128,THU-MIG/yoloe,Prompt-free evaluation,"[code] python val_pe_free.py
+python tools/eval_open_ended.py --json ../datasets/lvis/annotations/lvis_v1_minival.json --pred runs/detect/val/predictions.json --",test,0,201
+H129,huggingface/upskill,Python API,"[code] from upskill import (
+    generate_skill,
+    generate_tests,
+    evaluate_skill,
+    refine_skill,
+    Config,
+)
+
+# Load configuration
+config = Config.l",documentation,0,464
+H130,Jaganpro/sf-skills,🚀 Deployment,"[code] ""Deploy my Apex classes to sandbox with tests""
+""Validate my metadata changes before deploying to production"" | </details> | <details>",deployment,1,541
+H131,themanojdesai/python-a2a,Tool Discovery and Validation,"[code] # Discover available tools from MCP server
+tools = await client.list_tools()
+for tool in tools:
+    print(f""Tool: {tool['name']} - {tool['description']}""",test,1,971
+H132,awslabs/amazon-redshift-utils,Docker executions,The Dockerfile provides an environment to execute the following utilities without having to install any dependencies locally: | * Analyze & Vacuum Utility | * Unload/Copy Utility,deployment,1,98
+H133,themanojdesai/python-a2a,📚 Additional Resources,"- **[MCP Examples Directory](examples/mcp/)**: Complete examples with GitHub, Browserbase, and Filesystem providers | - **[MCP Examples Directory](examples/mcp/)**: Complete examples with GitHub, Browserbase, and Filesystem providers | - **[MCP Documentation](docs/guides/mcp.rst)**: Comprehensive MCP implementation guide",documentation,0,1005
+H134,Open-Source-Legal/OpenContracts,Processing Pipeline,"The modular pipeline supports custom parsers, embedders, and thumbnail generators: | ![Pipeline Diagram](docs/assets/images/diagrams/parser_pipeline.svg) | ![Pipeline Diagram](docs/assets/images/diagrams/parser_pipeline.svg)",ci,1,177
+H135,PlasmaControl/DESC,Contribute,Contributing guidelines <https://github.com/PlasmaControl/DESC/blob/master/CONTRIBUTING.rst> | - `Contributing guidelines <https://github.com/PlasmaControl/DESC/blob/master/CONTRIBUTING.rst>`_ | Issue Tracker <https://github.com/PlasmaControl/DESC/issues>,development,1,99
+H136,enarjord/passivbot,Step 6: Add API keys,Make a copy of the api-keys template file: | [code] cp api-keys.json.example api-keys.json | Add your keys to api-keys.json.,documentation,0,109
+H137,NVIDIA/warp,warp/examples/core,<table> | <tbody> | <tr>,usage,1,101
+H138,bisect-group/fgmolprop,🤝 Contributing,"Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change. | 1. Fork the repository | git checkout -b feature/AmazingFeature",development,1,480
+H139,SuperClaude-Org/SuperClaude_Framework,🤖 **Smarter Agent System**,**20 specialized agents** with domain expertise: | - PM Agent ensures continuous learning through systematic documentation | - Deep Research agent for autonomous web research,other,0,262
+H140,enarjord/passivbot,Step 5 (optional): Build Rust Extensions,"passivbot-rust | maturin | Passivbot will attempt to build the necessary Rust extensions automatically, but they can also be built manually by navigating to the `passivbot-rust` directory",build,1,97
+H141,benkehoe/aws-sso-util,Running one-off commands as a specific account and role,aws-sso-util run-as | Read the full docs for `aws-sso-util run-as` [here](docs/run-as.md). | Read the full docs for `aws-sso-util run-as` [here](docs/run-as.md).,run,1,105
+H142,furthemore/APIS,Building Docker Container,The following was tested on a fresh installation of Ubuntu 20.04. | # Get the software from Github | git clone https://github.com/furthemore/APIS.git,build,1,56
+H143,stevetran77/weather-api-project,Weather API Pipeline Project,"This repository contains a weather-data pipeline that uses Apache Airflow, PostgreSQL, and dbt. Everything runs via Docker Compose so you can bring the full sta",ci,1,1
+H144,Delta-Icons/android,Download,"<p> | <a href=""https://github.com/Delta-Icons/android/releases/latest""> | <img src=""https://img.shields.io/github/v/release/Delta-Icons/android?labelColor=56595b&color=b1b5bd&logo=github&logoColor=ffffff&label=&style=for-the-badge""/>",installation,1,7
+H145,conda-forge/staged-recipes,"12. My pull request passes all checks, but hasn't received any attention. How do I call attention to my PR? What is the customary amount of time to wait?",<!-- | Keep this message in sync with the PR template. | https://raw.githubusercontent.com/conda-forge/staged-recipes/main/.github/pull_request_template.md,test,0,348
+H146,antgroup/echomimic,Audio&Pose-Drived Algo Inference,"Edit ./configs/prompts/animation_pose.yaml, then run | [code] python -u infer_audio2vid_pose.py",run,1,234
+H147,stuzero/pg-mcp-server,Query Tools,- **pg_query**: Execute read-only SQL queries using a connection ID | - **pg_explain**: Analyze query execution plans in JSON format,other,0,29
+H148,sparckles/Robyn,✨ Contributors/Supporters,"Thanks to all the contributors of the project. Robyn will not be what it is without all your support :heart:. | <a href=""https://github.com/sparckles/Robyn/graphs/contributors""> | <img src=""https://contrib.rocks/image?repo=sparckles/Robyn"" />",development,0,264
+H149,nerdai/llm-agents-from-scratch,About,"Multi-agent systems and the LLM agents that power them are among the most | discussed topics in AI today. There are already many capable frameworks out | there — the goal of this book isn't to replace them, but to help you deeply",other,0,19
+H150,SaiAkhil066/DeepSeek-RAG-Chatbot,**Step A: Clone the Repository & Install Dependencies**,"[code] git clone https://github.com/SaiAkhil066/DeepSeek-RAG-Chatbot.git
+cd DeepSeek-RAG-Chatbot
+
+# Create a virtual environment
+python -m venv venv
+
+# Activate",installation,1,90
+H151,roryeckel/wyoming_openai,3. Deploying with LocalAI Local Service,"LocalAI is a drop-in replacement for OpenAI API that runs completely locally, supporting both Whisper (STT) and Piper (TTS). This setup provides excellent priva | - **LocalAI Setup**: | - The provided example compose uses LocalAI's GPU-accelerated image with NVIDIA CUDA 12 support, but you can adjust things as needed.",deployment,1,227
+H152,d4lfteam/d4lf,Formatting & Linting,"Just use prek. If it's your first setup, you will need to install the NuGet package provider. Open Windows Powershell and run:: | [code] Install-PackageProvider -Name NuGet -MinimumVersion 2.8.5.201 -Force -Scope CurrentUser | Then run:",test,1,717
+H153,LuckyOne7777/LLM-Trading-Lab,Contributing,"Contributions are welcome. | - Issues: bugs, edge cases, or design critiques | - Pull Requests: improvements, refactors, or extensions",development,1,152
+H154,HOLYKEYZ/mayo,Deployment,1. Deploy as a **GitHub App** on **Vercel**. | https://your-app.vercel.app/webhook | 2. Point webhook to `https://your-app.vercel.app/webhook`.,deployment,1,92
+H155,MarkusPfundstein/mcp-obsidian,Example prompts,Its good to first instruct Claude to use Obsidian. Then it will always call the tool. | The use prompts like this: | - Get the contents of the last architecture call note and summarize them,usage,1,21
+H156,redfree8/config-fetcher,Project Structure,"[code] ├── src/
+│   ├── config.py              # Project configuration
+│   ├── config_validator.py    # Config validation and verification
+│   └── fetch_configs",other,0,122
+H157,greenelab/scrumlord,Travis-ci Deployment Instructions,Use these instructions to deploy a new instance of the scrumlord in travis-ci to manage scrum issues for a repository | 1. Fork repo | 2. Create new empty repo organization/scrum,deployment,1,26
+H158,roryeckel/wyoming_openai,Linting (Ruff) [![Lint](https://github.com/roryeckel/wyoming-openai/actions/workflows/lint.yml/badge.svg)](https://github.com/roryeckel/wyoming-openai/actions/workflows/lint.yml),This project uses [Ruff](https://github.com/astral-sh/ruff) for linting and code quality checks. Ruff is a fast Python linter written in Rust that can replace m | This project uses [Ruff](https://github.com/astral-sh/ruff) for linting and code quality checks. Ruff is a fast Python linter written in Rust that can replace m | To use Ruff during development:,test,1,535
+H159,AllenMaxi/ContextGraph,Docker,"[code] docker compose up -d
+# Starts ContextGraph + Neo4j",deployment,1,416
+H160,Peuqui/AIfred-Intelligence,Architecture: Browser as Execution Engine,"The API acts as a **Browser Remote Control** - it doesn't run LLM inference itself, but injects messages into the browser session which then executes the full p | [code] API Request ──→ set_pending_message() ──→ Browser polls (1s)
+                                              │
+                                             | **Benefits:**",run,0,937
+H161,Cusp-AI/widom,Development,Run tests: | [code] pytest tests/,development,1,116
+H162,TomBadash/Mouser,Prerequisites,- **Windows 10/11** or **macOS 12+ (Monterey)** | - **Python 3.10+** (tested with 3.14) | - **A supported Logitech HID++ mouse** paired via Bluetooth or USB receiver. MX Master-family devices currently have the most complete UI support.,installation,1,117
+H163,blurstudio/Simplex,Basic Usage,"Follow this youtube link to a basic walkthrough of Simplex usage. This video highlights a slightly older version of Simplex, but the interaction remains basical | Follow this youtube link to a basic walkthrough of Simplex usage. This video highlights a slightly older version of Simplex, but the interaction remains basical",usage,1,30
+H164,roryeckel/wyoming_openai,2. Deploying with Speaches Local Service,"If you prefer using a local service like Speaches instead of official OpenAI services, follow these instructions: | docker-compose.speaches.yml | - **Docker Compose Configuration**: Use the `docker-compose.speaches.yml` template which includes configuration for both the Wyoming OpenAI proxy and the Speach",deployment,1,208
+H165,dedupeio/dedupe,Test using canonical dataset from Bilenko's research,"Using Deduplication | [code] python -m pip install -e ./benchmarks
+python benchmarks/benchmarks/canonical.py | Using Record Linkage",usage,1,86
+H166,NYU-LLM-CTF/NYU_CTF_Bench,Benchmark structure,test/ | development/ | The `test/` folder contains the main benchmark dataset of 200 challenges. A smaller development set of 55 challenges is present in the `development/` folder.,test,1,7
+H167,predicthq/sdk-py,PredictHQ API Client for Python,![PyPI](https://img.shields.io/pypi/v/predicthq) | ![PyPI](https://img.shields.io/pypi/v/predicthq) | ![Python](https://img.shields.io/pypi/pyversions/predicthq),documentation,0,9
+H168,StructuredLabs/preswald,**📚 Documentation**,We’re here to help! Check out our full documentation at [Preswald Docs](https://docs.preswald.com/). | We’re here to help! Check out our full documentation at [Preswald Docs](https://docs.preswald.com/). | <br>,documentation,0,170
+H169,foxglove/mcap,Documentation,- [File format specification](https://mcap.dev/spec) | - [File format specification](https://mcap.dev/spec) | - [Kaitai Struct definition](./website/docs/spec/mcap.ksy),documentation,0,7
+H170,bennjordan/PlateShapez,🧪 Testing,"Run the test suite: | [code] # Run all tests
+uv run pytest
+
+# Run with coverage
+uv run pytest --cov=plateshapez
+
+# Run specific test file
+uv run pytest tests/test_pipeline.py",test,1,269
+H171,vivekVells/mcp-pandoc,Building and Publishing,To prepare the package for distribution: | 1. Sync dependencies and update lockfile: | [code] uv sync,build,1,365
+H172,kz26/PyExcelerate,Faster,"[code] from pyexcelerate import Workbook, Color
+from datetime import datetime
+
+wb = Workbook()
+ws = wb.new_sheet(""sheet name"")
+ws.set_cell_value(1, 1, 1)
+ws.get",other,0,176
+H173,tensology/decisionsai,DecisionsAI,"> **Your computer, controlled by voice.** Talk to it. It thinks, speaks back, and acts — opening apps, editing text, running macros, and managing your workflows | <p align=""center""> | <img src=""assets/readme/example.webp"" alt=""DecisionsAI UI"" width=""900"" height=""300"">",other,0,1
+H174,IBM/simulai,Contributing code to SimulAI,"CONTRIBUTING <https://github.com/IBM/simulai/blob/main/CONTRIBUTING.rst> | If you are interested in directly contributing to this project, please see `CONTRIBUTING <https://github.com/IBM/simulai/blob/main/CONTRIBUTING.rst>`_.",development,1,108
+H175,takuseno/d3rlpy,Benchmark results,d3rlpy is benchmarked to ensure the implementation quality. | The benchmark scripts are available [reproductions](https://github.com/takuseno/d3rlpy/tree/master/reproductions) directory. | The benchmark scripts are available [reproductions](https://github.com/takuseno/d3rlpy/tree/master/reproductions) directory.,test,1,119
+H176,mees/calvin,CALVIN won the 2022 IEEE Robotics and Automation Letters (RA-L) Best Paper Award!,"We present **CALVIN** (**C**omposing **A**ctions from **L**anguage and **Vi**sio**n**), an open-source simulated benchmark to learn long-horizon language-condit | Our aim is to make it possible to develop agents that can solve many robotic manipulation tasks over a long horizon, from onboard sensors, and specified only vi | suites.",ci,0,11
+H177,kkaitlyn111/cs336-assignment1,Download data,"Download the TinyStories data and a subsample of OpenWebText | [code] mkdir -p data
+cd data
+
+wget https://huggingface.co/datasets/roneneldan/TinyStories/resolve/main/TinyStoriesV2-GPT4-train.txt
+wget https://huggingface.co/",installation,1,33
+H178,SoongNoonien/plattenalbum,Build Dependencies,"- meson | - gettext | - glib2 (Ubuntu/Debian: libglib2.0-dev-bin, libglib2.0-bin)",installation,1,27
+H179,nerfstudio-project/nerfstudio,Visualize existing run,"Given a pretrained model checkpoint, you can start the viewer by running | [code] ns-viewer --load-config {outputs/.../config.yml}",run,1,189
+H180,Clause-Logic/exoclaw,Drop into an existing web app,"exoclaw doesn't own your event loop — wire the bus into whatever you already have. Here's FastAPI: | [code] from fastapi import FastAPI
+from exoclaw.agent.loop import AgentLoop
+from exoclaw.bus.queue import MessageBus
+from exoclaw.bus.events import InboundMessa | The agent loop runs as a background task. Your API routes are just producers and consumers on the bus.",usage,0,357
+H181,Fannovel16/ComfyUI-Frame-Interpolation,Complex workflow,It's used in AnimationDiff (can load workflow metadata) | ![](All_in_one_v1_3.png),ci,1,68
+H182,gradio-app/gradio,An Overview of Gradio,"Interface | So far, we've been discussing the `Interface` class, which is a high-level class that lets you build demos quickly with Gradio. But what else does Gradio includ",other,0,145
+H183,shamspias/langgraph-agents,Docker Deployment,"[code] FROM python:3.11-slim
+
+WORKDIR /app
+
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY . .
+
+CMD [""uvicorn"", ""main:app"", ""-",deployment,1,285
+H184,justrach/turboAPI,Benchmarks,"wrk -t4 -c100 -d10s | All numbers verified with correct, identical JSON responses. `wrk -t4 -c100 -d10s`, Python 3.14t free-threaded, Apple Silicon M3 Pro.",test,1,129
+H185,rdiff-backup/rdiff-backup,sudo pip3 install rdiff-backup,"=== Other Linux and UN*X-oid systems, e.g. BSD (from PyPi) | You need to make sure that the following requirements are met, using your system's package/software/application manager, searching there for the following keywo | * __Python__, 3.10 or higher",installation,1,108
+H186,bennjordan/PlateShapez,CI,./scripts/check.sh | GitHub Actions runs the same checks via `./scripts/check.sh`. Local pre-commit hooks use the same tools via uv to avoid version drift.,ci,1,298
+H187,ipa-lab/hackingBuddyGPT,Build your own Agent/Usecase,So you want to create your own LLM hacking agent? We've got you covered and taken care of the tedious groundwork. | perform_round | Create a new usecase and implement `perform_round` containing all system/LLM interactions. We provide multiple helper and base classes so that a new experiment ,build,1,81
+H188,yusufkaraaslan/Skill_Seekers,🔄 Enhancement Workflow Presets,Reusable YAML-defined enhancement pipelines that control how AI transforms your raw documentation into a polished skill. | default | minimal,ci,1,580
+H189,psi-oss/get-physics-done,Citation,"CITATION.cff | If GPD contributes to published research, please cite the software using [`CITATION.cff`](https://github.com/psi-oss/get-physics-done/blob/main/CITATION.cff). C | If GPD contributes to published research, please cite the software using [`CITATION.cff`](https://github.com/psi-oss/get-physics-done/blob/main/CITATION.cff). C",documentation,0,560
+H190,music-assistant/server,Running the server,"Music Assistant can be operated as a complete standalone product but it is actually tailored to use side by side with Home Assistant, it is meant with automatio",run,1,21
+H191,qrhrqiohj/Fleasion,Building a Standalone Executable,"To build a standalone executable, within the ""Fleasion"" folder: | [code] # Install PyInstaller
+uv add pyinstaller --dev
+
+# Build
+uv run pyinstaller Fleasion.spec",build,1,37
+H192,upbit/pixivpy,Develop Instructions,"[code] # Updating dependencies
+$ poetry update --with=dev,test | Fork this project and create a new branch for your changes. Push your changes to | your fork and create a pull request.",development,0,445
+H193,nuster1128/learn_to_memorize,📌 Major Contributions,"![figure2](./assets/figure2.png) | ![figure2](./assets/figure2.png) | - We propose an adaptive and data-driven memory framework that empowers LLM-based agents to learn to memorize, with optimizable memory retrieval, utilization, a",other,0,7
+H194,mees/calvin,:muscle: Evaluation: The Calvin Challenge,,test,0,108
+H195,wandb/weave,Quick Start,1. **Install Weave**: | [code] pip install weave | 2. **Import and initialize**:,installation,1,32
+H196,ricklamers/shell-ai,Contributing,This implementation can be made much smarter! Contribute your ideas as Pull Requests and make AI Shell better for everyone. | Contributions are welcome! Please read the [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines. | Contributions are welcome! Please read the [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.,development,1,131
+H197,mofa-org/mofa-obsolete,2.3.3 Common Installation and Build Issues,"- ModuleNotFoundError: No module named 'dora' | Please execute these two commands: | [code] which pip
+    which python",installation,1,106
+H198,recommenders-team/recommenders,References,"- **FREE COURSE**: M. González-Fierro, ""Recommendation Systems: A Practical Introduction"", LinkedIn Learning, 2024. [Available on this link](https://www.linkedi | - **FREE COURSE**: M. González-Fierro, ""Recommendation Systems: A Practical Introduction"", LinkedIn Learning, 2024. [Available on this link](https://www.linkedi | - D. Li, J. Lian, L. Zhang, K. Ren, D. Lu, T. Wu, X. Xie, ""Recommender Systems: Frontiers and Practices"", Springer, Beijing, 2024. [Available on this link](http",documentation,0,176
+H199,replicate/replicate-python,Compose models into a pipeline,"You can run a model and feed the output into another model: | [code] laionide = replicate.models.get(""afiaka87/laionide-v4"").versions.get(""b21cbe271e65c1718f2999b038c18b45e21e4fba961181fbfae9342fc53b9e05"")
+swinir = replica",ci,1,236
+H200,On-JungWoan/BIGS,Training,,run,1,63
+H201,hzwer/ECCV2022-RIFE,Run in docker,train_log/\*.pkl | Place the pre-trained models in `train_log/\*.pkl` (as above) | Building the container:,run,1,103
+H202,ProtonVPN/python-proton-core,Tests,You can run the tests with: | [code] pytest,test,1,16
+H203,scidsg/hushline,Documentation Map,docs/README.md | - Docs index: [`docs/README.md`](./docs/README.md) | - Docs index: [`docs/README.md`](./docs/README.md),documentation,0,123
+H204,adbar/trafilatura,Contributing,Contributions of all kinds are welcome. Visit the [Contributing | page](https://github.com/adbar/trafilatura/blob/master/CONTRIBUTING.md) | for more information. Bug reports can be filed on the [dedicated issue,development,1,126
+H205,p1ngul1n0/blackbird,Project Developer,[Lucas Antoniaci](https://www.linkedin.com/in/lucas-antoniaci/) | [Lucas Antoniaci](https://www.linkedin.com/in/lucas-antoniaci/),development,0,65
+H206,conda-forge/staged-recipes,Building with `build-locally.py`,"build-locally.py | The script `build-locally.py` will guide you through the local debugging process. This script | will then launch the platform-specific scripts, and the resulting artifacts will",build,1,52
+H207,furthemore/APIS,Running Using Published Docker Images,# Install docker using the instructions at either: | # https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04 or | # https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository.,usage,1,32
+H208,DawnbrandBots/yaml-yugi,Rush Duel card by Konami ID,- Canonical download: https://github.com/DawnbrandBots/yaml-yugi/raw/master/data/rush/15150.json | - CDN with correct MIME type and CORS: https://cdn.jsdelivr.net/gh/DawnbrandBots/yaml-yugi/data/rush/15150.json | - Alternative CDN: https://cdn.statically.io/gh/DawnbrandBots/yaml-yugi/master/data/rush/15150.json,other,0,52
+H209,tmux-python/libtmux,Run any tmux command,".cmd() | Every object has a `.cmd()` escape hatch that honors socket name and path: | [code] >>> server = Server(socket_name='libtmux_doctest')
+>>> server.cmd('display-message', 'hello world')
+<libtmux...>",run,1,122
+H210,pytest-dev/pytest,Documentation,"For full documentation, including installation, tutorials and PDF documents, please see https://docs.pytest.org/en/stable/.",documentation,0,105
+H211,cre185/InstantSfM,Citation,"If you find our code or paper useful, please consider citing: | [code] @article{zhong2026instantsfm,
+  title = {InstantSfM: Towards GPU-Native SfM for the Deep Learning Era},
+  author = {Zhong, Jiankun and Zhan, Zitong and G | and",documentation,0,187
+H212,pyro-ppl/pyro,Running Pyro from a Docker Container,Refer to the instructions [here](docker/README.md). | Refer to the instructions [here](docker/README.md).,run,1,85
+H213,graphql-python/graphene,Building Documentation,The documentation is generated using the excellent [Sphinx](http://www.sphinx-doc.org/) and a custom theme. | The documentation is generated using the excellent [Sphinx](http://www.sphinx-doc.org/) and a custom theme. | An HTML version of the documentation is produced by running:,build,1,122
+H214,DC-analysis/dclab,Information for developers,Contributing | ~~~~~~~~~~~~ | The main branch for developing dclab is master.,development,0,34
+H215,wikimedia/pywikibot,Release history,See https://github.com/wikimedia/pywikibot/blob/stable/HISTORY.rst,build,0,146
+H216,ultralytics/xview-yolov3,Starting the Training,"train.py | Once the xView data is downloaded and placed in the expected directory, you can **start training** by executing the `train.py` script. You will need to configur | - Modify line 41 for local machine execution.",run,1,51
+H217,OlivierBinette/StringCompare,Benchmark,"Comparison of the Damerau-Levenshtein implementation speed for different Python packages, when comparing the strings ""Olivier Binette"" and ""Oilvier Benet"": | [code] from timeit import timeit
+from tabulate import tabulate
+
+# Comparison functions
+from stringcompare import DamerauLevenshtein
+cmp = DamerauLevenshtein()
+f | Package          avg runtime (ns)",test,1,88
+H218,DMontgomery40/Docs-Autopilot,GitHub Actions,Add two workflows to your repo: | - Plan on code changes (artifact only) | - Manual LLM patch and PR,ci,1,33
+H219,coleam00/mcp-crawl4ai-rag,Manual Neo4j Installation,"Alternatively, install Neo4j directly: | 1. **Install Neo4j Desktop**: Download from [neo4j.com/download](https://neo4j.com/download/) | 1. **Install Neo4j Desktop**: Download from [neo4j.com/download](https://neo4j.com/download/)",installation,1,161
+H220,Peuqui/AIfred-Intelligence,🔄 Research Mode Workflows,"AIfred offers 4 different research modes, each using different strategies depending on requirements. Here's the detailed workflow for each mode:",ci,1,344
+H221,aturret/FastFetchBot,Service Communication (Docker),| Variable | Default | Description | | |----------|---------|-------------| | API_SERVER_URL,deployment,1,162
+H222,vrgamegirl19/comfyui-vrgamedevgirl,🚀 How it Works,1. Upload a **reference image** (your main character). | 2. Import your **audio file** (with lyric syncing). | 3. Set a **folder name** for outputs.,usage,0,13
+H223,voxel51/fiftyone,2. Create and activate a virtual environment,"[code] python3 -m venv fiftyone_env
+source fiftyone_env/bin/activate",installation,0,252
+H224,cuga-project/cuga-agent,Hybrid Task Execution,"Watch CUGA seamlessly combine web and API operations in a single workflow: | get top account by revenue from digital sales, then add it to current page | **Example Task:** `get top account by revenue from digital sales, then add it to current page`",run,0,76
+H225,datamol-io/safe,Development lifecycle,,development,1,186
+H226,zhound420/swarm-trader,Automation with OpenClaw,The system runs fully autonomous via [OpenClaw](https://github.com/openclaw/openclaw) cron jobs. The recommended setup uses **two dedicated agents** — one for s | The system runs fully autonomous via [OpenClaw](https://github.com/openclaw/openclaw) cron jobs. The recommended setup uses **two dedicated agents** — one for s,ci,0,476
+H227,generalroboticslab/sym2real,🚀 Quickstart,"This runs our method (1. base model, 2. adaptation) in MuJoCo simulation environments. | Our repository is handled by hydra. Custom hydra parameters are located under the conf folder. The parameters can be changed at run time by specifying them in t | ▶️ Run Base Model (e.g. Symbolic Regression on Crazyflie)",installation,1,51
+H228,SergeyPirogov/webdriver_manager,Webdriver Manager for Python,[![Tests](https://github.com/SergeyPirogov/webdriver_manager/actions/workflows/test.yml/badge.svg)](https://github.com/SergeyPirogov/webdriver_manager/actions/w | [![Tests](https://github.com/SergeyPirogov/webdriver_manager/actions/workflows/test.yml/badge.svg)](https://github.com/SergeyPirogov/webdriver_manager/actions/w | [![PyPI](https://img.shields.io/pypi/v/webdriver_manager.svg)](https://pypi.org/project/webdriver-manager),other,0,1
+H229,guyru/man-mcp-server,MCP Bundle Support,"MCP bundles are supported by Claude Desktop and can be installed directly. For other MCP clients like GitHub Copilot, use the manual configuration above. | /path/to/man-mcp | **Note**: Replace `/path/to/man-mcp` with the actual path to your project directory.",build,0,151
+H230,pypa/pip,pip - The Python Package Installer,.. |pypi-version| image:: https://img.shields.io/pypi/v/pip.svg | :target: https://pypi.org/project/pip/ | :alt: PyPI,build,1,1
+H231,cedarconnor/SPAG4d,References,- [DA360 -- Depth Anything in 360](https://github.com/Insta360-Research-Team/DA360) | - [DA360 -- Depth Anything in 360](https://github.com/Insta360-Research-Team/DA360) | - [DAP -- Depth Any Panorama](https://github.com/Insta360-Research-Team/DAP),documentation,0,243
+H232,54yyyu/zotero-mcp,🧪 Testing,,test,1,369
+H233,foxglove/mcap,Release process,"Release numbering follows a major.minor.patch format, abbreviated as ""X.Y.Z"" below. | CI will build the appropriate packages once tags are pushed, as described below.",build,0,40
+H234,RayBytes/ChatMock,CLI,[code] pipx install chatmock,usage,1,32
+H235,matmaer/chezmoi-mousse,Platform packaging,- [x] Windows | - [ ] app store | - [ ] signed executable,build,0,77
+H236,inventree/InvenTree,:wave: Contributing,Contributions are welcomed and encouraged. Please help to make this project even better! Refer to the [contribution page](https://docs.inventree.org/en/latest/d | Contributions are welcomed and encouraged. Please help to make this project even better! Refer to the [contribution page](https://docs.inventree.org/en/latest/d | <!-- Translation -->,development,1,149
+H237,frankieg33/MewgenicsBreedingManager,Exceptional Cats view,![Exceptional Cats](Sceenshots/Exceptional%20Cats.png) | ![Exceptional Cats](Sceenshots/Exceptional%20Cats.png) | Sidebar filter for viewing cats marked as exceptional breeders.,other,0,193
+H238,kz26/PyExcelerate,Fastest,"[code] from pyexcelerate import Workbook
+
+wb = Workbook()
+ws = wb.new_sheet(""test"", data=[[1, 2], [3, 4]])
+wb.save(""output.xlsx"")",other,0,71
+H239,usestrix/strix,Basic Usage,"[code] # Scan a local codebase
+strix --target ./app-directory
+
+# Security review of a GitHub repository
+strix --target https://github.com/org/repo
+
+# Black-box ",usage,1,151
+H240,Fiestaboard/FiestaBoard,Cloud API,Works from anywhere with internet. No transition animations. | 1. Go to [web.vestaboard.com](https://web.vestaboard.com) | 1. Go to [web.vestaboard.com](https://web.vestaboard.com),deployment,0,165
+H241,JeffSteinbok/hass-dreo,A Note on Betas (Pre-Release),The maintainers and I only have a small subset of the devices that this integration supports and we depend on users who open issues to confirm things work. I wi,build,0,30
+H242,benkehoe/aws-sso-util,aws-sso-util,,deployment,0,1
+H243,cuga-project/cuga-agent,📦 Using CUGA as a Python SDK,"CUGA can be easily integrated into your Python applications as a library. The SDK provides a clean, minimal API for creating and invoking agents with custom too | 📚 **SDK Documentation**: [SDK Documentation](https://docs.cuga.dev/docs/sdk/cuga_agent/) | 📚 **SDK Documentation**: [SDK Documentation](https://docs.cuga.dev/docs/sdk/cuga_agent/)",usage,0,369
+H244,zhouhaoyi/Informer2020,Acknowledgments,"Thanks for the computing infrastructure provided by Beijing Advanced Innovation Center for Big Data and Brain Computing ([BDBC](http://bdbc.buaa.edu.cn/)). | Thanks for the computing infrastructure provided by Beijing Advanced Innovation Center for Big Data and Brain Computing ([BDBC](http://bdbc.buaa.edu.cn/)). | At the same time, thank you all for your attention to this work! [![hits](https://hits.tianyucn98.workers.dev/informer.svg?action=hit&title=hits&title_bg=%23555",other,0,228
+H245,Peuqui/AIfred-Intelligence,Key Features,- **Full Remote Control**: Control all AIfred settings from anywhere | - **Live Browser Sync**: API changes automatically appear in the browser UI | - **Message Injection**: Queue messages that browser processes with full pipeline,other,0,960
+H246,OSU-NLP-Group/HippoRAG,Run with vLLM (Llama),"1. As above, run a local [OpenAI-compatible vLLM server](https://docs.vllm.ai/en/latest/getting_started/quickstart.html#quickstart-online) with specified GPU. | 1. As above, run a local [OpenAI-compatible vLLM server](https://docs.vllm.ai/en/latest/getting_started/quickstart.html#quickstart-online) with specified GPU. | [code] export CUDA_VISIBLE_DEVICES=0,1
+export VLLM_WORKER_MULTIPROC_METHOD=spawn
+export HF_HOME=<path to Huggingface home directory>
+
+conda activate hipporag  #",run,1,243
+H247,SuperClaude-Org/SuperClaude_Framework,🧪 Testing & Quality (4),/test | - `/test` - Test generation | /analyze,test,1,610
+H248,qlands/FormShare,Important Note: Upgrading to Docker images >= 20210805,Docker images >= 20210801 (from stable 2.8.5) use WebSockets for client-server communication. To upgrade FormShare beyond 20210801 you need to update the docker | In the FormShare service under the ports section add the following line after port 5900: | [code] - 9001:9001,deployment,1,363
+H249,itsDNNS/docsight,Documentation,"| Document | Scope | | |---|---| | | [Wiki](https://github.com/itsDNNS/docsight/wiki) | User guides, feature docs, setup instructions |",documentation,0,321
+H250,coleam00/mcp-crawl4ai-rag,Workflow:,parse_github_repository | 1. **Repository Parsing**: Use `parse_github_repository` tool to clone and analyze open-source repositories | check_ai_script_hallucinations,ci,1,442
+H251,python/cpython,Documentation,"Documentation for Python 3.15 <https://docs.python.org/3.15/> | `Documentation for Python 3.15 <https://docs.python.org/3.15/>`_ is online, | updated daily.",documentation,0,149
+H252,anubhav-n-mishra/Desktop-QR-Scanner,Option 2: Run from Source,"[code] # Clone the repository
+git clone https://github.com/anubhav-n-mishra/Desktop-QR-Scanner.git
+cd Desktop-QR-Scanner
+
+# Install dependencies
+pip install -r  | ---",installation,1,82
+H253,HOLYKEYZ/IntellectSafe,Start backend,python -m uvicorn app.main:app --reload --port 8001,run,1,130
+H254,juftin/browsr,Cloud,"[code] browsr s3://my-bucket | \*\* _Currently AWS S3, Google Cloud Storage, and Azure Blob Storage / Data Lake are supported._",deployment,0,98
+H255,antgroup/echomimic,📝 Release Plans,"|  Status  | Milestone                                                                | ETA | | |:--------:|:-------------------------------------------------------------------------|:--:| | |    ✅    | The inference source code of the Audio-Driven algo meet everyone on GitHub   | 9th July, 2024 |",build,0,256
+H256,Nezreka/SoulSync,Automation,"**Automation Engine** - Visual drag-and-drop builder for custom workflows | - **Triggers**: Schedule (interval/daily/weekly), Track Downloaded, Batch Complete, Playlist Changed, Discovery Complete, and 10+ more event types | - **Actions**: Process Wishlist, Scan Watchlist, Refresh Mirrored Playlist, Discover Playlist, Sync Playlist, Scan Library, Update Database, Run Duplicate Clean",ci,0,106
+H257,teknovizier/tekla_mcp_server,Running the Server,"mcp_server.py | Configure `mcp_server.py` as a custom MCP server in your MCP client | ⚠️ *Note:* For the detailed steps, please see the [setup guide](https://www.notion.so/teknovizier/Tekla-MCP-Server-A-Tool-to-Improve-Your-Modeling-Workflows-264",run,1,200
+H258,Hawksight-AI/semantica,Pipeline Orchestration,"[code] from semantica.pipeline import PipelineBuilder, PipelineValidator, FailureHandler
+from semantica.pipeline import RetryPolicy, RetryStrategy
+
+builder = (
+ | ---",ci,1,613
+H259,sympy/sympy,Download,"The recommended installation method is through Anaconda, | <https://www.anaconda.com/products/distribution> | You can also get the latest version of SymPy from",installation,1,32
+H260,Laqcce-cao/RSL-SQL,Citation,"[code] @article{cao2024rsl,
+  title={RSL-SQL: Robust Schema Linking in Text-to-SQL Generation},
+  author={Cao, Zhenbiao and Zheng, Yuanlei and Fan, Zhihao and Z",documentation,0,176
+H261,neulab/guided_summarization,Code,bart | bert | The `bart` and `bert` repos contain code and documentations for BART- and BERT-based models respectively.,other,0,4
+H262,yusufkaraaslan/Skill_Seekers,Want to Update Docs?,"[code] # Delete old data and re-scrape
+rm -rf output/godot_data/
+skill-seekers scrape --config configs/godot.json",documentation,0,1149
+H263,apocas/restai,GPU Auto-Detection & Management,"RESTai automatically detects NVIDIA GPUs at startup and displays detailed hardware information in the admin settings — model name, VRAM, temperature, utilizatio | make install | `make install` also detects GPUs automatically and installs GPU dependencies when available.",other,0,124
+H264,nicklashansen/puppeteer,Contributing,"You are very welcome to contribute to this project. Feel free to open an issue or pull request if you have any suggestions or bug reports, but please review our | You are very welcome to contribute to this project. Feel free to open an issue or pull request if you have any suggestions or bug reports, but please review our | ----",development,1,110
+H265,mees/calvin,FAQ,,usage,0,299
+H266,mayeut/pybase64,Benchmark,".. begin benchmark | Running Python 3.7.2, Apple LLVM version 10.0.0 (clang-1000.11.45.5), Mac OS X 10.14.2 on an Intel Core i7-4870HQ @ 2.50GHz | .. code::",test,1,85
+H267,loadsmart/django-jaiminho,Development,"Create a virtualenv | [code] virtualenv venv
+pip install -r requirements-dev.txt
+tox -e py39",development,1,219
+H268,justrach/turboAPI,Option 1: Docker (easiest),"[code] git clone https://github.com/justrach/turboAPI.git
+cd turboAPI
+docker compose up | http://localhost:8000 | This builds Python 3.14t from source, compiles the Zig backend, and runs the example app. Hit `http://localhost:8000` to verify.",deployment,1,71
+H269,google-deepmind/mctx,Quickstart,search | Mctx provides a low-level generic `search` function and high-level concrete | muzero_policy,installation,1,77
+H270,Ruya-AI/cozempic,1M context window support,"--context-window | Cozempic auto-detects 1M context windows via model ID or the `--context-window` flag. Token thresholds scale automatically. If auto-detection doesn't work, over | [code] export COZEMPIC_CONTEXT_WINDOW=1000000",other,0,686
+H271,D4Vinci/Scrapling,High-Performance & battle-tested Architecture,- 🚀 **Lightning Fast**: Optimized performance outperforming most Python scraping libraries. | - 🔋 **Memory Efficient**: Optimized data structures and lazy loading for a minimal memory footprint. | - ⚡ **Fast JSON Serialization**: 10x faster than the standard library.,test,0,222
+H272,evalstate/fast-agent,Workflows,,ci,1,310
+H273,themanojdesai/python-a2a,Using pip (traditional),"Install the base package with all dependencies: | [code] pip install python-a2a  # Includes LangChain, MCP, and other integrations | Or install with specific components based on your needs:",usage,0,72
+H274,amnweb/yasb,Demo YASB + Komorebi,![Theme Catppuccin Mocha](demo/demo.png) | ![Theme Catppuccin Mocha](demo/demo.png) | ![Theme Catppuccin Mocha](demo/demo2.png),usage,0,74
+H275,AstrBotDevs/AstrBot,Launcher Deployment,"For desktop users who also want fast deployment and isolated multi-instance usage, we recommend AstrBot Launcher. | Visit [AstrBot Launcher](https://github.com/Raven95676/astrbot-launcher) to download and install. | Visit [AstrBot Launcher](https://github.com/Raven95676/astrbot-launcher) to download and install.",deployment,1,113
+H276,AlphaSlayer1964/kemono-dl,Output Template Type Examples,"[code] kemono-dl --output ""{service}/{creator_id}/{post_id}/{index}_{filename}"" --output ""content:{service}/{creator_id}/{post_id}/{filename}"" ""https://kemono.c",usage,1,68
+H277,nicklashansen/puppeteer,Citation,"If you find our work useful, please consider citing our paper as follows: | [code] @misc{hansen2024hierarchical,
+  title={Hierarchical World Models as Visual Whole-Body Humanoid Controllers}, 
+  author={Nicklas Hansen, Jyothir S V, Vlad | ----",documentation,0,93
+H278,takuseno/d3rlpy,Docker,![Docker Pulls](https://img.shields.io/docker/pulls/takuseno/d3rlpy) | ![Docker Pulls](https://img.shields.io/docker/pulls/takuseno/d3rlpy) | [code] $ docker run -it --gpus all --name d3rlpy takuseno/d3rlpy:latest bash,deployment,1,82
+H279,anaynayak/buildnotify,Supported continuous integration systems,- See https://cctray.org/servers/,ci,1,38
+H280,nomadkaraoke/karaoke-gen,Distribution Features,- **YouTube Upload**: Automatic upload to your YouTube channel | - **Dropbox Integration**: Organize output in brand-coded folders | - **Google Drive**: Upload to public share folders,build,0,40
+H281,django/djangoproject.com,Release Checklists,"checklists | The ``checklists`` app provides assistance for issuing Django releases (feature | releases, pre-releases (alpha/beta/RC), bugfix releases, and security releases).",build,0,259
+H282,argilla-io/synthetic-data-generator,Quickstart,"[code] from synthetic_dataset_generator import launch
+
+launch()",installation,1,78
+H283,River-Zhang/GTA,Inference,[code] python -m apps.infer -cfg ./configs/GTA.yaml -gpu 0 -in_dir ./examples -out_dir ./results -loop_smpl 100 -loop_cloth 200 -hps_type pixie,run,1,46
+H284,langbot-app/LangBot,One-Click Cloud Deploy,[![Deploy on Zeabur](https://zeabur.com/button.svg)](https://zeabur.com/en-US/templates/ZKTBDH) | [![Deploy on Zeabur](https://zeabur.com/button.svg)](https://zeabur.com/en-US/templates/ZKTBDH) | [![Deploy on Railway](https://railway.com/button.svg)](https://railway.app/template/yRrAyL?referralCode=vogKPF),deployment,1,74
+H285,roryeckel/wyoming_openai,Contributing,"Contributions are welcome! Please feel free to open issues or submit pull requests. For major changes, please first discuss the proposed changes in an issue.",development,1,529
+H286,chopratejas/headroom,Accuracy Benchmarks,Compression preserves accuracy — tested on real OSS benchmarks. | **Standard Benchmarks** — Baseline (direct to API) vs Headroom (through proxy): | | Benchmark | Category | N | Baseline | Headroom | Delta |,test,1,187
+H287,infinito-nexus/core,Setup with Docker🚢,"Get Infinito.Nexus up and running inside Docker in just a few steps. For detailed build options and troubleshooting, see the [Docker Guide](docs/Docker.md). | Get Infinito.Nexus up and running inside Docker in just a few steps. For detailed build options and troubleshooting, see the [Docker Guide](docs/Docker.md). | [code] # 1. Build the Docker image: the Docker image:
+docker build -t infinito:latest .
+
+# 2. Run the CLI interactively:
+docker run --rm -it infinito:latest inf",installation,1,72
+H288,newton-physics/newton,Requirements,"- **Python** 3.10+ | - **OS:** Linux (x86-64, aarch64), Windows (x86-64), or macOS (CPU only) | - **GPU:** NVIDIA GPU (Maxwell or newer), driver 545 or newer (CUDA 12). No local CUDA Toolkit installation required. macOS runs on CPU.",installation,1,17
+H289,lukecyca/pyzabbix,Documentation,> [!NOTE] | Zabbix Sender | zappix,documentation,0,13
+H290,OSU-NLP-Group/HippoRAG,Local Test,"Llama-3.1-8B-Instruct | To test locally, you must deploy a vLLM instance. We choose to deploy a smaller 8B model `Llama-3.1-8B-Instruct` for cheaper testing. | [code] export CUDA_VISIBLE_DEVICES=0
+export VLLM_WORKER_MULTIPROC_METHOD=spawn
+export HF_HOME=<path to Huggingface home directory>
+
+conda activate hipporag  # v",test,1,190
+H291,bisect-group/fgmolprop,Cross-Validation Training,"[code] # 5-fold cross-validation (default)
+python src/train.py
+
+# Custom number of folds
+python src/train.py n_folds=10
+
+# Train specific fold
+python src/train.",run,1,150
+H292,bottlesdevs/Bottles,Building,"⚠️ Be sure to backup all your data before testing experimental builds of Bottles! | org.flatpak.Builder | There are two methods to build Bottles. The first and longer method is using `org.flatpak.Builder`, and the second but shorter method is building directly.",build,1,47
+H293,SakanaAI/ShinkaEvolve,Documentation 📝,"| Guide | Description | What You'll Learn | | |-------|-------------|-------------------| | | 🚀 **[First steps](https://github.com/SakanaAI/ShinkaEvolve/blob/main/docs/getting_started.md)** | Installation, basic usage, and examples | Setup, first evolu",documentation,0,41
+H294,demisto/content,Documentation,"If you wish to develop and contribute Content, make sure to check our Content Developer Portal at: https://xsoar.pan.dev/",documentation,0,21
+H295,chopratejas/headroom,Cloud Providers,"[code] headroom proxy --backend bedrock --region us-east-1     # AWS Bedrock
+headroom proxy --backend vertex_ai --region us-central1 # Google Vertex
+headroom pr | ---",deployment,0,345
+H296,Oabraham1/stacked-seds,Citation,"If you use this software in your research, please cite: | [code] @software{stacked_seds,
+  title={Stacked SEDs: Galaxy Image Stacking and Photometry},
+  author={Abraham, O. and Chapman, C. and Garcia, E. and Trainor, R",documentation,0,128
+H297,CharlesPikachu/videodl,⚡ Quick Start,"After a successful installation, you can run the snippet below, | [code] from videodl import videodl
+
+video_client = videodl.VideoClient()
+video_client.startparseurlcmdui() | videodl -i ""URL""",installation,1,245
+H298,mikey0000/PyMammotion,Development 🔧,betterproto | protoc | PyMammotion uses `betterproto` and `protoc` for generating protobuf models. To set up the development environment:,development,1,34
+H299,podgorki/TANGO,TANGO Demo,./data/ | Download official [hm3d v0.2](https://github.com/matterport/habitat-matterport-3dresearch) following their instructions. Place (or synlink) it at `./data/`. | Download official [hm3d v0.2](https://github.com/matterport/habitat-matterport-3dresearch) following their instructions. Place (or synlink) it at `./data/`.,usage,0,192
+H300,Josverl/micropython-stubber,Developing & testing,This is described in more detail in the [developing](docs/developing.md) and [testing](docs/testing.md)  documents in the docs folder. | This is described in more detail in the [developing](docs/developing.md) and [testing](docs/testing.md)  documents in the docs folder. | This is described in more detail in the [developing](docs/developing.md) and [testing](docs/testing.md)  documents in the docs folder.,test,1,115
+H301,radiac/nanodjango,Further reading,"For more details, see | - [nanodjango.dev](https://nanodjango.dev/) and the [online playground](https://nanodjango.dev/play/) | - [nanodjango.dev](https://nanodjango.dev/) and the [online playground](https://nanodjango.dev/play/)",documentation,0,147
+H302,AakarSharma/fastapi-vs-django-benchmark,Equal Resources and Server Settings,docker-compose.yml | Configured in `docker-compose.yml` and Dockerfiles: | cpus: 1.0,documentation,0,23
+H303,sail-sg/understand-r1-zero,Training,"We implement R1-Zero training by extending Oat's Learner and Actor components. Please see [train_zero_math.py](./train_zero_math.py) for a step-by-step guide. | We implement R1-Zero training by extending Oat's Learner and Actor components. Please see [train_zero_math.py](./train_zero_math.py) for a step-by-step guide. | [code] # Patch LD_LIBRARY_PATH to avoid dependency errors:
+export LD_LIBRARY_PATH=$(python -c ""import sysconfig; print(sysconfig.get_config_var('LIBDIR'))""):$LD",run,1,112
+H304,apocas/restai,Stateful (Development),"Direct interaction with the GPU layer — ideal for small deployments. | <div align=""center""> | <img src=""https://github.com/apocas/restai/blob/master/readme/assets/restai_stateful.png"" width=""750"" alt=""RESTai Stateful Architecture""/>",development,1,308
+H305,PlanExeOrg/PlanExe,Option C: Run MCP server locally with Docker,,run,1,117
+H306,Peuqui/AIfred-Intelligence,🛠️ Development,,development,1,1964
+H307,conda-forge/staged-recipes,4. **What does the `build: 0` entry mean?**,"The build number is used when the source code for the package has not changed but you need to make a new | build. For example, if one of the dependencies of the package was not properly specified the first time | you build a package, then when you fix the dependency and rebuild the package you should increase the build",build,1,283
+H308,ArikReuter/TopicGPT,Installation,You can install TopicGPT via [PyPI](https://pypi.org/project/topicgpt/) | You can install TopicGPT via [PyPI](https://pypi.org/project/topicgpt/) | [code] pip install topicgpt,installation,1,21
+H309,vitali87/code-graph-rag,🤖 Agentic Workflow & Tools,"The agent is designed with a deliberate workflow to ensure it acts with context and precision, especially when modifying the file system.",ci,1,711
+H310,bitwize-music-studio/claude-ai-music-skills,The Workflow,"[code] ┌─────────┐    ┌──────────┐    ┌───────┐    ┌──────────┐    ┌────────┐    ┌─────────┐
+│ Concept │ -> │ Research │ -> │ Write │ -> │ Generate │ -> │ Maste | Each phase has specialized skills and quality gates: | | Phase | What Happens | Skills Used |",ci,1,195
+H311,dexsuite/dex-retargeting,Examples,,usage,1,64
+H312,replicate/replicate-python,Run a model in the background,"You can start a model and run it in the background using async mode: | [code] >>> model = replicate.models.get(""kvfrans/clipdraw"")
+>>> version = model.versions.get(""5797a99edc939ea0e9242d5e8c9cb3bc7d125b1eac21bda852e5cb79ede2cd9b"")",run,1,177
+H313,NVIDIA-NeMo/Emerging-Optimizers,Example,"tests/test_orthogonalized_optimizer.py::MuonTest | Refer to tests for usage of different optimizers, e.g.  [`tests/test_orthogonalized_optimizer.py::MuonTest`](tests/test_orthogonalized_optimizer.py). | Refer to tests for usage of different optimizers, e.g.  [`tests/test_orthogonalized_optimizer.py::MuonTest`](tests/test_orthogonalized_optimizer.py).",usage,1,57
+H314,lutris/website,Getting the site up and running for development,"Install required packages: | apt install python3-venv | If you haven't done it already, install and configure virtualenvwrapper.",run,1,1
+H315,NaturalHistoryMuseum/ckanext-doi,"`build_xml_dict(metadata_dict, xml_dict)`",**Breaking changes from v1:** | metadata_to_xml | 1. previously called `metadata_to_xml`,build,1,187
+H316,nomadkaraoke/karaoke-gen,Deploy Cloud Run,main | Deployments happen automatically via GitHub Actions CI when pushing to `main`. | .github/workflows/ci.yml,run,1,407
+H317,usestrix/strix,Graph of Agents,Advanced multi-agent orchestration for comprehensive security testing: | - **Distributed Workflows** - Specialized agents for different attacks and assets | - **Scalable Testing** - Parallel execution for fast comprehensive coverage,other,0,139
+H318,SuperClaude-Org/SuperClaude_Framework,💻 Development (5),/implement | - `/implement` - Code implementation | /build,development,1,603
+H319,Datalux/Osintgram,Contributing 💡,"You can propose a feature request opening an issue or a pull request. | Here is a list of Osintgram's contributors: | <a href=""https://github.com/Datalux/Osintgram/graphs/contributors"">",development,1,178
+H320,qlands/FormShare,Important Note: Elasticsearch - Migration 1 - Upgrading Docker images < **20210411** (stable 2.8.0) to images >= **20210411**,Docker images >= 20210411 (from stable 2.8.0) use and check for Elasticsearch version 6.8.14. To upgrade FormShare beyond 20210411 you need to update the docker | [code] image: docker.elastic.co/Elasticsearch/Elasticsearch:6.8.14,deployment,1,377
+H321,coveragepy/coveragepy,Coverage.py,Code coverage measurement for Python. | .. image:: https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg | :target: https://vshymanskyy.github.io/StandWithUkraine,test,0,5
+H322,shamspias/langgraph-agents,🚀 Deployment,,deployment,1,283
+H323,diafygi/acme-tiny,Step 3: Make your website host challenge files,"You must prove you own the domains you want a certificate for, so Let's Encrypt | requires you host some files on them. This script will generate and write those | files in the folder you specify, so all you need to do is make sure that this",build,0,85
+H324,erikrose/blessings,Simple Formatting,"Lots of handy formatting codes (""capabilities"" in low-level parlance) are | Terminal | available as attributes on a ``Terminal``. For example...",other,0,103
+H325,technicalpickles/picklehome,`climate/` — HVAC automation,"schedule.yaml | comforts.yaml | Syncs thermostat schedules and comfort setpoints to Ecobee via their API. Configuration lives in YAML (`schedule.yaml`, `comforts.yaml`) and gets pushed up rath",ci,0,15
+H326,onecat-ai/OneCAT,Getting Started,,installation,1,45
+H327,ethereum-optimism/specs,Linting,Please see the relevant commands [in the justfile](./Justfile) for more information. | Please see the relevant commands [in the justfile](./Justfile) for more information. | [doctoc](https://github.com/thlorenz/doctoc) is used to automatically add a table of contents.,test,1,66
+H328,AstrBotDevs/AstrBot,Desktop Application Deployment,"For users who want to use AstrBot on desktop and mainly use ChatUI, we recommend AstrBot App. | Visit [AstrBot-desktop](https://github.com/AstrBotDevs/AstrBot-desktop) to download and install; this method is designed for desktop usage and is not recommende | Visit [AstrBot-desktop](https://github.com/AstrBotDevs/AstrBot-desktop) to download and install; this method is designed for desktop usage and is not recommende",deployment,1,107
+H329,upbit/pixivpy,Package Publishing Instructions,"Follow these simple steps to publish your Poetry package. We recommend | publishing to the [test.pypi.org](https://test.pypi.org/) instance first, to | publishing to the [test.pypi.org](https://test.pypi.org/) instance first, to",build,1,459
+H330,langbot-app/LangBot,☁️ LangBot Cloud (Recommended),"**[LangBot Cloud](https://space.langbot.app/cloud)** — Zero deployment, ready to use. | **[LangBot Cloud](https://space.langbot.app/cloud)** — Zero deployment, ready to use.",deployment,0,54
+H331,qgis/QGIS-Website,✨ Contributing,We welcome contributions! Please read the [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to get started. | We welcome contributions! Please read the [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to get started. | ![-----------------------------------------------------](./img/green-gradient.png),development,1,163
+H332,bisect-group/fgmolprop,📊 Evaluation,"[code] # Evaluate trained model
+python src/eval.py ckpt_path=""path/to/checkpoint.ckpt""
+
+# Evaluate on specific dataset
+python src/eval.py ckpt_path=""path/to/che | <br>",test,0,296
+H333,securityfortech/secops-mcp,Manual Installation,"1. Clone the repository: | [code] git clone https://github.com/securityfortech/secops-mcp.git
+   cd secops-mcp | 2. Create and activate a virtual environment:",installation,1,97
+H334,cedarconnor/SPAG4d,Command Line,"[code] # Default (DA360 depth + SPAG conversion)
+python -m spag4d convert panorama.jpg output.ply
+
+# Max quality (one Gaussian per pixel)
+python -m spag4d conve",usage,1,60
+H335,radixark/miles,Launch Training,"Miles provides a unified entry point for complex RL tasks. Here is an example of FP8 GRPO training for Qwen3: | [code] python train.py \
+    --advantage-estimator grpo \
+    --model-name qwen3-30b-a3b \
+    --hf-checkpoint /path/to/qwen3-30b-a3b-hf \
+    --rollout-batch-s | For comprehensive guides on environment setup and custom reward functions, see the [Quick Start Guide](docs/en/get_started/quick_start.md).",run,1,97
+H336,brechtm/rinohtype,Contributing,CONTRIBUTING.rst | and | DEVELOPING.rst,development,1,179
+H337,Project-Babble/ProjectBabble,For the latest tagged release:,"[code] bash -c ""$(curl -fsSL https://gist.githubusercontent.com/dfgHiatus/a92a3caae24c1bfab1c7544537a654c5/raw/63573d5c882b4152c9434b9dd4bc888573fe9e98/project- | babble-app | Once it's finished installing, you can update and run the Babble app by typing `babble-app` into your terminal. You *should* also be able to run the Windows exe",build,0,37
+H338,spack/spack,Tutorial,We maintain a | [**hands-on tutorial**](https://spack-tutorial.readthedocs.io/). | [**hands-on tutorial**](https://spack-tutorial.readthedocs.io/).,usage,1,84
+H339,pyload/pyload,Development Release,"You can force the installation of the latest development release of pyLoad, | --pre | appending the option `--pre` to the installation command:",build,1,116
+H340,zeeyado/quran-ebook,Build Your Own EPUBs,"[code] pip install -e "".[dev]""
+quran-ebook build configs/bilingual/en_sahih.yaml | configs/ | arabic/",build,1,553
+H341,cmelab/GIXStapose,Installation,To install GIXStapose you will need the conda package manager (we recommend [Miniconda](https://docs.conda.io/en/latest/miniconda.html)) | To install GIXStapose you will need the conda package manager (we recommend [Miniconda](https://docs.conda.io/en/latest/miniconda.html)) | 1. Clone this repo,installation,1,26
+H342,Hawksight-AI/semantica,Perfect For High-Stakes Use Cases,| 🏥 **Healthcare** | 💰 **Finance** | ⚖️ **Legal** | | |:-----------------:|:--------------:|:------------:| | | Clinical decisions | Fraud detection | Evidence-backed research |,usage,0,266
+H343,NVIDIA/warp,Contributing,Contributions and pull requests from the community are welcome. | Please see the [Contribution Guide](https://nvidia.github.io/warp/user_guide/contribution_guide.html) for more | Please see the [Contribution Guide](https://nvidia.github.io/warp/user_guide/contribution_guide.html) for more,development,1,250
+H344,The-OpenROAD-Project/OpenLane,"Installation, the long version",See the installation docs at https://openlane.readthedocs.io/en/superstable/getting_started/installation/index.html.,installation,1,57
+H345,chopratejas/headroom,Does It Actually Work?,**100 production log entries. One critical error buried at position 67.** | |  | Baseline | Headroom | | |--|----------|----------|,other,0,159
+H346,vmware/pyvmomi,Testing,tox <https://testrun.org/tox/> | Unit tests can be invoked by using the `tox <https://testrun.org/tox/>`_ command. You may have to | configure multiple python interpreters so that you can test in all the,test,1,39
+H347,elmotec/massedit,Contributing,"To set things up for development, please pip-install massedit as shown below. | It will install it in editable mode and the develop extra packages, including | commitizen that is recommended to have commits follow conventional commits",development,1,203
+H348,MrMohebi/xray-proxy-grabber-telegram,"*Note:* GitHub runners aren't in Iran, So proxy checker can't detect censored proxies. U can run it on ur server from Iran by cron jobs.",cleanProxiesRowUrl.py | proxies_active.txt | [`cleanProxiesRowUrl.py`](./cleanProxiesRowUrl.py) will be run each 12 hours by GitHub runner and remove all URL proxies which are not present in [`proxies_acti,run,1,58
+H349,nuster1128/learn_to_memorize,3.2 Run the online training process and test the model.,"Run the following commands. | [code] cd ..
+python run_hotpot_qa.py",run,1,81
+H350,sair-lab/bae,Installation,,installation,1,83
+H351,thuiar/MMLA,Release,The raw text and videos of each dataset all released on [Huggingface](https://huggingface.co/datasets/THUIAR/MMLA-Datasets) and [Google Drive](https://drive.goo | The raw text and videos of each dataset all released on [Huggingface](https://huggingface.co/datasets/THUIAR/MMLA-Datasets) and [Google Drive](https://drive.goo | The raw text and videos of each dataset all released on [Huggingface](https://huggingface.co/datasets/THUIAR/MMLA-Datasets) and [Google Drive](https://drive.goo,build,0,51
+H352,takuseno/d3rlpy,Contributions,Any kind of contribution to d3rlpy would be highly appreciated! | Please check the [contribution guide](CONTRIBUTING.md). | Please check the [contribution guide](CONTRIBUTING.md).,other,0,205
+H353,dagster-io/erk,The Workflow,"The primary workflow: plan → save → implement → ship. **Often completes without touching an IDE.** | [code] # 1. Plan (in Claude Code)
+claude
+# → develop plan → save to GitHub issue #42
+
+# 2. Implement
+erk implement 42
+
+# 3. Submit PR
+erk pr submit
+
+# 4. Addres | See [The Workflow](docs/topics/the-workflow.md) for the complete guide.",ci,1,24
+H354,AllenMaxi/ContextGraph,A2A (Agent2Agent Protocol),"Full Google A2A compliance: | [code] # Discovery
+curl http://localhost:8420/.well-known/agent.json
+
+# Skills: knowledge_store, knowledge_recall, knowledge_subscribe,
+#         knowledge_feed",other,0,609
+H355,bolna-ai/bolna,Open-source v/s Hosted APIs,"**We have in the past tried to maintain both the open source and the hosted solution (via APIs and a UI dashboard)**. | We have fluctuated b/w maintaining this repository purely from a point of time crunch and not interest. | Currently, we are continuing to maintain it for the community and improving the adoption of Voice AI.",deployment,0,317
+H356,NPC-Worldwide/npcsh,Benchmark Results,"npcsh | How well can a model drive `npcsh` as an agentic shell? 125 tasks across 15 categories — from basic shell commands to multi-step workflows, code debugging, and  | <table>",test,1,38
+H357,AllenMaxi/ContextGraph,HTTP API,/dashboard/api/* | /dashboard/follow | /dashboard/review,documentation,0,766
+H358,psi-oss/get-physics-done,Progress Tracking,| Command | What it does | | |---------|--------------| | /gpd:progress,other,0,294
+H359,NovaSky-AI/SkyThought,Evaluation,,test,0,45
+H360,shankarpandala/lazypredict,Usage,To use Lazy Predict in a project: | [code] import lazypredict,usage,1,64
+H361,kivy/plyer,Documentation,"Full documentation, including details about the API, is available | [online](https://plyer.readthedocs.io/en/latest/). If you are not using the | [online](https://plyer.readthedocs.io/en/latest/). If you are not using the",documentation,0,78
+H362,LlmKira/fast-langdetect,Benchmark 📊,"For detailed benchmark results, refer | to [zafercavdar/fasttext-langdetect#benchmark](https://github.com/zafercavdar/fasttext-langdetect#benchmark). | to [zafercavdar/fasttext-langdetect#benchmark](https://github.com/zafercavdar/fasttext-langdetect#benchmark).",test,1,239
+H363,OWASP/cornucopia,Contributing to Development,,development,1,22
+H364,modal-labs/modal-client,Community SDKs,There are also open-source Modal libraries built and maintained by our community. These projects are not officially supported by Modal and we thus can't vouch f | - Ruby: [anthonycorletti/modal-rb](https://github.com/anthonycorletti/modal-rb) | - Ruby: [anthonycorletti/modal-rb](https://github.com/anthonycorletti/modal-rb),other,0,51
+H365,greyhaven-ai/autocontext,Which Package Should You Use?,"| If you want to... | Start here | Why | | |---|---|---| | | Run the full multi-generation control plane | [autocontext/README.md](autocontext/README.md) | Python has the dashboard, API server, training loop, scenario s",build,1,111
+H366,dwzhu-pku/PaperBanana,Step4: Installing the Environment,uv | uv | 1. We use `uv` to manage Python packages. Please install `uv` following the instructions [here](https://docs.astral.sh/uv/getting-started/installation/).,installation,1,64
+H367,Neverdecel/CodeRAG,🎪 Usage Examples,,usage,1,116
+H368,SolFoundry/solfoundry,Automated Bounty Creation (Post-Launch),"Once the $FNDRY token is live, the management automaton autonomously creates and funds bounties: | - **Director cell** monitors the roadmap, community feature requests, and bug reports | - **PM cell** generates detailed bounty specs with acceptance criteria",run,1,120
+H369,ikalchev/HAP-python,"API <a name=""API""></a>",A typical flow for using HAP-python starts with implementing an Accessory. This is done by | subclassing [Accessory](pyhap/accessory.py) and putting in place a few details | subclassing [Accessory](pyhap/accessory.py) and putting in place a few details,documentation,0,55
+H370,benkruger/flow,Phase Back-Navigation,Phases that allow it offer back-navigation when something was missed: | | Phase | Can return to | | |-------|--------------|,other,0,251
+H371,wger-project/wger,Self-hosting,docker compose up -d | Hosting your own instance is basically just a `docker compose up -d` away. For | more detailed setup instructions take a look at the provided,deployment,0,44
+H372,decargroup/pykoop,Citation,"If you use this software in your research, please cite it as below or see | CITATION.cff | ``CITATION.cff``.",documentation,0,210
+H373,KoljaB/RealtimeVoiceChat,Contributing 🤝,Got ideas or found a bug? Contributions are welcome! Feel free to open issues or submit pull requests.,development,1,248
+H374,nick1udwig/ws-mcp,Running ws-mcp,--config | --command | Basic usage with default config file (no `--config` or `--command` provided) and port:,run,1,31
+H375,neulab/REALSumm,REALSumm: Re-evaluating EvALuation in Summarization,,test,0,1
+H376,langchain-ai/langchain,Documentation,"- [docs.langchain.com](https://docs.langchain.com/oss/python/langchain/overview) – Comprehensive documentation, including conceptual overviews and guides | - [docs.langchain.com](https://docs.langchain.com/oss/python/langchain/overview) – Comprehensive documentation, including conceptual overviews and guides | - [reference.langchain.com/python](https://reference.langchain.com/python) – API reference docs for LangChain packages",documentation,0,72
+H377,vrgamegirl19/comfyui-vrgamedevgirl,🎮 VRGameDevGirl’s Video / Image & HUMO Workflow Nodes for ComfyUI,"Custom ComfyUI nodes for **music video workflows** and **high-quality video/image enhancement**. | Includes HUMO-based multi-scene workflows, audio splitting, video combining, and realtime-ready enhancement tools. | ---",ci,1,1
+H378,getlogbook/logbook,Welcome to Logbook,"<img src=""https://raw.githubusercontent.com/getlogbook/logbook/main/docs/logbook-logo.png"" width=""300""> | [![Latest Version][version-img]][pypi] | ![Supported Python Versions][pyver-img]",other,0,1
+H379,recommenders-team/recommenders,AzureML Nightly Build Status,The nightly build tests are run daily on AzureML. | | Build Type | Branch | Status |  | Branch | Status | | | --- | --- | --- | --- | --- | --- |,build,1,165
+H380,subzeroid/instagrapi-rest,Generating client code,You can use [this repo](https://www.npmjs.com/package/@openapitools/openapi-generator-cli) to generate client code for this rest api in any language you want to | You can use [this repo](https://www.npmjs.com/package/@openapitools/openapi-generator-cli) to generate client code for this rest api in any language you want to | Exapmle:,other,0,139
+H381,enarjord/passivbot,Step 7: Run Passivbot,"> **Hint:** | WINDOWS_COMPATIBILITY=1 | > To ensure cache folder names are Windows-compatible (even outside Windows), set the environment variable `WINDOWS_COMPATIBILITY=1`.",run,1,119
+H382,skfolio/skfolio,Pre-Selection Pipeline,".. code-block:: python | set_config(transform_output=""pandas"") | model = Pipeline(",ci,1,564
+H383,mbailey/voicemode,Option 2: Python installer package,"Installs dependencies and the VoiceMode Python package. | [code] # Install UV package manager (if needed)
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# Run the installer (sets up dependencies and local voice servi | For manual setup, see the [Getting Started Guide](docs/tutorials/getting-started.md).",build,1,46
+H384,belangeo/pyo,Examples ##,"pyo is fully integrated to Python and very simple to use. | Play a sound: | [code] >>> from pyo import *
+>>> s = Server().boot()
+>>> s.start()
+>>> sf = SfPlayer(""path/to/your/sound.aif"", speed=1, loop=True).out()",usage,1,71
+H385,Jaganpro/sf-skills,🤖 AI & Automation,| | Skill | Description | Status | | |--|-------|-------------|--------| | sf-ai-agentforce,ci,0,602
+H386,enarjord/passivbot,Documentation:,"For more detailed information about Passivbot, see documentation files here: [docs/](docs/) | For more detailed information about Passivbot, see documentation files here: [docs/](docs/)",documentation,0,168
+H387,move-coop/parsons,Quickstart,"For this Quickstart, we are looking to generate a list of voters with cell phones using | assert | a [dummy data file](docs/quickstart.csv). We use the `assert` statements to verify that the data has been loaded",installation,1,55
+H388,jekalmin/extended_openai_conversation,4. Add automation,https://github.com/jekalmin/extended_openai_conversation/assets/2917984/04b93aa6-085e-450a-a554-34c1ed1fbb36,ci,0,51
+H389,yuexuan521/honeypot-blocklist,Developer usage,,usage,1,103
+H390,neulab/compare-mt,Significance Tests,The script allows you to perform statistical significance tests for scores based on [bootstrap resampling](https://aclanthology.org/W04-3250.pdf). You can set | The script allows you to perform statistical significance tests for scores based on [bootstrap resampling](https://aclanthology.org/W04-3250.pdf). You can set | the number of samples manually. Here is an example using the example data:,test,1,64
+H391,kubeflow/pipelines,Kubeflow Pipelines,[![SDK Documentation Status](https://readthedocs.org/projects/kubeflow-pipelines/badge/?version=latest)](https://kubeflow-pipelines.readthedocs.io/en/stable/?ba | [![SDK Documentation Status](https://readthedocs.org/projects/kubeflow-pipelines/badge/?version=latest)](https://kubeflow-pipelines.readthedocs.io/en/stable/?ba | [![SDK Package version](https://img.shields.io/pypi/v/kfp?color=%2334D058&label=pypi%20package)](https://pypi.org/project/kfp),ci,1,1
+H392,BerriAI/litellm,Why did we build this,"- **Need for simplicity**: Our code started to get extremely complicated managing & translating calls between Azure, OpenAI and Cohere.",build,1,458
+H393,TauricResearch/TradingAgents,Citation,"Please reference our work if you find *TradingAgents* provides you with some help :) | [code] @misc{xiao2025tradingagentsmultiagentsllmfinancial,
+      title={TradingAgents: Multi-Agents LLM Financial Trading Framework}, 
+      author={Yijia Xiao ",documentation,0,207
+H394,awslabs/amazon-redshift-utils,Cloud Data Warehousing Benchmark,The [Cloud DW Benchmark](src/CloudDataWarehouseBenchmark) consists of a set of workloads used to characterize and study the performance of Redshift running a va | The [Cloud DW Benchmark](src/CloudDataWarehouseBenchmark) consists of a set of workloads used to characterize and study the performance of Redshift running a va,test,1,43
+H395,hauxir/rapidbay,With Docker (recommended),"[code] docker run -p 5000:5000 -e JACKETT_HOST=""http://your.jacket.host"" -e JACKETT_API_KEY=""YourAPIKey"" hauxir/rapidbay",deployment,1,35
+H396,initialcommit-com/git-sim,git init,git-sim init | Usage: `git-sim init` | .git/,installation,0,264
+H397,vitaliistarr/pta-learn,Loglog family ploting Workflow,- Identify both shut-in transients and flowing transient in PTA | - Rate rebuilt based on breakpoints detected by transient idenfication. | - Superposition time calculation in PTA,ci,1,225
+H398,vitali87/code-graph-rag,📦 Building a binary,build_binary.py | You can build a binary of the application using the `build_binary.py` script. This script uses PyInstaller to package the application and its dependencies into  | [code] python build_binary.py,build,1,852
+H399,HVision-NKU/DenseVLM,🙏 Citation:,"If you find this project useful, please consider citing: | [code] @article{li2024densevlm,
+  title={Unbiased Region-Language Alignment for Open-Vocabulary Dense Prediction},
+  author={Li, Yunheng and Li, Yuxuan and Zeng",documentation,0,133
+H400,helallao/perplexity-ai,API Reference,,documentation,0,405

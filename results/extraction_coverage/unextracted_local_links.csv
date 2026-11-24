@@ -1,0 +1,229 @@
+full_name,line_no,section_class,link_target_type,link_text,link_target
+facebookresearch/minimal_video_pairs,46,run,local_doc,reproducible,/reproducibility.md
+facebookresearch/minimal_video_pairs,51,run,local_path_other,tasks/mvp,tasks/mvp
+vivekVells/mcp-pandoc,171,usage,local_doc,CHEATSHEET.md,CHEATSHEET.md
+argilla-io/synthetic-data-generator,177,installation,local_doc,docker/README.md,docker/README.md
+Open-Wine-Components/umu-protonfixes,127,build,local_dir,subprojects folder,subprojects/
+helallao/perplexity-ai,558,usage,local_dir,examples/,examples/
+helallao/perplexity-ai,559,usage,local_dir,documentation,docs/
+sony/nnabla,43,installation,local_doc,Build Manuals,doc/build/README.md
+sony/nnabla,154,usage,local_doc,Documentation,doc/python/command_line_interface.rst
+langchain-ai/deepagents,84,usage,local_dir,CLI README,libs/cli/
+wger-project/wger,63,development,local_doc,AUTHORS.md,AUTHORS.md
+black-forest-labs/flux,40,usage,local_doc,Text to Image,docs/text-to-image.md
+black-forest-labs/flux,40,usage,local_path_other,FLUX.1-dev Non-Commercial License,model_licenses/LICENSE-FLUX1-dev
+black-forest-labs/flux,43,usage,local_doc,Structural Conditioning,docs/structural-conditioning.md
+black-forest-labs/flux,43,usage,local_path_other,FLUX.1-dev Non-Commercial License,model_licenses/LICENSE-FLUX1-dev
+black-forest-labs/flux,44,usage,local_doc,Structural Conditioning,docs/structural-conditioning.md
+black-forest-labs/flux,44,usage,local_path_other,FLUX.1-dev Non-Commercial License,model_licenses/LICENSE-FLUX1-dev
+black-forest-labs/flux,45,usage,local_doc,Structural Conditioning,docs/structural-conditioning.md
+black-forest-labs/flux,45,usage,local_path_other,FLUX.1-dev Non-Commercial License,model_licenses/LICENSE-FLUX1-dev
+black-forest-labs/flux,48,usage,local_doc,Text to Image,docs/text-to-image.md
+black-forest-labs/flux,48,usage,local_path_other,FLUX.1-dev Non-Commercial License,model_licenses/LICENSE-FLUX1-dev
+sympy/sympy,119,development,local_doc,CODE\_OF\_CONDUCT.md,CODE_OF_CONDUCT.md
+martinopiaggi/summarize,70,usage,local_path_other,`.env`,./.env
+martinopiaggi/summarize,113,deployment,local_artifact,`summarizer.yaml`,./summarizer.yaml
+martinopiaggi/summarize,185,usage,local_artifact,`summarizer.yaml`,./summarizer.yaml
+martinopiaggi/summarize,258,usage,local_path_other,`.env`,./.env
+martinopiaggi/summarize,308,installation,local_path_other,`.env`,./.env
+martinopiaggi/summarize,315,installation,local_artifact,`summarizer.yaml`,./summarizer.yaml
+graphql-python/graphene,65,usage,local_dir,examples,examples/
+THU-MIG/yoloe,49,test,local_path_other,T,./logs/yoloe-v8s-seg
+THU-MIG/yoloe,49,test,local_path_other,V,./logs/yoloe-v8s-seg-vp
+THU-MIG/yoloe,50,test,local_path_other,T,./logs/yoloe-v8m-seg
+THU-MIG/yoloe,50,test,local_path_other,V,./logs/yoloe-v8m-seg-vp
+THU-MIG/yoloe,51,test,local_path_other,T,./logs/yoloe-v8l-seg
+THU-MIG/yoloe,51,test,local_path_other,V,./logs/yoloe-v8l-seg-vp
+THU-MIG/yoloe,52,test,local_path_other,T,./logs/yoloe-11s-seg
+THU-MIG/yoloe,52,test,local_path_other,V,./logs/yoloe-11s-seg-vp
+THU-MIG/yoloe,53,test,local_path_other,T,./logs/yoloe-11m-seg
+THU-MIG/yoloe,53,test,local_path_other,V,./logs/yoloe-11m-seg-vp
+THU-MIG/yoloe,54,test,local_path_other,T,./logs/yoloe-11l-seg
+THU-MIG/yoloe,54,test,local_path_other,V,./logs/yoloe-11l-seg-vp
+THU-MIG/yoloe,77,test,local_dir,PF,./logs/yoloe-v8s-seg-pf/
+THU-MIG/yoloe,78,test,local_dir,PF,./logs/yoloe-v8m-seg-pf/
+THU-MIG/yoloe,79,test,local_dir,PF,./logs/yoloe-v8l-seg-pf/
+THU-MIG/yoloe,80,test,local_dir,PF,./logs/yoloe-11s-seg-pf/
+THU-MIG/yoloe,81,test,local_dir,PF,./logs/yoloe-11m-seg-pf/
+THU-MIG/yoloe,82,test,local_dir,PF,./logs/yoloe-11l-seg-pf/
+seandstewart/python-typelib,203,usage,local_doc,here,./graph.md
+ZFTurbo/Music-Source-Separation-Training,37,run,local_dir,configs folder,configs/
+open-webui/pipelines,29,usage,local_artifact,**Toxic Message Filter**,/examples/filters/detoxify_filter_pipeline.py
+matt-kempster/m2c,371,test,local_path_other,`array-access`,tests/end_to_end/array-access
+allaboutduncan/clu-comics,92,installation,local_path_other,Insights,"/images/insights.png ""Insights showing collection information"""
+allaboutduncan/clu-comics,94,installation,local_path_other,Timeline,"/images/timeline.png ""Timeline showing reading history"""
+allaboutduncan/clu-comics,96,installation,local_path_other,Pull List,"/images/weekly.png ""Weekly Pull List showing weekly releases"""
+huggingface/transformers,254,usage,local_doc,awesome-transformers,./awesome-transformers.md
+infinito-nexus/core,94,installation,local_other,contact@cymais.cloud,mailto:contact@cymais.cloud
+foxglove/mcap,20,installation,local_path_other,readme,./cpp
+foxglove/mcap,21,installation,local_path_other,readme,./go/mcap
+foxglove/mcap,22,installation,local_path_other,readme,./python
+foxglove/mcap,24,installation,local_path_other,readme,./swift
+foxglove/mcap,25,installation,local_path_other,readme,./rust
+IBM/UQ360,158,installation,local_doc,uq360/data/README.md,uq360/data/README.md
+Vid2Sim/Vid2Sim,49,run,local_doc,vid2sim_rl,src/vid2sim_rl/README.md
+binref/refinery,39,build,local_doc,changelog,CHANGELOG.md
+mofa-org/mofa-obsolete,5,development,local_doc,English,README.md
+mofa-org/mofa-obsolete,5,development,local_doc,Simplified Chinese,README_cn.md
+OWASP/cornucopia,42,build,local_doc,README.md,./scripts/README.md
+OWASP/cornucopia,68,build,local_doc,README.md,cornucopia.owasp.org/README.md
+OWASP/cornucopia,74,build,local_doc,README.md,copi.owasp.org/README.md
+apple/ml-l3m,45,installation,local_other,configs,configs
+asklokesh/loki-mode,43,installation,local_doc,Installation Guide,docs/INSTALLATION.md
+asklokesh/loki-mode,242,usage,local_dir,benchmarks/,benchmarks/
+microsoft/hummingbird,82,installation,local_doc,Troubleshooting,TROUBLESHOOTING.md
+microsoft/hummingbird,86,usage,local_other,notebooks,notebooks
+rembo10/headphones,18,installation,local_path_other,Troubleshooting page,../../wiki/TroubleShooting
+PyThaiNLP/pythainlp,142,test,local_doc,tests/README.md,./tests/README.md
+SuperClaude-Org/SuperClaude_Framework,100,development,local_doc,PLANNING.md,PLANNING.md
+SuperClaude-Org/SuperClaude_Framework,101,development,local_doc,TASK.md,TASK.md
+SuperClaude-Org/SuperClaude_Framework,102,development,local_doc,KNOWLEDGE.md,KNOWLEDGE.md
+SuperClaude-Org/SuperClaude_Framework,108,development,local_doc,Commands Reference,docs/user-guide/commands.md
+harbor-framework/terminal-bench-3,32,development,local_doc,getting feedback,CONTRIBUTING.md#propose-your-task
+harbor-framework/terminal-bench-3,32,development,local_doc,contributing instructions,CONTRIBUTING.md
+harbor-framework/terminal-bench-3,32,development,local_doc,task proposal rubric,TASK_PROPOSAL_RUBRIC.md
+harbor-framework/terminal-bench-3,32,development,local_doc,review automation,TASK_REVIEW_AUTOMATION.md
+ethereum-optimism/specs,68,test,local_path_other,in the justfile,./Justfile
+greyhaven-ai/autocontext,115,build,local_doc,autocontext/README.md,autocontext/README.md
+greyhaven-ai/autocontext,116,build,local_doc,ts/README.md,ts/README.md
+greyhaven-ai/autocontext,119,build,local_doc,CHANGELOG.md,CHANGELOG.md
+technicalpickles/picklehome,19,ci,local_doc,`climate/spec/hvac-spec.md`,climate/spec/hvac-spec.md
+Z1hanW/CRISP-Real2Sim,33,installation,local_doc,prep/README.md,prep/README.md
+Z1hanW/CRISP-Real2Sim,137,run,local_doc,MotionTracking/README.md,MotionTracking/README.md
+MrMohebi/xray-proxy-grabber-telegram,34,usage,local_doc,`proxies_row_url.txt`,collected-proxies/row-url/all.txt
+MrMohebi/xray-proxy-grabber-telegram,57,run,local_doc,`proxies_active.txt`,collected-proxies/xray-json/actives_all.txt
+explosion/thinc,75,usage,local_doc,View more &rarr;,examples
+explosion/thinc,162,run,local_path_other,extensive test suite,thinc/tests
+polychromatic/polychromatic,65,development,local_doc,DEVELOPMENT.md,DEVELOPMENT.md
+Azure/azure-cli-extensions,92,development,local_other,opencode@microsoft.com,mailto:opencode@microsoft.com
+HKUDS/LightRAG,249,installation,local_doc,LightRAG Server,./lightrag/api/README.md
+HKUDS/LightRAG,2023,test,local_doc,RAGAS-based Evaluation Framework,lightrag/evaluation/README_EVALUASTION_RAGAS.md
+sairajk/easi-tex,79,usage,local_path_other,cow,data/meshes/cow/cow_fr-z_up-y.obj
+thammegowda/mtdata,442,run,local_other,tests/,tests
+pyro-ppl/pyro,87,run,local_doc,here,docker/README.md
+IBM/rl-testbed-for-energyplus,23,deployment,local_doc,here,docker/README.md
+browser-use/browser-use,157,usage,local_doc,CLI docs,browser_use/skill_cli/README.md
+benkehoe/aws-sso-util,21,usage,local_doc,`aws-sso-lib`,lib/README.md
+benkehoe/aws-sso-util,21,usage,local_doc,here,lib/README.md
+benkehoe/aws-sso-util,111,run,local_doc,`aws-sso-util configure populate`,docs/configure.md
+benkehoe/aws-sso-util,115,run,local_doc,`aws_sso_lib.get_boto3_session()`,lib/README.md#get_boto3_session
+benkehoe/aws-sso-util,138,deployment,local_doc,here,docs/credential-process.md
+deeppavlov/DeepPavlov,70,installation,local_doc,PyTorch version,deeppavlov/requirements/pytorch.txt
+janushendersonassetallocation/loman,93,installation,local_dir,Interactive Examples,examples/
+SukramJ/homematicip_local,26,installation,local_doc,changelog.md,changelog.md
+dj-bolt/django-bolt,82,test,local_dir,python/example/,python/example/
+dj-bolt/django-bolt,82,test,local_path_other,scripts/benchmark.sh,scripts/benchmark.sh
+arc53/DocsGPT,64,usage,local_other,Send Email :email:,mailto:support@docsgpt.cloud?subject=DocsGPT%20support%2Fsolutions
+The-OpenROAD-Project/OpenLane,61,usage,local_path_other,spm design,./designs/spm
+owkin/fedpydeseq2,86,installation,local_doc,README,logging/README.md
+amnweb/yasb,83,usage,local_path_other,styles.css,src/styles.css
+amnweb/yasb,83,usage,local_artifact,config.yaml,src/config.yaml
+ollo69/ha-smartthinq-sensors,357,usage,local_dir,here,/washerpics/
+Jaganpro/sf-skills,165,installation,local_doc,tools/README.md,tools/README.md
+Jaganpro/sf-skills,165,installation,local_doc,shared/hooks/README.md,shared/hooks/README.md
+Nubaeon/empirica,123,installation,local_dir,System Prompts,docs/human/developers/system-prompts/
+Nubaeon/empirica,250,run,local_dir,Architecture,docs/architecture/
+Nubaeon/empirica,251,run,local_dir,System Prompts,docs/human/developers/system-prompts/
+PierreGode/Ragnar,124,installation,local_doc,Install Guide,docs/INSTALL.md
+SFTtech/openage,115,installation,local_doc,troubleshooting guide,/doc/troubleshooting.md
+SFTtech/openage,131,installation,local_doc,Running with docker,/doc/build_instructions/docker.md
+SFTtech/openage,135,installation,local_doc,The convert script,/doc/media_convert.md
+SFTtech/openage,148,installation,local_doc,troubleshooting guide,/doc/troubleshooting.md
+SFTtech/openage,200,development,local_doc,doc/development.md,/doc/development.md
+SFTtech/openage,204,development,local_doc,doc/contributing.md,/doc/contributing.md
+SFTtech/openage,208,development,local_doc,doc readme,/doc/README.md
+SFTtech/openage,209,development,local_dir,doc directory,/doc/
+kornia/kornia,293,development,local_doc,CONTRIBUTING,./CONTRIBUTING.md
+kornia/kornia,293,development,local_doc,Code of Conduct,./CODE_OF_CONDUCT.md
+lcbcFoo/heimdall-mcp-server,320,development,local_doc,Contributor License Agreement,CLA.md
+ipa-lab/hackingBuddyGPT,305,usage,local_doc,CODESPACES.md,CODESPACES.md
+ipa-lab/hackingBuddyGPT,309,usage,local_doc,MAC.md,MAC.md
+microsoft/amplifier-foundation,149,build,local_doc,BUNDLE_GUIDE.md,docs/BUNDLE_GUIDE.md
+microsoft/amplifier-foundation,150,build,local_doc,AGENT_AUTHORING.md,docs/AGENT_AUTHORING.md
+microsoft/amplifier-foundation,180,development,local_other,opencode@microsoft.com,mailto:opencode@microsoft.com
+AllenMaxi/ContextGraph,425,usage,local_doc,`docs/production-readiness.md`,docs/production-readiness.md
+AllenMaxi/ContextGraph,459,test,local_doc,`sdk/README.md`,sdk/README.md
+cbcoutinho/nextcloud-mcp-server,149,installation,local_doc,Installation,docs/installation.md
+cbcoutinho/nextcloud-mcp-server,207,development,local_doc,CLAUDE.md,CLAUDE.md
+qgis/QGIS-Website,165,development,local_doc,CONTRIBUTING.md,CONTRIBUTING.md
+msaad00/agent-bom,487,development,local_other,LICENSE,LICENSE
+cuga-project/cuga-agent,214,installation,local_other,`.env.example`,.env.example
+cuga-project/cuga-agent,916,test,local_doc,CUGA Evaluation Documentation,src/cuga/evaluation/README.md
+langbot-app/LangBot,79,deployment,local_doc,Kubernetes,./docker/README_K8S.md
+zhudotexe/fanoutqa,209,test,local_other,andrz@seas.upenn.edu,mailto:andrz@seas.upenn.edu
+Skyvern-AI/skyvern,344,test,local_other,WebBench benchmark,webbench.ai
+Skyvern-AI/skyvern,639,development,local_other,via email,mailto:founders@skyvern.com
+ai4ce/CityWalker,8,run,local_other,Jintong Li,.
+ai4ce/CityWalker,9,run,local_other,Yicheng Jiang,.
+ai4ce/CityWalker,10,run,local_other,Niranjan Sujay,.
+ai4ce/CityWalker,11,run,local_other,Zhicheng Ynag,.
+ai4ce/CityWalker,13,run,local_other,John Abanes,.
+yusufkaraaslan/Skill_Seekers,944,installation,local_doc,Start Here: Bulletproof Quick Start Guide,BULLETPROOF_QUICKSTART.md
+yusufkaraaslan/Skill_Seekers,1198,installation,local_doc,BULLETPROOF_QUICKSTART.md,BULLETPROOF_QUICKSTART.md
+yusufkaraaslan/Skill_Seekers,1200,installation,local_doc,TROUBLESHOOTING.md,TROUBLESHOOTING.md
+yusufkaraaslan/Skill_Seekers,1211,usage,local_doc,ASYNC_SUPPORT.md,ASYNC_SUPPORT.md
+itbench-hub/ITBench,91,usage,local_dir,Scenarios repository,./scenarios/
+qlands/FormShare,115,installation,local_doc,installation guide,install_steps.md
+SolFoundry/solfoundry,462,development,local_path_other,Tier 1 bounty,../../issues?q=is%3Aissue+is%3Aopen+label%3Abounty+label%3Atier-1
+recommenders-team/recommenders,155,development,local_doc,Code of Conduct,CODE_OF_CONDUCT.md
+recommenders-team/recommenders,163,build,local_doc,test documentation,tests/README.md
+infrahouse/terraform-aws-secret,115,installation,local_doc,Design Decisions,/.claude/design-decisions.md
+infrahouse/terraform-aws-secret,185,usage,local_dir,examples/,examples/
+NovaSky-AI/SkyThought,40,installation,local_dir,`recipes`,./recipes/
+NovaSky-AI/SkyThought,126,test,local_doc,here,./skythought/evals/base_instruct_evals.md
+radixark/miles,110,run,local_doc,Quick Start Guide,docs/en/get_started/quick_start.md
+sail-sg/understand-r1-zero,170,run,local_dir,here,./examples/
+ZHangZHengEric/Sage,187,deployment,local_doc,View Full Release Notes,release_notes/v1.0.0.md
+Peuqui/AIfred-Intelligence,1231,installation,local_doc,docker/xtts/README.md,docker/xtts/README.md
+Peuqui/AIfred-Intelligence,1653,installation,local_doc,systemd/README.md,systemd/README.md
+jacob-bd/notebooklm-mcp-cli,423,installation,local_doc,MCP Guide,docs/MCP_GUIDE.md
+jacob-bd/notebooklm-mcp-cli,530,development,local_doc,CLAUDE.md,CLAUDE.md
+mother-of-all-self-hosting/mash-playbook,21,installation,local_doc,README in the docs/ directory,docs/README.md
+awslabs/amazon-redshift-utils,45,test,local_path_other,Cloud DW Benchmark,src/CloudDataWarehouseBenchmark
+awslabs/amazon-redshift-utils,64,ci,local_path_other,project,src/RedshiftAutomation
+awslabs/amazon-redshift-utils,116,deployment,local_dir,entrypoint scripts,src/bin/
+awslabs/amazon-redshift-utils,126,deployment,local_dir,entrypoint scripts,src/bin/
+Jamie-BitFlight/claude_skills,62,development,local_path_other,python3-development,./plugins/python3-development
+Jamie-BitFlight/claude_skills,63,development,local_path_other,bash-development,./plugins/bash-development
+Jamie-BitFlight/claude_skills,64,development,local_path_other,perl-development,./plugins/perl-development
+Jamie-BitFlight/claude_skills,65,development,local_path_other,plugin-creator,./plugins/plugin-creator
+Jamie-BitFlight/claude_skills,66,development,local_path_other,uv,./plugins/uv
+Jamie-BitFlight/claude_skills,67,development,local_path_other,clang-format,./plugins/clang-format
+Jamie-BitFlight/claude_skills,68,development,local_path_other,holistic-linting,./plugins/holistic-linting
+Jamie-BitFlight/claude_skills,69,development,local_path_other,summarizer,./plugins/summarizer
+Jamie-BitFlight/claude_skills,70,development,local_path_other,agentskill-kaizen,./plugins/agentskill-kaizen
+Jamie-BitFlight/claude_skills,71,development,local_path_other,dasel,./plugins/dasel
+Jamie-BitFlight/claude_skills,72,development,local_path_other,development-harness,./plugins/development-harness
+Jamie-BitFlight/claude_skills,73,development,local_path_other,the-rewrite-room,./plugins/the-rewrite-room
+Jamie-BitFlight/claude_skills,74,development,local_path_other,process-siren,./plugins/process-siren
+Jamie-BitFlight/claude_skills,75,development,local_path_other,fastmcp-creator,./plugins/fastmcp-creator
+Jamie-BitFlight/claude_skills,85,build,local_path_other,litellm,./plugins/litellm
+Jamie-BitFlight/claude_skills,86,build,local_path_other,llamafile,./plugins/llamafile
+Jamie-BitFlight/claude_skills,87,build,local_path_other,xdg-base-directory,./plugins/xdg-base-directory
+Jamie-BitFlight/claude_skills,93,ci,local_path_other,conventional-commits,./plugins/conventional-commits
+Jamie-BitFlight/claude_skills,94,ci,local_path_other,commitlint,./plugins/commitlint
+Jamie-BitFlight/claude_skills,95,ci,local_path_other,gitlab-skill,./plugins/gitlab-skill
+soxoj/socid-extractor,97,test,local_dir,docs/,docs/
+KoljaB/RealtimeTTS,45,usage,local_doc,FAQ page,./FAQ.md
+openagents-org/openagents,241,usage,local_path_other,00_hello_world,demos/00_hello_world
+openagents-org/openagents,242,usage,local_path_other,01_startup_pitch_room,demos/01_startup_pitch_room
+openagents-org/openagents,243,usage,local_path_other,02_tech_news_stream,demos/02_tech_news_stream
+openagents-org/openagents,244,usage,local_path_other,03_research_team,demos/03_research_team
+openagents-org/openagents,245,usage,local_path_other,04_grammar_check_forum,demos/04_grammar_check_forum
+openagents-org/openagents,246,usage,local_path_other,05_agentworld,demos/05_agentworld
+openagents-org/openagents,247,usage,local_path_other,06_elon_musk_tracker,demos/06_elon_musk_tracker
+openagents-org/openagents,248,usage,local_path_other,07_grammar_check_forum_bedrock,demos/07_grammar_check_forum_bedrock
+openagents-org/openagents,249,usage,local_path_other,08_alternative_service_project,demos/08_alternative_service_project
+Nezreka/SoulSync,251,installation,local_doc,Support/DOCKER-OAUTH-FIX.md,Support/DOCKER-OAUTH-FIX.md
+nerdai/llm-agents-from-scratch,145,development,local_doc,CLAUDE.md,CLAUDE.md
+tinygrad/tinygrad,190,run,local_artifact,CI workflow,.github/workflows/test.yml
+IBM/federated-learning-lib,67,installation,local_dir,whl file,federated-learning-lib/
+IBM/federated-learning-lib,71,installation,local_doc,crypto set-up guide,setup-crypto.md
+IBM/federated-learning-lib,77,installation,local_other,here,experiment_manager
+IBM/federated-learning-lib,79,installation,local_other,here,openshift_fl
+bpwhelan/GameSentenceMiner,29,usage,local_path_other,Demo Gif,.github/files/readme_demo.avif
+almanak-co/sdk,82,installation,local_dir,`uniswap_rsi` demo strategy,strategies/demo/uniswap_rsi/
+almanak-co/sdk,216,usage,local_doc,`almanak/framework/backtesting/README.md`,almanak/framework/backtesting/README.md
+almanak-co/sdk,371,development,local_doc,Code of Conduct,CODE_OF_CONDUCT.md
+almanak-co/sdk,372,development,local_doc,Security Policy,SECURITY.md
+scidsg/hushline,93,development,local_doc,`AGENTS.md`,./AGENTS.md

@@ -1,0 +1,31 @@
+uvicorn_run   Fergana-Labs/scheduled                   scheduler.controlplane.server:app        resolves
+uvicorn_run   HOLYKEYZ/IntellectSafe                   app.main:app                             resolves
+uvicorn_run   Kludex/starlette                         main:app                                 UNRESOLVED
+uvicorn_run   Kludex/starlette                         example:app                              UNRESOLVED
+uvicorn_run   SoftwareEngineer-node/SmartTravel-ai-service main:app                                 resolves
+uvicorn_run   SolFoundry/solfoundry                    main:app                                 resolves
+gunicorn_run  benoitc/gunicorn                         myapp:app                                UNRESOLVED
+gunicorn_run  benoitc/gunicorn                         myapp:app                                UNRESOLVED
+gunicorn_run  benoitc/gunicorn                         not an app spec (extraction noise): Gunicorn is released under the MIT License. See the [LICENSE
+uvicorn_run   bkdevs/async-server                      src.server:app                           resolves
+uvicorn_run   chadi0x/TheBigBrother                    the_big_brother.gui.main:app             resolves
+uvicorn_run   hauxir/rapidbay                          app:app                                  resolves
+uvicorn_run   justrach/turboAPI                        main:app                                 UNRESOLVED
+uvicorn_run   radiac/nanodjango                        counter:app                              resolves
+uvicorn_run   shamspias/langgraph-agents               main:app                                 resolves
+uvicorn_run   subzeroid/instagrapi-rest                main:app                                 resolves
+npm_run       BerriAI/litellm                          dev                                      defined in package.json
+npm_run       CronusL-1141/AI-company                  dev                                      defined in package.json
+npm_run       Fergana-Labs/scheduled                   dev                                      defined in package.json
+npm_run       HOLYKEYZ/IntellectSafe                   dev                                      defined in package.json
+npm_run       SolFoundry/solfoundry                    dev                                      defined in package.json
+npm_run       ZHangZHengEric/Sage                      dev                                      defined in package.json
+npm_run       lutris/website                           build                                    defined in package.json
+npm_run       lutris/website                           watch                                    defined in package.json
+npm_run       shlokkhemani/openpoke                    dev                                      defined in package.json
+
+claims in the three types: 25 (24 checked, 1 extraction noise)
+unresolved against tree / package.json: 5
+primary estimate: 246/7034 = 3.50%
+strict (unresolved counted as drifted): 251/7034 = 3.57%
+all 25 moved to uncertain: 246/7009 = 3.51%

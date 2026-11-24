@@ -1,0 +1,45 @@
+      channel                             subset  elements  extracted  share_extracted
+ fenced block                                all      5776       2389            0.414
+ fenced block                     other language       588         39            0.066
+ fenced block                      python-tagged      1193         41            0.034
+ fenced block                       shell-tagged      2776       1869            0.673
+ fenced block                           untagged      1219        440            0.361
+  inline code                                all     19991       2917            0.146
+markdown link                    external target     13783        170            0.012
+markdown link                  local target, all      2428        344            0.142
+markdown link     local target, admitted section       567        339            0.598
+markdown link local target, non-admitted section      1861          5            0.003
+   prose line                                all    126444       3214            0.025
+
+Unextracted shell-tagged fenced blocks by kind:
+kind
+project-specific executable             553
+other package manager or system tool    117
+configuration or data                    90
+output, URL or other                     51
+prompt-prefixed command                  45
+local script invocation                  28
+vocabulary command not matched           18
+comments only                             5
+
+Unextracted inline code by kind:
+kind
+word, value or name                 10942
+identifier                           1912
+path-like                            1541
+option or flag                       1135
+environment variable or constant      860
+URL                                   665
+vocabulary command not matched         19
+path-like inline spans not extracted: 1541, of which in admitted sections (inside the construct): 162
+
+Local links in admitted sections not extracted, by target type:
+link_target_type
+local_doc           104
+local_path_other     70
+local_dir            29
+local_other          19
+local_artifact        6
+
+Elements inside the construct that were not extracted (upper bound): shell blocks 91 + path-like inline spans in admitted sections 162 + local links in admitted sections 228 = 481 (6.0% of the 7992 candidates)
+Project-specific executables in unextracted shell blocks (externally grounded commands, not verifiable against the tree): 553; counting them as supported claims would give 246/7587 = 3.24%

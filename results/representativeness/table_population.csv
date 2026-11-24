@@ -1,0 +1,10 @@
+,n_population,corpus,corpus_pct,filters_passed_pct
+stars:10-99|pushed:0-180d,104211,120,0.12,34.0
+stars:10-99|pushed:181-730d,98638,71,0.07,32.0
+stars:100-499|pushed:0-180d,21437,123,0.57,53.0
+stars:100-499|pushed:181-730d,14985,91,0.61,30.0
+stars:500-1999|pushed:0-180d,6804,143,2.1,55.0
+stars:500-1999|pushed:181-730d,3391,115,3.39,37.0
+stars:2000-*|pushed:0-180d,3455,144,4.17,57.0
+stars:2000-*|pushed:181-730d,1024,98,9.57,38.0
+Total,253945,905,0.36,42.0

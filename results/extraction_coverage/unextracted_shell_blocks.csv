@@ -1,0 +1,3217 @@
+full_name,line_no,section_class,admitted,kind,content
+alchemiststudiosDOTai/tunacode,86,installation,True,project-specific executable,"# Configure API key
+tunacode --setup
+
+# Start coding
+tunacode"
+Firmfox/Proxify,31,other,False,configuration or data,https://raw.githubusercontent.com/Firmfox/proxify/main/v2ray_configs/mixed/subscription-1.txt
+Firmfox/Proxify,35,other,False,configuration or data,https://raw.githubusercontent.com/Firmfox/proxify/main/v2ray_configs/mixed/subscription-2.txt
+Firmfox/Proxify,39,other,False,configuration or data,https://raw.githubusercontent.com/Firmfox/proxify/main/v2ray_configs/mixed/subscription-3.txt
+Firmfox/Proxify,43,other,False,configuration or data,https://raw.githubusercontent.com/Firmfox/proxify/main/v2ray_configs/mixed/subscription-4.txt
+Firmfox/Proxify,47,other,False,configuration or data,https://raw.githubusercontent.com/Firmfox/proxify/main/v2ray_configs/mixed/subscription-5.txt
+Firmfox/Proxify,51,other,False,configuration or data,https://raw.githubusercontent.com/Firmfox/proxify/main/v2ray_configs/mixed/subscription-6.txt
+Firmfox/Proxify,55,other,False,configuration or data,https://raw.githubusercontent.com/Firmfox/proxify/main/v2ray_configs/mixed/subscription-7.txt
+Firmfox/Proxify,59,other,False,configuration or data,https://raw.githubusercontent.com/Firmfox/proxify/main/v2ray_configs/mixed/subscription-8.txt
+Firmfox/Proxify,63,other,False,configuration or data,https://raw.githubusercontent.com/Firmfox/proxify/main/v2ray_configs/mixed/subscription-9.txt
+Firmfox/Proxify,67,other,False,configuration or data,https://raw.githubusercontent.com/Firmfox/proxify/main/v2ray_configs/mixed/subscription-10.txt
+Firmfox/Proxify,71,other,False,configuration or data,https://raw.githubusercontent.com/Firmfox/proxify/main/v2ray_configs/mixed/subscription-11.txt
+Firmfox/Proxify,75,other,False,configuration or data,https://raw.githubusercontent.com/Firmfox/proxify/main/v2ray_configs/mixed/subscription-12.txt
+Firmfox/Proxify,79,other,False,configuration or data,https://raw.githubusercontent.com/Firmfox/proxify/main/v2ray_configs/mixed/subscription-13.txt
+Firmfox/Proxify,83,other,False,configuration or data,https://raw.githubusercontent.com/Firmfox/proxify/main/v2ray_configs/mixed/subscription-14.txt
+Firmfox/Proxify,87,other,False,configuration or data,https://raw.githubusercontent.com/Firmfox/proxify/main/v2ray_configs/mixed/subscription-15.txt
+Firmfox/Proxify,91,other,False,configuration or data,https://raw.githubusercontent.com/Firmfox/proxify/main/v2ray_configs/mixed/subscription-16.txt
+Firmfox/Proxify,95,other,False,configuration or data,https://raw.githubusercontent.com/Firmfox/proxify/main/v2ray_configs/mixed/subscription-17.txt
+Firmfox/Proxify,99,other,False,configuration or data,https://raw.githubusercontent.com/Firmfox/proxify/main/v2ray_configs/mixed/subscription-18.txt
+Firmfox/Proxify,103,other,False,configuration or data,https://raw.githubusercontent.com/Firmfox/proxify/main/v2ray_configs/mixed/subscription-19.txt
+Firmfox/Proxify,107,other,False,configuration or data,https://raw.githubusercontent.com/Firmfox/proxify/main/v2ray_configs/mixed/subscription-20.txt
+Firmfox/Proxify,113,other,False,configuration or data,https://raw.githubusercontent.com/Firmfox/proxify/main/v2ray_configs/seperated_by_protocol/vmess.txt
+Firmfox/Proxify,117,other,False,configuration or data,https://raw.githubusercontent.com/Firmfox/proxify/main/v2ray_configs/seperated_by_protocol/vless.txt
+Firmfox/Proxify,121,other,False,configuration or data,https://raw.githubusercontent.com/Firmfox/proxify/main/v2ray_configs/seperated_by_protocol/trojan.txt
+Firmfox/Proxify,125,other,False,configuration or data,https://raw.githubusercontent.com/Firmfox/proxify/main/v2ray_configs/seperated_by_protocol/shadowsocks.txt
+Firmfox/Proxify,129,other,False,configuration or data,https://raw.githubusercontent.com/Firmfox/proxify/main/v2ray_configs/seperated_by_protocol/other.txt
+Firmfox/Proxify,135,other,False,configuration or data,https://raw.githubusercontent.com/Firmfox/proxify/main/telegram_proxies/mtproto.txt
+Firmfox/Proxify,139,other,False,configuration or data,https://raw.githubusercontent.com/Firmfox/proxify/main/telegram_proxies/socks5.txt
+Firmfox/Proxify,145,other,False,configuration or data,https://raw.githubusercontent.com/Firmfox/proxify/main/proxies/socks4.txt
+Firmfox/Proxify,149,other,False,configuration or data,https://raw.githubusercontent.com/Firmfox/proxify/main/proxies/socks5.txt
+Firmfox/Proxify,153,other,False,configuration or data,https://raw.githubusercontent.com/Firmfox/proxify/main/proxies/http.txt
+Firmfox/Proxify,157,other,False,configuration or data,https://raw.githubusercontent.com/Firmfox/proxify/main/proxies/https.txt
+IBM/fastfit,25,usage,True,project-specific executable,"train_fastfit \
+    --model_name_or_path ""sentence-transformers/paraphrase-mpnet-base-v2"" \
+    --train_file $TRAIN_FILE \
+    --validation_file $VALIDATION_FILE \
+    --output_dir ./tmp/try \
+    --overwrite_output_dir \
+    --report_to none \
+    --label_column_name label\
+    --text_column_name text \
+    --num_train_epochs 40 \
+    --dataloader_drop_last true \
+    --per_device_train_batch_size 32 \
+    --per_device_eval_batch_size 64 \
+    --evaluation_strategy steps \
+    --max_text_length 128 \
+    --logging_steps 100 \
+    --dataloader_drop_last=False \
+    --num_repeats 4 \
+    --save_strategy no \
+    --optim adafactor \
+    --clf_loss_factor 0.1 \
+    --do_train \
+    --fp16 \
+    --projection_dim 128"
+QData/TextAttack,67,usage,True,project-specific executable,textattack --help
+QData/TextAttack,73,usage,True,project-specific executable,textattack attack --help
+QData/TextAttack,91,usage,True,project-specific executable,textattack attack --recipe textfooler --model bert-base-uncased-mr --num-examples 100
+QData/TextAttack,97,usage,True,project-specific executable,textattack attack --model distilbert-base-uncased-cola --recipe deepwordbug --num-examples 100
+QData/TextAttack,103,usage,True,project-specific executable,"textattack attack --model lstm-mr --num-examples 20 \
+ --search-method beam-search^beam_width=4 --transformation word-swap-embedding \
+ --constraints repeat stopword max-words-perturbed^max_num_words=2 embedding^min_cos_sim=0.8 part-of-speech \
+ --goal-function untargeted-classification"
+QData/TextAttack,313,usage,True,project-specific executable,textattack attack --model bert-base-uncased-sst2 --recipe textfooler --num-examples 10
+QData/TextAttack,319,usage,True,project-specific executable, textattack attack --model t5-en-de --recipe seq2sick --num-examples 100
+QData/TextAttack,358,other,False,project-specific executable,textattack augment --input-csv examples.csv --output-csv output.csv  --input-column text --recipe embedding --pct-words-to-swap .1 --transformations-per-example 2 --exclude-original
+QData/TextAttack,443,usage,True,project-specific executable,textattack train --model-name-or-path lstm --dataset yelp_polarity  --epochs 50 --learning-rate 1e-5
+QData/TextAttack,449,usage,True,project-specific executable,textattack train --model-name-or-path bert-base-uncased --dataset glue^cola --per-device-train-batch-size 8 --epochs 5
+QData/TextAttack,457,test,True,project-specific executable,textattack peek-dataset --dataset-from-huggingface snli
+QData/TextAttack,487,other,False,project-specific executable,textattack attack --model roberta-base-sst2 --recipe textfooler --num-examples 10
+QData/TextAttack,497,other,False,project-specific executable,textattack attack --model-from-huggingface distilbert-base-uncased-finetuned-sst-2-english --dataset-from-huggingface glue^sst2 --recipe deepwordbug --num-examples 10
+BeyondTrust/pwning-agentcore-code-interpreter,205,test,True,project-specific executable,whoami
+BeyondTrust/pwning-agentcore-code-interpreter,211,test,True,project-specific executable,genesis1ptools
+BeyondTrust/pwning-agentcore-code-interpreter,221,test,True,other package manager or system tool,"aws s3 ls
+aws s3 ls s3://agentcore-hacking-sensitive-data --recursive"
+BeyondTrust/pwning-agentcore-code-interpreter,246,test,True,other package manager or system tool,"# 3. Exfiltrate sensitive S3 file contents
+aws s3 cp s3://agentcore-hacking-sensitive-data/customer-data/users-export.csv -
+aws s3 cp s3://agentcore-hacking-sensitive-data/credentials/api-keys.json -
+aws s3 cp s3://agentcore-hacking-sensitive-data/financial/Q3-2024-revenue.csv -
+````
+
+Output:
+"
+nomadkaraoke/karaoke-gen,15,usage,True,project-specific executable,"karaoke-gen ""ABBA"" ""Waterloo"""
+nomadkaraoke/karaoke-gen,22,usage,True,project-specific executable,"karaoke-gen-remote ./song.flac ""ABBA"" ""Waterloo"""
+nomadkaraoke/karaoke-gen,119,other,False,project-specific executable,"karaoke-gen --skip-lyrics ""Artist"" ""Title"""
+nomadkaraoke/karaoke-gen,133,usage,True,project-specific executable,"# Generate from local audio file
+karaoke-gen ./song.mp3 ""Artist Name"" ""Song Title""
+
+# Search and download audio automatically
+karaoke-gen ""Rick Astley"" ""Never Gonna Give You Up""
+
+# Process from YouTube URL
+karaoke-gen ""https://www.youtube.com/watch?v=dQw4w9WgXcQ"" ""Rick Astley"" ""Never Gonna Give You Up"""
+nomadkaraoke/karaoke-gen,155,other,False,project-specific executable,"# Custom styling
+karaoke-gen --style_params_json=""./styles.json"" ""Artist"" ""Title""
+
+# Generate CDG and TXT packages
+karaoke-gen --enable_cdg --enable_txt ""Artist"" ""Title""
+
+# Skip video encoding (CDG/TXT only, faster)
+karaoke-gen --no-video --enable_cdg ""Artist"" ""Title""
+
+# YouTube upload
+karaoke-gen --enable_youtube_upload --youtube_description_file=""./desc.txt"" ""Artist"" ""Title""
+
+# Full production run
+karaoke-gen \
+  --style_params_json=""./branding.json"" \
+  --enable_cdg \
+  --enable_txt \
+  --brand_prefix=""BRAND"" \
+  --enable_youtube_upload \
+  --youtube_description_file=""./description.txt"" \
+  ""Artist"" ""Title"""
+nomadkaraoke/karaoke-gen,181,documentation,False,project-specific executable,karaoke-gen --help
+nomadkaraoke/karaoke-gen,199,installation,True,other package manager or system tool,   gcloud auth login
+nomadkaraoke/karaoke-gen,205,usage,True,project-specific executable,"# Submit a job
+karaoke-gen-remote ./song.flac ""ABBA"" ""Waterloo""
+
+# The CLI will:
+# 1. Upload your audio file
+# 2. Monitor processing progress
+# 3. Open lyrics review UI when ready
+# 4. Prompt for instrumental selection
+# 5. Download all outputs when complete"
+nomadkaraoke/karaoke-gen,219,other,False,project-specific executable,"# List all jobs
+karaoke-gen-remote --list
+
+# Resume monitoring an existing job
+karaoke-gen-remote --resume abc12345
+
+# Cancel a running job
+karaoke-gen-remote --cancel abc12345
+
+# Delete a job and its files
+karaoke-gen-remote --delete abc12345"
+nomadkaraoke/karaoke-gen,272,other,False,project-specific executable,"karaoke-gen-remote -y ./song.flac ""Artist"" ""Title"""
+nomadkaraoke/karaoke-gen,387,other,False,other package manager or system tool,"# AudioShake API key
+echo -n ""your-audioshake-key"" | gcloud secrets versions add audioshake-api-key --data-file=-
+
+# Genius API key
+echo -n ""your-genius-key"" | gcloud secrets versions add genius-api-key --data-file=-
+
+# Modal API URL
+echo -n ""https://your-modal-url"" | gcloud secrets versions add audio-separator-api-url --data-file=-
+
+# YouTube OAuth credentials (JSON)
+gcloud secrets versions add youtube-oauth-credentials --data-file=./youtube-creds.json
+
+# Dropbox OAuth credentials (JSON)
+gcloud secrets versions add dropbox-oauth-credentials --data-file=./dropbox-creds.json
+
+# Google Drive service account (JSON)
+gcloud secrets versions add gdrive-service-account --data-file=./gdrive-sa.json"
+nomadkaraoke/karaoke-gen,539,other,False,other package manager or system tool,"   echo $AUDIOSHAKE_API_TOKEN
+   echo $RUNPOD_API_KEY"
+nomadkaraoke/karaoke-gen,547,other,False,project-specific executable,"   karaoke-gen --skip-lyrics ""Artist"" ""Title"""
+nomadkaraoke/karaoke-gen,562,other,False,project-specific executable,"   karaoke-gen --log_level debug ""Artist"" ""Title"""
+Tsprnay/Proxy-lists,12,other,False,configuration or data,    https://raw.githubusercontent.com/Tsprnay/Proxy-lists/master/proxies/all.txt
+Tsprnay/Proxy-lists,16,other,False,configuration or data,    https://raw.githubusercontent.com/Tsprnay/Proxy-lists/master/proxies/all_no_ports.txt
+Tsprnay/Proxy-lists,20,other,False,configuration or data,    https://raw.githubusercontent.com/Tsprnay/Proxy-lists/master/proxies/http.txt
+Tsprnay/Proxy-lists,24,other,False,configuration or data,    https://raw.githubusercontent.com/Tsprnay/Proxy-lists/master/proxies/https.txt
+Tsprnay/Proxy-lists,28,other,False,configuration or data,    https://raw.githubusercontent.com/Tsprnay/Proxy-lists/master/proxies/socks4.txt
+Tsprnay/Proxy-lists,32,other,False,configuration or data,    https://raw.githubusercontent.com/Tsprnay/Proxy-lists/master/proxies/socks5.txt
+gnikit/pymmg,58,other,False,project-specific executable,mmgs input.mesh output.mesh
+gnikit/pymmg,64,other,False,project-specific executable,mmg3d input.mesh output.mesh
+gnikit/pymmg,70,other,False,project-specific executable,mmg2d input.mesh output.mesh
+RayBytes/ChatMock,27,other,False,other package manager or system tool,"brew tap RayBytes/chatmock
+brew install chatmock"
+RayBytes/ChatMock,34,usage,True,other package manager or system tool,pipx install chatmock
+ScotterMonk/AgentAutoFlow,34,installation,True,project-specific executable,py -m pip install -r requirements.txt 
+ScotterMonk/AgentAutoFlow,39,installation,True,project-specific executable,playwright install chromium
+EnhancedJax/Bagels,103,usage,True,project-specific executable,"bagels # start bagels
+bagels --at ""./"" # start bagels with data stored at cd
+bagels locate database # find database file path
+bagels locate config # find config file path"
+NousResearch/hermes-agent,51,installation,True,project-specific executable,"hermes              # Interactive CLI — start a conversation
+hermes model        # Choose your LLM provider and model
+hermes tools        # Configure which tools are enabled
+hermes config set   # Set individual config values
+hermes gateway      # Start the messaging gateway (Telegram, Discord, etc.)
+hermes setup        # Run the full setup wizard (configures everything at once)
+hermes claw migrate # Migrate from OpenClaw (if coming from OpenClaw)
+hermes update       # Update to the latest version
+hermes doctor       # Diagnose any issues"
+NousResearch/hermes-agent,117,other,False,project-specific executable,"hermes claw migrate              # Interactive migration (full preset)
+hermes claw migrate --dry-run    # Preview what would be migrated
+hermes claw migrate --preset user-data   # Migrate without secrets
+hermes claw migrate --overwrite  # Overwrite existing conflicts"
+fhamborg/news-please,101,usage,True,prompt-prefixed command,$ news-please
+sthysel/ops241,33,usage,True,prompt-prefixed command,"$ ops241
+
+Usage: ops241 [OPTIONS] COMMAND [ARGS]...
+
+  OPS241 Radar
+
+Options:
+  --version                    Show the version and exit.
+  -p, --port TEXT              TTY Port radar is available at  [default: /dev/ttyACM0]
+  -j, --json-format / --plain  JSON Output format  [default: True]
+  --help                       Show this message and exit.
+
+Commands:
+  api           List available API commands
+  factoryreset  Reset to factory settings
+  info          Print current module configuration
+  ports         List available com ports
+  watch         Watch data stream from radar
+"
+sthysel/ops241,57,other,False,prompt-prefixed command,"$ ops241 info
+
+{
+    ""Version"": ""1.3.0"",
+    ""SamplingRate"": 5000,
+    ""resolution"": 0.0303,
+    ""SampleSize"": 1024,
+    ""Clock"": ""2154"",
+    ""Q2COUNT"": ""1150 (~23000 counts/sec) @t=2154"",
+    ""PowerMode"": ""Continuous"",
+    ""Squelch"": ""100"",
+    ""RequiredMinSpeed"": ""0.000""
+}
+"
+sthysel/ops241,76,documentation,False,prompt-prefixed command,"$ ops241 commands
+GET_BOARD_UID
+GET_CONFIG
+GET_DATA_PRESISION0
+GET_FIRMWARE_BUILD_NUMBER
+GET_FIRMWARE_VERSION_NUMBER
+GET_MODULE_INFORMATION
+GET_PART_NUMBER
+GET_QUERY_TIME
+GET_RESET_REASON
+GET_SPEED_UNITS
+GET_TX_FREQUENCY
+GET_UART_BAUD_RATE
+RESET_CLOCK
+RESET_CONFIG
+SET_BUFFER_SIZE_1024
+SET_BUFFER_SIZE_256
+SET_BUFFER_SIZE_512
+SET_CONFIG
+SET_DATA_PRECISION0
+SET_DATA_PRECISION1
+SET_DATA_PRECISION2
+SET_DATA_PRECISION3
+SET_DATA_PRECISION4
+SET_DATA_PRECISION5
+SET_DUTY_CYCLE
+SET_DUTY_CYCLE_0
+SET_DUTY_CYCLE_10
+SET_DUTY_CYCLE_100
+SET_DUTY_CYCLE_1S
+SET_DUTY_CYCLE_200S
+SET_DUTY_CYCLE_50
+SET_DUTY_CYCLE_5S
+SET_DUTY_CYCLE_NORMAL
+SET_MAGNITUDE_HIGH
+SET_MAGNITUDE_LOW
+SET_MAGNITUDE_LOW_NO_LIMIT
+SET_MOTION_INTERRUPT_OFF
+SET_MOTION_INTERRUPT_ON
+SET_OUTPUT_FFT_OFF
+SET_OUTPUT_FFT_ON
+SET_OUTPUT_JSON_OFF
+SET_OUTPUT_JSON_ON
+SET_OUTPUT_LED_OFF
+SET_OUTPUT_LED_ON
+SET_OUTPUT_MAGNITUDE_OFF
+SET_OUTPUT_MAGNITUDE_ON
+SET_OUTPUT_RAW_ADC_OFF
+SET_OUTPUT_RAW_ADC_ON
+SET_OUTPUT_REPORT_NUMBER
+SET_OUTPUT_SPEED_REPORT_OFF
+SET_OUTPUT_SPEED_REPORT_ON
+SET_OUTPUT_TIME_OFF
+SET_OUTPUT_TIME_ON
+SET_OUTPUT_ZERO_BLANK_LINES
+SET_OUTPUT_ZERO_BLANK_OFF
+SET_OUTPUT_ZERO_BLANK_ON
+SET_POWER_MODE_0
+SET_POWER_MODE_1
+SET_POWER_MODE_2
+SET_POWER_MODE_3
+SET_POWER_MODE_4
+SET_POWER_MODE_5
+SET_POWER_MODE_6
+SET_POWER_MODE_7
+SET_POWER_MODE_ACTIVE
+SET_POWER_MODE_IDLE
+SET_POWER_MODE_MAX
+SET_POWER_MODE_MID
+SET_POWER_MODE_MIN
+SET_POWER_MODE_SINGLE_SHOT
+SET_POWER_MODE_SYSTEM_RESET
+SET_POWER_MODE_TX_OFF
+SET_RED_LED_OFF
+SET_RED_LED_ON
+SET_SAMPLE_RATE_100K_PER_SECOND
+SET_SAMPLE_RATE_10K_PER_SECOND
+SET_SAMPLE_RATE_1K_PER_SECOND
+SET_SAMPLE_RATE_20K_PER_SECOND
+SET_SAMPLE_RATE_50K_PER_SECOND
+SET_SAMPLE_RATE_5K_PER_SECOND
+SET_SPEED_REPORT_CLEAR_DIRECTION_CONTROL
+SET_SPEED_REPORT_INBOUND_DIRECTION_ONLY
+SET_SPEED_REPORT_MAXIMUM
+SET_SPEED_REPORT_MINIMUM
+SET_SPEED_REPORT_OUTBOUND_DIRECTION_ONLY
+SET_SPEED_UNITS_CM_PER_SECOND
+SET_SPEED_UNITS_FEET_PER_SECOND
+SET_SPEED_UNITS_KM_PER_HOUR
+SET_SPEED_UNITS_METERS_PER_SECOND
+SET_SPEED_UNITS_MILES_PER_HOUR
+SET_SQUELCH_100
+SET_SQUELCH_1000
+SET_SQUELCH_10000
+SET_SQUELCH_20000
+SET_SQUELCH_30000
+SET_SQUELCH_40000
+SET_SQUELCH_500
+SET_SQUELCH_5000
+SET_SQUELCH_50000
+SET_SQUELCH_60000
+SET_SQUELCH_HIGH
+SET_SQUELCH_HIGH_NO_LIMIT
+SET_SQUELCH_LOW
+SET_SQUELCH_LOW_NO_LIMIT
+SET_SQUELCH_n
+SET_TX_FREQUENCY
+SET_UART_BAUD_RATE_115200
+SET_UART_BAUD_RATE_19200
+SET_UART_BAUD_RATE_230400
+SET_UART_BAUD_RATE_57600
+SET_UART_BAUD_RATE_9600
+SET_YELLOW_LED_OFF
+SET_YELLOW_LED_ON
+"
+sthysel/ops241,196,other,False,prompt-prefixed command,"$ ops241 watch
+{""OutputFeature"":""J""}
+{""OutputFeature"":""M""}
+{""Product"":""OPS241""}
+{""Version"":""1.3.0""}
+{""SamplingRate"":5000, ""resolution"":0.0995}
+{""SampleSize"":1024}
+{""Clock"":""88648""}
+{""Q2COUNT"":""1150 (~23000 counts/sec) @t=88648""}
+{""PowerMode"":""Continuous""}
+{""Squelch"":""1000""}
+{""RequiredMinSpeed"":""0.000""}
+{""magnitude"":""467.72"",""speed"":""-0.25"",""distance"":""0.00""}
+{""magnitude"":""362.44"",""speed"":""-0.35"",""distance"":""0.00""}
+{""magnitude"":""166.39"",""speed"":""-1.44"",""distance"":""0.00""}
+{""magnitude"":""170.31"",""speed"":""-1.24"",""distance"":""0.00""}
+{""magnitude"":""165.46"",""speed"":""-1.44"",""distance"":""0.00""}
+{""magnitude"":""117.24"",""speed"":""-0.45"",""distance"":""0.00""}
+{""magnitude"":""130.33"",""speed"":""-1.44"",""distance"":""0.00""}
+{""magnitude"":""78.59"",""speed"":""-0.55"",""distance"":""0.00""}
+{""magnitude"":""139.40"",""speed"":""-1.05"",""distance"":""0.00""}
+{""magnitude"":""118.74"",""speed"":""0.45"",""distance"":""0.00""}
+{""magnitude"":""161.28"",""speed"":""-0.25"",""distance"":""0.00""}
+{""magnitude"":""108.46"",""speed"":""-0.65"",""distance"":""0.00""}
+{""magnitude"":""418.98"",""speed"":""-0.85"",""distance"":""0.00""}"
+chopratejas/headroom,90,other,False,project-specific executable,headroom proxy --port 8787
+chopratejas/headroom,94,other,False,configuration or data,"# Point any LLM client at the proxy
+ANTHROPIC_BASE_URL=http://localhost:8787 your-app
+OPENAI_BASE_URL=http://localhost:8787/v1 your-app"
+chopratejas/headroom,104,other,False,project-specific executable,"headroom wrap claude       # Starts proxy + launches Claude Code
+headroom wrap codex        # Starts proxy + launches OpenAI Codex CLI
+headroom wrap aider        # Starts proxy + launches Aider
+headroom wrap cursor       # Starts proxy + prints Cursor config"
+chopratejas/headroom,128,other,False,project-specific executable,headroom mcp install && claude
+chopratejas/headroom,240,other,False,project-specific executable,"headroom learn                   # Analyze past Claude Code sessions, show recommendations
+headroom learn --apply           # Write learnings to CLAUDE.md and MEMORY.md
+headroom learn --all --apply     # Learn across all your projects"
+chopratejas/headroom,347,deployment,True,project-specific executable,"headroom proxy --backend bedrock --region us-east-1     # AWS Bedrock
+headroom proxy --backend vertex_ai --region us-central1 # Google Vertex
+headroom proxy --backend azure                          # Azure OpenAI
+headroom proxy --backend openrouter                     # OpenRouter (400+ models)"
+vivekVells/mcp-pandoc,160,usage,True,configuration or data,"{
+  ""mcpServers"": {
+    ""mcp-pandoc"": {
+      ""command"": ""uvx"",
+      ""args"": [""mcp-pandoc""]
+    }
+  }
+}"
+vivekVells/mcp-pandoc,182,installation,True,other package manager or system tool,"  # macOS
+  brew install pandoc
+
+  # Ubuntu/Debian
+  sudo apt-get install pandoc
+
+  # Windows
+  # Download installer from: https://pandoc.org/installing.html"
+vivekVells/mcp-pandoc,215,installation,True,other package manager or system tool,"  # Ubuntu/Debian
+  sudo apt-get install texlive-xetex
+
+  # macOS
+  brew install texlive
+
+  # Windows
+  # Install MiKTeX or TeX Live from:
+  # https://miktex.org/ or https://tug.org/texlive/"
+vivekVells/mcp-pandoc,236,usage,True,configuration or data,"# Converting content to PDF
+""Convert this text to PDF and save as /path/to/document.pdf""
+
+# Converting between file formats
+""Convert /path/to/input.md to PDF and save as /path/to/output.pdf""
+
+# Converting to DOCX with a reference document template
+""Convert input.md to DOCX using template.docx as reference and save as output.docx""
+
+# Step-by-step reference document workflow
+""First create a reference document: pandoc -o custom-reference.docx --print-default-data-file reference.docx"" or if you already have one, use that
+""Then convert with custom styling: Convert this text to DOCX using /path/to/custom-reference.docx as reference and save as /path/to/styled-output.docx"""
+vivekVells/mcp-pandoc,253,usage,True,configuration or data,"# Missing filename and extension
+""Save this as PDF in /documents/""
+
+# Missing complete path
+""Convert this to PDF""
+
+# Missing extension
+""Save as /documents/story"""
+vivekVells/mcp-pandoc,310,installation,True,configuration or data,"""mcpServers"": {
+  ""mcp-pandoc"": {
+    ""command"": ""uv"",
+    ""args"": [
+      ""--directory"",
+      ""<DIRECTORY>/mcp-pandoc"",
+      ""run"",
+      ""mcp-pandoc""
+    ]
+  }
+}"
+vivekVells/mcp-pandoc,328,installation,True,configuration or data,"""mcpServers"": {
+  ""mcp-pandoc"": {
+    ""command"": ""uvx"",
+    ""args"": [
+      ""mcp-pandoc""
+    ]
+  }
+}"
+vivekVells/mcp-pandoc,344,installation,True,vocabulary command not matched,npx -y @smithery/cli install mcp-pandoc --client claude
+vivekVells/mcp-pandoc,401,other,False,vocabulary command not matched,npx @modelcontextprotocol/inspector uv --directory /Users/vivekvells/Desktop/code/ai/mcp-pandoc run mcp-pandoc
+soxoj/maigret,117,usage,True,project-specific executable,"# make HTML, PDF, and Xmind8 reports
+maigret user --html
+maigret user --pdf
+maigret user --xmind #Output not compatible with xmind 2022+
+
+# search on sites marked with tags photo & dating
+maigret user --tags photo,dating
+
+# search on sites marked with tag us
+maigret user --tags us
+
+# search for three usernames on all available sites
+maigret user1 user2 user3 -a"
+soxoj/maigret,152,other,False,project-specific executable,maigret --web 5000
+bitwize-music-studio/claude-ai-music-skills,94,installation,True,"output, URL or other","# Add the marketplace
+/plugin marketplace add bitwize-music-studio/claude-ai-music-skills
+
+# Install the plugin
+/plugin install bitwize-music@claude-ai-music-skills"
+bitwize-music-studio/claude-ai-music-skills,138,installation,True,"output, URL or other","  /plugin marketplace add bitwize-music-studio/claude-ai-music-skills
+  /plugin install bitwize-music@claude-ai-music-skills"
+bitwize-music-studio/claude-ai-music-skills,144,installation,True,"output, URL or other",  /bitwize-music:setup
+bitwize-music-studio/claude-ai-music-skills,149,installation,True,"output, URL or other",  /bitwize-music:configure
+bitwize-music-studio/claude-ai-music-skills,178,installation,True,project-specific executable,  claude
+bitwize-music-studio/claude-ai-music-skills,588,other,False,other package manager or system tool,"# Check config
+cat ~/.bitwize-music/config.yaml
+
+# List all album READMEs
+find ~/your-content-root/artists -name README.md -path ""*/albums/*"""
+lxe/yapyap,7,other,False,project-specific executable,"yapyap | while read l; do wl-copy -- $l && hyprctl dispatch sendshortcut 'CTRL+SHIFT,V,'; done"
+lxe/yapyap,22,installation,True,other package manager or system tool,sudo usermod -a -G input $USER
+lxe/yapyap,52,usage,True,project-specific executable,yapyap
+lxe/yapyap,58,usage,True,configuration or data,CHORD=KEY_FN yapyap
+lxe/yapyap,64,usage,True,configuration or data,MODEL=tiny.en-q8_0 yapyap
+lxe/yapyap,70,usage,True,project-specific executable,"yapyap | while read l; do echo ""do whatever you want with $l""; done"
+lxe/yapyap,76,usage,True,project-specific executable,"yapyap | while read l; do wl-copy -- $l && hyprctl dispatch sendshortcut 'CTRL+SHIFT,V,'; done"
+mheidari98/.proxy,15,usage,True,project-specific executable,    v2rayChecker -v -T 100 --url 'https://raw.githubusercontent.com/mheidari98/.proxy/main/all'
+mheidari98/.proxy,23,other,False,configuration or data,    https://raw.githubusercontent.com/mheidari98/.proxy/main/all
+mheidari98/.proxy,27,other,False,configuration or data,    https://raw.githubusercontent.com/mheidari98/.proxy/main/vmess
+mheidari98/.proxy,31,other,False,configuration or data,    https://raw.githubusercontent.com/mheidari98/.proxy/main/ss
+comet-ml/opik,132,test,True,local script invocation,"# Start full Opik suite (default behavior)
+./opik.sh
+
+# Start only infrastructure services (databases, caches etc.)
+./opik.sh --infra
+
+# Start infrastructure + backend services
+./opik.sh --backend
+
+# Enable guardrails with any profile
+./opik.sh --guardrails # Guardrails with full Opik suite
+./opik.sh --backend --guardrails # Guardrails with infrastructure + backend"
+comet-ml/opik,179,installation,True,project-specific executable,opik configure
+MarkusPfundstein/mcp-obsidian,149,other,False,vocabulary command not matched,npx @modelcontextprotocol/inspector uv --directory /path/to/mcp-obsidian run mcp-obsidian
+MarkusPfundstein/mcp-obsidian,157,other,False,project-specific executable,tail -n 20 -f ~/Library/Logs/Claude/mcp-server-mcp-obsidian.log
+iszhanjiawei/indexTTS2,102,installation,True,project-specific executable,"from indextts.infer_indextts2 import IndexTTS2
+tts = IndexTTS2(cfg_path=""checkpoints/config.yaml"", model_dir=""checkpoints"", is_fp16=False, use_cuda_kernel=False)
+text=""这是一个有很好情感表现力的自回归TTS大模型，它还可以控制合成语音的时长，希望能受到大家的喜欢。""
+tts.infer(spk_audio_prompt='test_data/input.wav', text=text, output_path=""gen.wav"", verbose=True)"
+iszhanjiawei/indexTTS2,111,installation,True,project-specific executable,"from indextts.infer_indextts2 import IndexTTS2
+tts = IndexTTS2(cfg_path=""checkpoints/config.yaml"", model_dir=""checkpoints"", is_fp16=False, use_cuda_kernel=False)
+text=""这是一个有很好情感表现力的自回归TTS大模型，它还可以控制合成语音的时长，希望能受到大家的喜欢。""
+tts.infer(spk_audio_prompt='test_data/input.wav', text=text, output_path=""gen.wav"", emo_audio_prompt=""test_data/low.wav"", verbose=True)"
+iszhanjiawei/indexTTS2,120,installation,True,project-specific executable,"from indextts.infer_indextts2 import IndexTTS2
+tts = IndexTTS2(cfg_path=""checkpoints/config.yaml"", model_dir=""checkpoints"", is_fp16=False, use_cuda_kernel=False)
+text=""这是一个有很好情感表现力的自回归TTS大模型，它还可以控制合成语音的时长，希望能受到大家的喜欢。""
+tts.infer(spk_audio_prompt='test_data/input.wav', text=text, output_path=""gen.wav"", emo_audio_prompt=""test_data/low.wav"", emo_alpha=0.5, verbose=True)"
+iszhanjiawei/indexTTS2,130,installation,True,project-specific executable,"from indextts.infer_indextts2 import IndexTTS2
+tts = IndexTTS2(cfg_path=""checkpoints/config.yaml"", model_dir=""checkpoints"", is_fp16=False, use_cuda_kernel=False)
+text=""这是一个有很好情感表现力的自回归TTS大模型，它还可以控制合成语音的时长，希望能受到大家的喜欢。""
+tts.infer(spk_audio_prompt='test_data/input.wav', text=text, output_path=""gen.wav"", emo_vector=[0, 1.0, 0, 0, 0, 0, 0, 0], verbose=True)"
+iszhanjiawei/indexTTS2,139,installation,True,project-specific executable,"from indextts.infer_indextts2 import IndexTTS2
+tts = IndexTTS2(cfg_path=""checkpoints/config.yaml"", model_dir=""checkpoints"", is_fp16=False, use_cuda_kernel=False)
+text=""这是一个有很好情感表现力的自回归TTS大模型，它还可以控制合成语音的时长，希望能受到大家的喜欢。""
+tts.infer(spk_audio_prompt='test_data/input.wav', text=text, output_path=""gen.wav"", use_emo_text=True, verbose=True)"
+iszhanjiawei/indexTTS2,148,installation,True,project-specific executable,"from indextts.infer_indextts2 import IndexTTS2
+tts = IndexTTS2(cfg_path=""checkpoints/config.yaml"", model_dir=""checkpoints"", is_fp16=False, use_cuda_kernel=False)
+text=""这是一个有很好情感表现力的自回归TTS大模型，它还可以控制合成语音的时长，希望能受到大家的喜欢。""
+tts.infer(spk_audio_prompt='test_data/input.wav', text=text, output_path=""gen.wav"", use_emo_text=True, emo_text='有一丢丢伤心', verbose=True)"
+iszhanjiawei/indexTTS2,159,installation,True,project-specific executable,"from indextts.infer_indextts2 import IndexTTS2
+tts = IndexTTS2(cfg_path=""checkpoints/config.yaml"", model_dir=""checkpoints"", is_fp16=False, use_cuda_kernel=False)
+text=""这是一个有很好情感表现力的自回归TTS大模型，它还可以控制合成语音的时长，希望能受到大家的喜欢。""
+tts.infer(spk_audio_prompt='test_data/input.wav', text=text, output_path=""gen.wav"", use_speed=True, target_dur=7.5, verbose=True)"
+iszhanjiawei/indexTTS2,180,installation,True,project-specific executable,indextts --help
+SpotOnInc/dbt_object_mgmt,35,usage,True,project-specific executable,"  dbt run-operation create_users \
+    --vars ""password: $3cr3t"""
+SpotOnInc/dbt_object_mgmt,55,usage,True,project-specific executable,  dbt run-operation create_network_policies
+SpotOnInc/dbt_object_mgmt,145,other,False,project-specific executable,"  dbt run-operation grant_schema_access \
+    --args ""roles: applications_read_only""
+    # only models ""{roles: applications_read_only, resource_types: ['models']}"
+Open-Wine-Components/umu-protonfixes,11,run,True,"output, URL or other",-pf_tricks=xliveless -pf_tricks=d3dcompiler_47
+Open-Wine-Components/umu-protonfixes,17,run,True,"output, URL or other",-pf_replace_cmd=/launcher.exe=/game.exe -pf_replace_cmd=/demo/=/full_version/
+Open-Wine-Components/umu-protonfixes,23,run,True,"output, URL or other",-pf_dxvk_set=dxgi.maxFrameRate=40 -pf_dxvk_set=d3d9.maxFrameRate=40
+Open-Wine-Components/umu-protonfixes,33,run,True,project-specific executable,mangohud %command% -window -pf_replace_cmd=/launcher.exe=/game.exe -pf_tricks=xliveless
+Open-Wine-Components/umu-protonfixes,164,other,False,other package manager or system tool,sudo pacman -Sy pre-commit
+Open-Wine-Components/umu-protonfixes,170,other,False,project-specific executable,pre-commit install
+Open-Wine-Components/umu-protonfixes,179,other,False,project-specific executable,"pre-commit run
+# or on all files, not only staged ones:
+pre-commit run --all-files"
+Open-Wine-Components/umu-protonfixes,201,build,True,other package manager or system tool,ln -rs . ../protonfixes
+Open-Wine-Components/umu-protonfixes,225,test,True,other package manager or system tool,sudo pacman -Sy ruff
+Open-Wine-Components/umu-protonfixes,231,test,True,project-specific executable,ruff check .
+Open-Wine-Components/umu-protonfixes,239,test,True,project-specific executable,ruff format .
+Open-Wine-Components/umu-protonfixes,253,other,False,other package manager or system tool,sudo pacman -Sy pyright
+Open-Wine-Components/umu-protonfixes,259,other,False,configuration or data,PYRIGHT_PYTHON_FORCE_VERSION=latest pyright
+Open-Wine-Components/umu-protonfixes,285,test,True,other package manager or system tool,"sudo pacman -Sy python-ijson python-trio
+sudo yay -Sy python-steam"
+chardet/chardet,121,usage,True,other package manager or system tool,"chardetect somefile.txt
+# somefile.txt: utf-8 with confidence 0.99
+
+chardetect --minimal somefile.txt
+# utf-8
+
+# Include detected language
+chardetect -l somefile.txt
+# somefile.txt: utf-8 en (English) with confidence 0.99
+
+# Only consider specific encodings
+chardetect -i utf-8,windows-1252 somefile.txt
+# somefile.txt: utf-8 with confidence 0.99
+
+# Pipe from stdin
+cat somefile.txt | chardetect
+# stdin: utf-8 with confidence 0.99"
+vllm-project/vllm-metal,39,other,False,other package manager or system tool,rm -rf ~/.venv-vllm-metal && curl -fsSL https://raw.githubusercontent.com/vllm-project/vllm-metal/main/install.sh | bash
+vllm-project/vllm-metal,46,other,False,other package manager or system tool,rm -rf ~/.venv-vllm-metal
+kha-white/manga-ocr,81,run,True,project-specific executable,    manga_ocr
+kha-white/manga-ocr,85,run,True,project-specific executable,"    manga_ocr ""/path/to/sharex/screenshot/folder"""
+kha-white/manga-ocr,96,run,True,project-specific executable,    manga_ocr --help
+helallao/perplexity-ai,69,other,False,project-specific executable,perplexity-mcp
+helallao/perplexity-ai,75,other,False,project-specific executable,claude mcp add perplexity -- perplexity-mcp
+helallao/perplexity-ai,100,other,False,configuration or data,MCP_TRANSPORT=http perplexity-mcp
+helallao/perplexity-ai,106,other,False,configuration or data,MCP_TRANSPORT=http MCP_HOST=0.0.0.0 MCP_PORT=9000 perplexity-mcp
+helallao/perplexity-ai,112,other,False,configuration or data,"MCP_TRANSPORT=http PERPLEXITY_COOKIES='{""next-auth.session-token"": ""...""}' perplexity-mcp"
+helallao/perplexity-ai,120,other,False,project-specific executable,claude mcp add --transport http perplexity http://127.0.0.1:8000/mcp
+helallao/perplexity-ai,128,other,False,project-specific executable,claude mcp list
+sakha1370/OpenRay,355,other,False,"output, URL or other","# Add to these files:
+sources.txt         # Global sources  "
+anishathalye/dotbot,43,other,False,project-specific executable,touch install.conf.yaml
+onecat-ai/OneCAT,62,other,False,project-specific executable,"accelerate launch --num_processes=1 generate_understanding.py \
+  --model_name_or_path=""path/to/OneCAT-3B"" \
+  --img_path=""assets/chat.png"" \
+  --question=""What is d in the last equation?"""
+onecat-ai/OneCAT,73,other,False,project-specific executable,"accelerate launch --num_processes=1 generate_txt2img.py \
+  --model_name_or_path=""path/to/OneCAT-3B"" \
+  --vae_path=""path/to/infinity_vae_d32reg.pth"" \
+  --prompt=""Fashion model with iridescent makeup, prismatic light reflections, high-fashion studio setting."" \
+  --output_dir=""output/txt2img"""
+onecat-ai/OneCAT,89,other,False,project-specific executable,"accelerate launch --num_processes=1 generate_imgedit.py \
+  --model_name_or_path=""path/to/OneCAT-3B"" \
+  --vae_path=""path/to/infinity_vae_d32reg.pth"" \
+  --image_path=""assets/imgedit.png"" \
+  --prompt=""Replace the bird in the image with a small rabbit."" \
+  --output_dir=""output/imgedit"""
+mosquito/aio-pika,466,documentation,False,project-specific executable,nox -s docs -- serve
+simonw/llm-openrouter,15,installation,True,project-specific executable,llm install llm-openrouter
+simonw/llm-openrouter,25,other,False,project-specific executable,llm keys set openrouter
+simonw/llm-openrouter,35,usage,True,project-specific executable,llm models list
+simonw/llm-openrouter,46,usage,True,project-specific executable,"llm -m openrouter/anthropic/claude-sonnet-4 ""Five spooky names for a pet tarantula"""
+simonw/llm-openrouter,50,usage,True,project-specific executable,llm aliases set claude openrouter/anthropic/claude-sonnet-4
+simonw/llm-openrouter,59,usage,True,project-specific executable,"llm -m openrouter/anthropic/claude-3.5-sonnet 'describe this image' -a https://static.simonwillison.net/static/2024/pelicans.jpg
+llm -m openrouter/anthropic/claude-3-haiku 'extract text' -a page.png"
+simonw/llm-openrouter,68,other,False,project-specific executable,llm models --options -q openrouter
+simonw/llm-openrouter,79,other,False,project-specific executable,"llm -m openrouter/google/gemini-flash-1.5 'describe image' \
+  -a https://static.simonwillison.net/static/2025/two-pelicans.jpg"
+simonw/llm-openrouter,92,other,False,project-specific executable,"llm -m openrouter/google/gemini-flash-1.5 'invent 3 cool capybaras' \
+  --schema-multi 'name,bio'"
+simonw/llm-openrouter,120,other,False,project-specific executable,"llm -m openrouter/openai/gpt-5 \
+  -T llm_version -T llm_time \
+  ""What version of LLM and what time is it?"" \
+  --tools-debug"
+simonw/llm-openrouter,156,other,False,project-specific executable,"llm -m openrouter/openai/gpt-5 \
+   'prove dogs exist' \
+   -o reasoning_effort high"
+simonw/llm-openrouter,168,other,False,project-specific executable,"llm -m openrouter/meta-llama/llama-3.1-8b-instruct hi \
+  -o provider '{""quantizations"": [""fp8""]}'"
+simonw/llm-openrouter,180,other,False,project-specific executable,llm -m openrouter/mistralai/mistral-small -o online 1 'key events on march 1st 2025'
+simonw/llm-openrouter,189,other,False,project-specific executable,llm openrouter models
+simonw/llm-openrouter,245,other,False,project-specific executable,llm openrouter models --free
+simonw/llm-openrouter,253,documentation,False,project-specific executable,llm openrouter key
+simonw/llm-openrouter,274,documentation,False,project-specific executable,llm openrouter key --key sk-xxx
+simonw/llm-openrouter,287,development,True,project-specific executable,llm install -e '.[test]'
+graphql-python/graphene,98,development,True,project-specific executable,pre-commit install
+matt-kempster/m2c,322,run,True,local script invocation,./run_tests.py --project ../oot --project-with-context ../oot
+matt-kempster/m2c,413,installation,True,project-specific executable,m2c [options] [-t <target>] [--context <context file>] [-f <function name>] <asmfile>...
+CharlesPikachu/videodl,203,installation,True,project-specific executable,  ffmpeg -version
+CharlesPikachu/videodl,223,installation,True,"output, URL or other",  N_m3u8DL-RE --version
+CharlesPikachu/videodl,258,installation,True,project-specific executable,"Usage: videodl [OPTIONS]
+
+Options:
+  --version                       Show the version and exit.
+  -i, --index-url, --index_url TEXT
+                                  URL of the video to download. If not
+                                  specified, videodl will start in terminal
+                                  mode.
+  -a, --allowed-video-sources, --allowed_video_sources TEXT
+                                  Platforms to search. Separate multiple
+                                  platforms with "","" (e.g.,
+                                  ""AcFunVideoClient,PipixVideoClient""). If not
+                                  specified, videodl will search all supported
+                                  platforms globally and use the first one
+                                  that can download the video url.
+  -c, --init-video-clients-cfg, --init_video_clients_cfg TEXT
+                                  Config such as `work_dir` for each video
+                                  client as a JSON string.
+  -r, --requests-overrides, --requests_overrides TEXT
+                                  Requests.get kwargs such as `headers` and
+                                  `proxies` for each video client as a JSON
+                                  string.
+  -t, --clients-threadings, --clients_threadings TEXT
+                                  Number of threads used for each video client
+                                  as a JSON string.
+  -g, --apply-common-video-clients-only, --apply_common_video_clients_only
+                                  Only apply common video clients.
+  --help                          Show this message and exit."
+CharlesPikachu/videodl,300,other,False,project-specific executable,"# IQIYI / YOUKU / TENCENT / PPTV / MGTV / CCTV / BILIBILI (爱奇艺, 优酷, 腾讯视频, PPTV, 芒果TV, CCTV, B站等平台的电影电视剧)
+videodl -i ""IQIYI/YOUKU/TENCENT/PPTV/MGTV/CCTV/BILIBILI VIDEO URL"" -g -a IM1907VideoClient (Recommended, 1080p)
+videodl -i ""IQIYI/YOUKU/TENCENT/PPTV/MGTV/CCTV/BILIBILI VIDEO URL"" -g -a SENJiexiVideoClient (Recommended)
+videodl -i ""IQIYI/YOUKU/TENCENT/PPTV/MGTV/CCTV/BILIBILI VIDEO URL"" -g -a XMFlvVideoClient
+videodl -i ""IQIYI/YOUKU/TENCENT/PPTV/MGTV/CCTV/BILIBILI VIDEO URL"" -g -a GVVIPVideoClient
+videodl -i ""YOUKU/TENCENT"" -g -a LvlongVideoClient
+# Examples
+videodl -i ""https://www.iqiyi.com/v_cy4phe8b08.html"" -g -a IM1907VideoClient
+videodl -i ""https://v.qq.com/x/cover/mzc002001nl46xm/t410130yz0y.html"" -g -a IM1907VideoClient
+# Please Note
+Since the parsing relies on a third-party online parsing API, the downloaded video may contain inserted advertisements. 
+These ads are not added by videodl, they are inserted by the online parsing website. 
+We recommend using ffmpeg to trim out the ad segments. (example code see ./scripts/ffmpeg_segment_remover.py)
+
+# MIGU (咪咕视频)
+videodl -i ""MIGU VIDEO URL"" -g -a RayVideoClient
+videodl -i ""MIGU VIDEO URL"" -g -a KedouVideoClient
+# Examples
+videodl -i ""https://www.miguvideo.com/p/detail/759959727"" -g -a KedouVideoClient
+
+# DOUYIN / TIKTOK / KUAISHOU / XIAOHONGSHU / YOUTUBE / FACEBOOK / TITTER (X) (抖音, 抖音海外, 快手, 小红书, 油管, 脸书, 推特视频等)
+videodl -i ""DOUYIN/TIKTOK/KUAISHOU/XIAOHONGSHU/YOUTUBE/FACEBOOK/TITTER VIDEO URL"" -g -a VideoFKVideoClient
+videodl -i ""DOUYIN/TIKTOK/KUAISHOU/XIAOHONGSHU/YOUTUBE/FACEBOOK/TITTER VIDEO URL"" -g -a SnapAnyVideoClient
+videodl -i ""DOUYIN/TIKTOK/KUAISHOU/XIAOHONGSHU/YOUTUBE/FACEBOOK/TITTER VIDEO URL"" -g -a GVVideoClient
+videodl -i ""DOUYIN/TIKTOK/KUAISHOU/XIAOHONGSHU/YOUTUBE/FACEBOOK/TITTER VIDEO URL"" -g -a AnyFetcherVideoClient
+videodl -i ""DOUYIN/TIKTOK/KUAISHOU/XIAOHONGSHU/YOUTUBE/FACEBOOK/TITTER VIDEO URL"" -g -a IIILabVideoClient
+videodl -i ""DOUYIN/TIKTOK/KUAISHOU/XIAOHONGSHU/YOUTUBE/FACEBOOK/TITTER VIDEO URL"" -g -a VgetVideoClient
+videodl -i ""DOUYIN/TIKTOK/KUAISHOU/XIAOHONGSHU/YOUTUBE/FACEBOOK/TITTER VIDEO URL"" -g -a SnapWCVideoClient
+videodl -i ""DOUYIN/TIKTOK/KUAISHOU/XIAOHONGSHU/YOUTUBE/FACEBOOK/TITTER VIDEO URL"" -g -a KedouVideoClient
+videodl -i ""DOUYIN/TIKTOK/KUAISHOU/XIAOHONGSHU/YOUTUBE/FACEBOOK/TITTER VIDEO URL"" -g -a KuKuToolVideoClient
+videodl -i ""DOUYIN/TIKTOK/KUAISHOU/XIAOHONGSHU/YOUTUBE/FACEBOOK/TITTER VIDEO URL"" -g -a XiaolvfangVideoClient
+videodl -i ""DOUYIN/TIKTOK/KUAISHOU/XIAOHONGSHU/YOUTUBE/FACEBOOK/TITTER VIDEO URL"" -g -a XZDXVideoClient
+videodl -i ""DOUYIN/TIKTOK/KUAISHOU/XIAOHONGSHU/YOUTUBE/FACEBOOK/TITTER VIDEO URL"" -g -a KIT9VideoClient
+videodl -i ""DOUYIN/TIKTOK/KUAISHOU/XIAOHONGSHU/YOUTUBE/FACEBOOK/TITTER VIDEO URL"" -g -a QZXDPToolsVideoClient
+videodl -i ""DOUYIN/TIKTOK/KUAISHOU/XIAOHONGSHU/YOUTUBE/FACEBOOK/TITTER VIDEO URL"" -g -a NoLogoVideoClient
+# Examples
+videodl -i ""https://www.douyin.com/jingxuan?modal_id=7569541184671974899"" -g -a SnapAnyVideoClient
+videodl -i ""https://www.tiktok.com/@pet_statione/video/7579841364599328013?lang=en"" -g -a SnapAnyVideoClient
+
+# 1905 (1905电影网)
+videodl -i ""M1905 VIDEO URL"" -a M1905VideoClient
+# Examples
+videodl -i ""https://www.1905.com/video/play/1751538.shtml"" -a M1905VideoClient
+
+# XINPIANCHANG (新片场)
+videodl -i ""XINPIANCHANG VIDEO URL"" -a XinpianchangVideoClient
+# Examples
+videodl -i ""https://www.xinpianchang.com/a13536060?from=IndexPick&part=%E7%BC%96%E8%BE%91%E7%B2%BE%E9%80%89&index=1"" -a XinpianchangVideoClient
+
+# BILIBILI (B站)
+videodl -i ""BILIBILI VIDEO URL"" -a BilibiliVideoClient
+videodl -i ""BILIBILI VIDEO URL"" -g -a VideoFKVideoClient
+# Examples
+videodl -i ""https://www.bilibili.com/video/BV13x41117TL"" -a BilibiliVideoClient
+videodl -i ""https://www.bilibili.com/video/BV1bK411W797?p=1"" -a BilibiliVideoClient
+videodl -i ""https://www.bilibili.com/bangumi/play/ep21495"" -a BilibiliVideoClient
+videodl -i ""https://www.bilibili.com/video/av8903802/"" -a BilibiliVideoClient
+
+# CCTV (央视网)
+videodl -i ""CCTV VIDEO URL"" -a CCTVVideoClient
+# Examples
+videodl -i ""https://v.cctv.com/2026/01/09/VIDE0ifonRhsuR952gJ3zUKu260109.shtml?spm=C90324.PE6LRxWJhH5P.S23920.3"" -a CCTVVideoClient
+
+# PLUSFIFA (国际足联+比赛视频)
+videodl -i ""PLUSFIFA VIDEO URL"" -a PlusFIFAVideoClient
+# Examples
+videodl -i ""https://www.plus.fifa.com/en/content/fc-sochaux-montbeliard-vs-lb-chateauroux/6ff75563-c6fc-4b08-b324-54771dbd7029"" -a PlusFIFAVideoClient"
+CharlesPikachu/videodl,435,installation,True,project-specific executable,"videodl -i ""BILIBILI VIDEO URL"" -a BilibiliVideoClient"
+CharlesPikachu/videodl,441,installation,True,project-specific executable,"videodl -i ""BILIBILI VIDEO URL"""
+CharlesPikachu/videodl,457,installation,True,project-specific executable,"videodl -i ""https://www.douyin.com/jingxuan?modal_id=7578412593719577899"" -g -a ""KedouVideoClient""
+videodl -i ""https://www.douyin.com/jingxuan?modal_id=7580605435187596559"" -g -a ""SnapWCVideoClient""
+videodl -i ""https://www.tiktok.com/@mustsharenews/video/7581408863128161552?lang=en"" -g -a ""SnapWCVideoClient"""
+CharlesPikachu/videodl,493,other,False,project-specific executable,"videodl -i ""IQIYI/YOUKU/TENCENT/PPTV/MGTV/CCTV/BILIBILI VIDEO URL"" -g -a IM1907VideoClient (Recommended, 1080p)
+videodl -i ""IQIYI/YOUKU/TENCENT/PPTV/MGTV/CCTV/BILIBILI VIDEO URL"" -g -a SENJiexiVideoClient (Recommended)
+videodl -i ""IQIYI/YOUKU/TENCENT/PPTV/MGTV/CCTV/BILIBILI VIDEO URL"" -g -a XMFlvVideoClient
+videodl -i ""IQIYI/YOUKU/TENCENT/PPTV/MGTV/CCTV/BILIBILI VIDEO URL"" -g -a GVVIPVideoClient
+videodl -i ""YOUKU/TENCENT"" -g -a LvlongVideoClient"
+CharlesPikachu/videodl,519,other,False,project-specific executable,"videodl -i ""URL"" -c ""{'IQiyiVideoClient': {'default_parse_cookies': your_vip_cookies_with_str_or_dict_format}}"" -a IQiyiVideoClient"
+CharlesPikachu/videodl,537,other,False,project-specific executable,"videodl -i ""URL"" -c ""{'TencentVideoClient': {'default_parse_cookies': your_vip_cookies_with_str_or_dict_format, 'default_download_cookies': your_vip_cookies_with_str_or_dict_format}}"" -a TencentVideoClient"
+infinito-nexus/core,63,installation,True,project-specific executable,   pkgmgr install infinito
+infinito-nexus/core,67,installation,True,project-specific executable,   infinito --help
+d4lfteam/d4lf,727,test,True,project-specific executable,prek install
+d4lfteam/d4lf,733,test,True,project-specific executable,prek run -a
+tmux-python/libtmux,50,installation,True,prompt-prefixed command,$ pipx install libtmux
+tmux-python/libtmux,60,installation,True,prompt-prefixed command,"$ uvx --from ""libtmux"" python"
+tmux-python/libtmux,90,usage,True,prompt-prefixed command,$ tmux new-session -s foo -n bar
+tmux-python/libtmux,102,other,False,prompt-prefixed command,$ ptpython
+linkedin/oncall,30,installation,True,project-specific executable,mysql -u root -p < ./db/schema.v0.sql
+linkedin/oncall,38,installation,True,project-specific executable,mysql -u root -p -o oncall < ./db/dummy_data.sql
+DoIT-Artificial-Intelligence/youtube-to-docs,16,documentation,False,other package manager or system tool,uvx youtube-to-docs --help
+DoIT-Artificial-Intelligence/youtube-to-docs,35,other,False,other package manager or system tool,"uvx --with ""youtube-to-docs[audio,video]"" youtube-to-docs ..."
+DoIT-Artificial-Intelligence/youtube-to-docs,40,other,False,other package manager or system tool,"uvx --with ""youtube-to-docs[all]"" youtube-to-docs ..."
+DoIT-Artificial-Intelligence/youtube-to-docs,50,other,False,project-specific executable,gemini extensions install https://github.com/DoIT-Artificial-Intelligence/youtube-to-docs.git
+DoIT-Artificial-Intelligence/youtube-to-docs,56,other,False,"output, URL or other","/plugin marketplace add DoIT-Artificial-Intelligence/youtube-to-docs
+/plugin install youtube-to-docs@youtube-to-docs"
+DoIT-Artificial-Intelligence/youtube-to-docs,63,other,False,other package manager or system tool,"uvx --from ""youtube-to-docs[all]"" youtube-to-docs-app"
+DoIT-Artificial-Intelligence/youtube-to-docs,71,other,False,project-specific executable,"claude mcp add youtube-to-docs -- uvx --with ""youtube-to-docs[all]"" python -m youtube_to_docs.mcp_server"
+IBM/UQ360,138,installation,True,prompt-prefixed command,(uq360)$ conda deactivate
+IBM/UQ360,152,installation,True,prompt-prefixed command,(uq360)$ git clone https://github.ibm.com/UQ360/UQ360
+IBM/UQ360,162,installation,True,prompt-prefixed command,(uq360)$ pip install -e .
+IBM/UQ360,170,installation,True,"output, URL or other",(your environment)$ pip install uq360
+buddy-compiler/buddy-mlir,130,build,True,local script invocation,./scripts/release_wheel_manylinux.sh cp310-cp310 riscv64
+ios-xr/gisobuild,261,other,False,local script invocation,    ./setup/prep_dependency.sh
+ios-xr/gisobuild,279,other,False,local script invocation,"    ./src/gisobuild.py --iso <input iso> --repo <rpm repo1 rpm_repo2> \
+        --pkglist <pkg1 pkg2 pkg3> --bridging-fixes <smu1 smu2 smu3> \
+        --xrconfig <config.cfg> --ztp-ini <ztp.ini> --script <user_script.sh> \
+        --label <label> --out-directory <out_directory> --clean"
+ios-xr/gisobuild,291,other,False,local script invocation,    ./src/gisobuild.py --yamlfile <input_yaml_cfg>
+ios-xr/gisobuild,298,other,False,local script invocation,    ./src/gisobuild.py --yamlfile <input_yaml_cfg> --label <new_label>
+ios-xr/gisobuild,309,other,False,local script invocation,    ./src/gisobuild.py --yamlfile <input_yaml_cfg>
+OleehyO/TexTeller,103,installation,True,project-specific executable,"   texteller inference ""/path/to/image.{jpg,png}"""
+OleehyO/TexTeller,113,usage,True,project-specific executable,texteller web
+OleehyO/TexTeller,126,other,False,project-specific executable,texteller launch
+toniantunovi/lucidshark,56,run,True,local script invocation,"./lucidshark scan --all             # Run all quality checks
+./lucidshark scan --linting         # Run specific domains
+./lucidshark scan --linting --fix   # Auto-fix linting issues
+./lucidshark scan --all --dry-run   # Preview what would be scanned"
+toniantunovi/lucidshark,69,other,False,local script invocation,"# Default: scan only changed files (no extra flags needed)
+./lucidshark scan --linting --type-checking
+
+# Full project scan
+./lucidshark scan --all --all-files
+
+# PR/CI: filter results to files changed since a branch
+./lucidshark scan --all --base-branch origin/main"
+toniantunovi/lucidshark,118,other,False,local script invocation,./lucidshark doctor
+toniantunovi/lucidshark,131,installation,True,local script invocation,./lucidshark init
+toniantunovi/lucidshark,173,other,False,local script invocation,./lucidshark scan --all --all-files && ./lucidshark overview --update
+AstrBotDevs/AstrBot,131,other,False,project-specific executable,yay -S astrbot-git
+nexi-lab/nexus,89,usage,True,project-specific executable,"nexus write /hello.txt ""hello world""
+nexus cat /hello.txt
+nexus ls /
+nexus search query ""hello"" --mode hybrid
+nexus versions history /hello.txt"
+nexi-lab/nexus,101,other,False,project-specific executable,"bunx nexus-tui                                         # connects to localhost:2026
+bunx nexus-tui --url http://remote:2026 --api-key KEY  # connect to remote instance"
+ricklamers/shell-ai,28,usage,True,project-specific executable,shai run terraform dry run thingy
+ldayton/Dippy,51,other,False,other package manager or system tool,"brew tap ldayton/dippy
+brew install dippy"
+ldayton/Dippy,109,other,False,other package manager or system tool,brew uninstall dippy  # if installed via Homebrew
+devbis/ble2mqtt,160,other,False,"output, URL or other",BLE2MQTT_CONFIG=./ble2mqtt.json ble2mqtt
+devbis/ble2mqtt,292,run,True,other package manager or system tool,"sudo systemctl daemon-reload
+sudo systemctl enable ble2mqtt
+sudo systemctl start ble2mqtt"
+devbis/ble2mqtt,307,other,False,project-specific executable,"opkg update
+opkg install python3-ble2mqtt
+/etc/init.d/ble2mqtt enable
+/etc/init.d/ble2mqtt start"
+devbis/ble2mqtt,330,other,False,project-specific executable,hciconfig hci0 up
+devbis/ble2mqtt,336,other,False,project-specific executable,ble2mqtt 2> /tmp/ble2mqtt.log &
+devbis/ble2mqtt,385,run,True,project-specific executable,podman build -t ble2mqtt:dev .
+Vortiago/mcp-outline,90,installation,True,project-specific executable,claude mcp add mcp-outline uvx mcp-outline
+mofa-org/mofa-obsolete,109,installation,True,project-specific executable,"    which pip
+    which python"
+mofa-org/mofa-obsolete,121,installation,True,project-specific executable,    pkill dora
+mofa-org/mofa-obsolete,333,installation,True,"output, URL or other","        terminal-input: INFO   daemon    node is ready
+        INFO   daemon    all nodes are ready, starting dataflow"
+mofa-org/mofa-obsolete,338,installation,True,project-specific executable,"        (.mofa) root@danana:~/mofa-nana/examples/my_llm_agent# dora start my_llm_dataflow.yml
+        dataflow start triggered: 0199584b-c209-76a3-9886-12e7309ac3f0
+        attaching to dataflow (use `--detach` to run in background)
+        my_llm_agent: INFO   daemon    node is ready
+        INFO   daemon    all nodes are ready, starting dataflow
+        terminal-input: INFO   daemon    node is ready
+        INFO   daemon    all nodes are ready, starting dataflow
+        terminal-input: INFO   daemon    node is ready
+        INFO   daemon    all nodes are ready, starting dataflow"
+mofa-org/mofa-obsolete,351,installation,True,project-specific executable,"        (.mofa) root@danana:<del>/mofa-nana/examples/my_llm_agent# ps aux | grep my_llm_agent
+        ps aux | grep dora
+        ps aux | grep terminal-input
+        root 211077 0.0 0.0 4028 2304 pts/0 S+ 23:37 0:00 grep --color=auto my_llm_agent
+        root 211079 0.0 0.0 4028 2304 pts/0 S+ 23:37 0:00 grep --color=auto dora
+        root 211081 0.0 0.0 4028 2304 pts/0 S+ 23:37 0:00 grep --color=auto terminal-input"
+mofa-org/mofa-obsolete,529,other,False,project-specific executable,mofa new-agent you_agent_name
+bionicles/tree_plus,870,installation,True,project-specific executable,gh repo clone https://github.com/bionicles/tree_plus.git && cd tree_plus
+bionicles/tree_plus,905,usage,True,project-specific executable,tp
+bionicles/tree_plus,911,usage,True,project-specific executable,tpcli
+bionicles/tree_plus,917,usage,True,project-specific executable,cdtp
+OWASP/cornucopia,60,other,False,project-specific executable,pre-commit run bandit --all-files
+apple/ml-l3m,58,usage,True,project-specific executable,"torchrun --nnodes=1 \
+  --nproc_per_node=1 \
+  --standalone run/launcher.py \
+  --debug \
+  --config <CONFIG_PATH> \
+  experiment.torch_compile=false \
+  data.train.dataloader.batch_size=64"
+vitali87/code-graph-rag,109,installation,True,other package manager or system tool,brew install cmake ripgrep
+vitali87/code-graph-rag,114,installation,True,other package manager or system tool,"sudo apt-get update
+sudo apt-get install cmake ripgrep"
+vitali87/code-graph-rag,120,installation,True,other package manager or system tool,"sudo yum install cmake
+sudo dnf install ripgrep
+# Note: ripgrep may need to be installed from EPEL or via cargo"
+vitali87/code-graph-rag,167,other,False,configuration or data,"# .env file
+ORCHESTRATOR_PROVIDER=ollama
+ORCHESTRATOR_MODEL=llama3.2
+ORCHESTRATOR_ENDPOINT=http://localhost:11434/v1
+
+CYPHER_PROVIDER=ollama
+CYPHER_MODEL=codellama
+CYPHER_ENDPOINT=http://localhost:11434/v1"
+vitali87/code-graph-rag,179,other,False,configuration or data,"# .env file
+ORCHESTRATOR_PROVIDER=openai
+ORCHESTRATOR_MODEL=gpt-4o
+ORCHESTRATOR_API_KEY=sk-your-openai-key
+
+CYPHER_PROVIDER=openai
+CYPHER_MODEL=gpt-4o-mini
+CYPHER_API_KEY=sk-your-openai-key"
+vitali87/code-graph-rag,191,other,False,configuration or data,"# .env file
+ORCHESTRATOR_PROVIDER=google
+ORCHESTRATOR_MODEL=gemini-2.5-pro
+ORCHESTRATOR_API_KEY=your-google-api-key
+
+CYPHER_PROVIDER=google
+CYPHER_MODEL=gemini-2.5-flash
+CYPHER_API_KEY=your-google-api-key"
+vitali87/code-graph-rag,203,other,False,configuration or data,"# .env file - Google orchestrator + Ollama cypher
+ORCHESTRATOR_PROVIDER=google
+ORCHESTRATOR_MODEL=gemini-2.5-pro
+ORCHESTRATOR_API_KEY=your-google-api-key
+
+CYPHER_PROVIDER=ollama
+CYPHER_MODEL=codellama
+CYPHER_ENDPOINT=http://localhost:11434/v1"
+vitali87/code-graph-rag,280,other,False,project-specific executable,cgr start --repo-path /path/to/repo1 --update-graph --clean
+vitali87/code-graph-rag,285,other,False,project-specific executable,"cgr start --repo-path /path/to/repo2 --update-graph
+cgr start --repo-path /path/to/repo3 --update-graph"
+vitali87/code-graph-rag,291,other,False,project-specific executable,"# Flush every 5,000 records instead of the default from settings
+cgr start --repo-path /path/to/repo --update-graph \
+  --batch-size 5000"
+vitali87/code-graph-rag,303,other,False,project-specific executable,cgr start --repo-path /path/to/your/repo
+vitali87/code-graph-rag,356,other,False,project-specific executable,"# Use specific local models
+cgr start --repo-path /path/to/your/repo \
+  --orchestrator ollama:llama3.2 \
+  --cypher ollama:codellama
+
+# Use specific Gemini models
+cgr start --repo-path /path/to/your/repo \
+  --orchestrator google:gemini-2.0-flash-thinking-exp-01-21 \
+  --cypher google:gemini-2.5-flash-lite-preview-06-17
+
+# Use mixed providers
+cgr start --repo-path /path/to/your/repo \
+  --orchestrator google:gemini-2.0-flash-thinking-exp-01-21 \
+  --cypher ollama:codellama"
+vitali87/code-graph-rag,396,other,False,project-specific executable,cgr start --repo-path /path/to/repo --update-graph --clean -o my_graph.json
+vitali87/code-graph-rag,401,other,False,project-specific executable,cgr export -o my_graph.json
+vitali87/code-graph-rag,406,other,False,project-specific executable,cgr export -o my_graph.json --batch-size 5000
+vitali87/code-graph-rag,448,other,False,project-specific executable,cgr optimize python --repo-path /path/to/your/repo
+vitali87/code-graph-rag,453,other,False,project-specific executable,"cgr optimize python \
+  --repo-path /path/to/your/repo \
+  --reference-document /path/to/best_practices.md"
+vitali87/code-graph-rag,460,other,False,project-specific executable,"cgr optimize javascript \
+  --repo-path /path/to/frontend \
+  --orchestrator google:gemini-2.0-flash-thinking-exp-01-21
+
+# Optional: override Memgraph batch flushing during optimization
+cgr optimize javascript --repo-path /path/to/frontend \
+  --batch-size 5000"
+vitali87/code-graph-rag,503,other,False,project-specific executable,"# Use company coding standards
+cgr optimize python \
+  --reference-document ./docs/coding_standards.md
+
+# Use architectural guidelines
+cgr optimize java \
+  --reference-document ./ARCHITECTURE.md
+
+# Use performance best practices
+cgr optimize rust \
+  --reference-document ./docs/performance_guide.md"
+vitali87/code-graph-rag,532,installation,True,project-specific executable,"claude mcp add --transport stdio code-graph-rag \
+  --env TARGET_REPO_PATH=/absolute/path/to/your/project \
+  --env CYPHER_PROVIDER=openai \
+  --env CYPHER_MODEL=gpt-4 \
+  --env CYPHER_API_KEY=your-api-key \
+  -- uv run --directory /path/to/code-graph-rag code-graph-rag mcp-server"
+vitali87/code-graph-rag,759,installation,True,project-specific executable,"# Add a language using the standard tree-sitter repository
+cgr language add-grammar <language-name>
+
+# Examples:
+cgr language add-grammar c-sharp
+cgr language add-grammar php
+cgr language add-grammar ruby
+cgr language add-grammar kotlin"
+vitali87/code-graph-rag,774,other,False,project-specific executable,"# Add a language from a custom repository
+cgr language add-grammar --grammar-url https://github.com/custom/tree-sitter-mylang"
+vitali87/code-graph-rag,815,other,False,project-specific executable,"# List all configured languages
+cgr language list-languages
+
+# Remove a language (this also removes the git submodule unless --keep-submodule is specified)
+cgr language remove-language <language-name>"
+vitali87/code-graph-rag,841,other,False,project-specific executable,cgr language add-grammar --grammar-url https://github.com/custom/tree-sitter-mylang
+psi-oss/get-physics-done,28,installation,True,vocabulary command not matched,npx -y get-physics-done
+psi-oss/get-physics-done,78,installation,True,vocabulary command not matched,npx -y github:psi-oss/get-physics-done --upgrade
+AlphaSlayer1964/kemono-dl,23,usage,True,project-specific executable,"    kemono-dl --version
+    kemono-dl ""https://kemono.cr/SERVICE/user/CREATOR_ID"" 
+    kemono-dl ""https://coomer.st/SERVICE/user/CREATOR_ID/post/POST_ID"""
+AlphaSlayer1964/kemono-dl,69,usage,True,project-specific executable,"kemono-dl --output ""{service}/{creator_id}/{post_id}/{index}_{filename}"" --output ""content:{service}/{creator_id}/{post_id}/{filename}"" ""https://kemono.cr/patreon/user/12345/post/67890"" 
+patreon/12345/67890/0_attachment.png
+patreon/12345/67890/1_attachment.png
+patreon/12345/67890/content.html"
+AlphaSlayer1964/kemono-dl,109,usage,True,project-specific executable,"kemono-dl --output ""{service}/{creator_id}/{post_id}/{filename}"" ""https://kemono.cr/patreon/user/12345/post/67890""
+patreon/12345/67890/attachment.png
+
+kemono-dl --output ""{service}/{creator_id}/{post_id}/{server_filename}"" ""https://kemono.cr/patreon/user/12345/post/67890""
+patreon/12345/67890/wm54swsglbfs4583qzp7u880tmglvdqzeg6vqni12s6ywfsk3l8afp5ycfwo2hw4.png 
+# wm54swsglbfs4583qzp7u880tmglvdqzeg6vqni12s6ywfsk3l8afp5ycfwo2hw4 is the SHA-256 hash of the file that kemono/coomer generated
+
+kemono-dl --output ""{service}/{creator_id}/{post_id}_{file_name}_{sha256}.{ext}"" ""https://kemono.cr/patreon/user/12345/post/67890""
+patreon/12345/67890_attachment_wm54swsglbfs4583qzp7u880tmglvdqzeg6vqni12s6ywfsk3l8afp5ycfwo2hw4.png
+
+kemono-dl --output ""{service}/{creator_id}/[{published:%Y-%m-%d %H-%M-%S}]_{post_id}/{filename}"" ""https://kemono.cr/patreon/user/12345/post/67890""
+patreon/12345/[2025-08-13 00-00-00]_67890/attachment.png # The post was published on August 13, 2025 at 12:00:00 AM"
+nerfstudio-project/nerfstudio,162,run,True,project-specific executable,"# Download some test data:
+ns-download-data nerfstudio --capture-name=poster
+# Train model
+ns-train nerfacto --data data/nerfstudio/poster"
+nerfstudio-project/nerfstudio,185,run,True,project-specific executable,ns-train nerfacto --data data/nerfstudio/poster --load-dir {outputs/.../nerfstudio_models}
+nerfstudio-project/nerfstudio,207,other,False,project-specific executable,ns-render --help
+nerfstudio-project/nerfstudio,217,deployment,True,project-specific executable,ns-export pointcloud --help
+nerfstudio-project/nerfstudio,247,run,True,project-specific executable,ns-train vanilla-nerf --data DATA_PATH
+nerfstudio-project/nerfstudio,257,other,False,project-specific executable,ns-train nerfacto --help
+themanojdesai/python-a2a,620,other,False,project-specific executable,"# Start the Agent Flow UI
+a2a ui"
+themanojdesai/python-a2a,634,other,False,project-specific executable,a2a ui --port 9000 --host 0.0.0.0 --storage-dir ~/.my_workflows --debug
+scottrogowski/code2flow,65,usage,True,project-specific executable,code2flow project/directory --language js
+scottrogowski/code2flow,71,usage,True,project-specific executable,code2flow mypythonfile.py --target-function my_func --upstream-depth=1 --downstream-depth=1
+scottrogowski/code2flow,78,usage,True,project-specific executable,code2flow --help
+pocketpaw/pocketpaw,106,installation,True,project-specific executable,"powershell -NoExit -Command ""iwr -useb https://pocketpaw.xyz/install.ps1 | iex"""
+pocketpaw/pocketpaw,139,installation,True,project-specific executable,   pocketpaw --help
+pocketpaw/pocketpaw,145,installation,True,project-specific executable,   pocketpaw
+xinyan-cxy/MINT-CoT,93,other,False,configuration or data,DISABLE_VERSION_CHECK=1 llamafactory-cli train examples/mint-cot/qwen2vl_7b_full_sft_interleaved.yaml
+llmsresearch/paperbanana,92,documentation,False,project-specific executable,paperbanana setup
+llmsresearch/paperbanana,98,other,False,project-specific executable,"paperbanana generate \
+  --input examples/sample_inputs/transformer_method.txt \
+  --caption ""Overview of our encoder-decoder architecture with sparse routing"""
+llmsresearch/paperbanana,106,other,False,project-specific executable,"paperbanana generate \
+  --input my_method.txt \
+  --caption ""Overview of our encoder-decoder framework"" \
+  --optimize --auto"
+llmsresearch/paperbanana,160,other,False,project-specific executable,"# Basic generation
+paperbanana generate \
+  --input method.txt \
+  --caption ""Overview of our framework""
+
+# With input optimization and auto-refine
+paperbanana generate \
+  --input method.txt \
+  --caption ""Overview of our framework"" \
+  --optimize --auto
+
+# Continue the latest run with user feedback
+paperbanana generate --continue \
+  --feedback ""Make arrows thicker and colors more distinct""
+
+# Continue a specific run
+paperbanana generate --continue-run run_20260218_125448_e7b876 \
+  --iterations 3"
+llmsresearch/paperbanana,203,other,False,project-specific executable,"paperbanana plot \
+  --data results.csv \
+  --intent ""Bar chart comparing model accuracy across benchmarks"""
+llmsresearch/paperbanana,220,other,False,project-specific executable,paperbanana batch --manifest examples/batch_manifest.yaml --optimize
+llmsresearch/paperbanana,240,other,False,project-specific executable,"paperbanana batch-report --batch-dir outputs/batch_20250109_123456_abc --format markdown
+# or by batch ID (under default output dir)
+paperbanana batch-report --batch-id batch_20250109_123456_abc --format html --output report.html"
+llmsresearch/paperbanana,261,other,False,project-specific executable,"paperbanana evaluate \
+  --generated diagram.png \
+  --reference human_diagram.png \
+  --context method.txt \
+  --caption ""Overview of our framework"""
+llmsresearch/paperbanana,282,installation,True,project-specific executable,paperbanana setup
+llmsresearch/paperbanana,370,other,False,project-specific executable,"paperbanana generate \
+  --input method.txt \
+  --caption ""Overview"" \
+  --config my_config.yaml"
+llmsresearch/paperbanana,407,other,False,configuration or data,"# OpenAI (default)
+OPENAI_API_KEY=your-key
+OPENAI_BASE_URL=https://api.openai.com/v1    # or Azure endpoint
+OPENAI_VLM_MODEL=gpt-5.2                      # override model
+OPENAI_IMAGE_MODEL=gpt-image-1.5              # override model
+
+# Google Gemini (alternative, free)
+GOOGLE_API_KEY=your-key
+GOOGLE_BASE_URL=                            # optional custom Gemini-compatible endpoint
+GOOGLE_VLM_MODEL=gemini-2.0-flash          # override Gemini VLM model
+GOOGLE_IMAGE_MODEL=gemini-3-pro-image-preview  # override Gemini image model"
+spaceandtimefdn/SxT-Python-SDK,172,other,False,"output, URL or other","Stephen~$ . ./table--SXTTEMP.New_TableName.sql
+Stephen~$ echo $TABLE_NAME
+  SXTTEMP.New_TableName"
+unslothai/unsloth,67,other,False,project-specific executable,irm https://unsloth.ai/install.ps1 | iex
+unslothai/unsloth,71,other,False,"output, URL or other",& .\unsloth_studio\Scripts\unsloth.exe studio -H 0.0.0.0 -p 8888
+OSU-NLP-Group/HippoRAG,292,other,False,other package manager or system tool,"rm reproduce/dataset/openie_results/openie_sample_results_ner_meta-llama_Llama-3.3-70B-Instruct_3.json
+rm -rf outputs/sample/sample_meta-llama_Llama-3.3-70B-Instruct_nvidia_NV-Embed-v2"
+aws-samples/hardeneks,24,other,False,project-specific executable,hardeneks [OPTIONS]
+furkanonder/karbon,19,run,True,project-specific executable,karbon
+asklokesh/loki-mode,126,other,False,project-specific executable,loki web                           # launches at http://localhost:57375
+asklokesh/loki-mode,206,usage,True,project-specific executable,loki start --bmad-project ./my-project
+ShmuelRonen/ComfyUI-LatentSyncWrapper,90,installation,True,vocabulary command not matched,"# Create the vae directory
+mkdir checkpoints/vae"
+ShmuelRonen/ComfyUI-LatentSyncWrapper,105,installation,True,comments only,"# Download LatentSync 1.6 models from HuggingFace
+# Visit: https://huggingface.co/ByteDance/LatentSync-1.6/tree/main
+# Download all files from the repository into checkpoints/ folder"
+CaraJ7/T2I-R1,103,installation,True,project-specific executable,   huggingface-cli download microsoft/git-large-vqav2 --repo-type model --local-dir git-large-vqav2
+CaraJ7/T2I-R1,113,installation,True,project-specific executable,   huggingface-cli download CaraJ/ORM-T2I-R1 --repo-type model --local-dir ORM-T2I-R1
+zhound420/swarm-trader,84,other,False,configuration or data,"# Primary / Swing account (required)
+ALPACA_API_KEY=your_swing_key
+ALPACA_API_SECRET=your_swing_secret
+
+# Day trading account (optional — falls back to primary if not set)
+ALPACA_DAY_API_KEY=your_day_key
+ALPACA_DAY_API_SECRET=your_day_secret"
+zhound420/swarm-trader,349,installation,True,configuration or data,"# Required — Alpaca paper trading (primary / swing account)
+ALPACA_API_KEY=your_key_here
+ALPACA_API_SECRET=your_secret_here
+
+# Optional — Separate day trading account
+# If set, day mode trades on this account. If not, both modes share the primary.
+ALPACA_DAY_API_KEY=your_day_key_here
+ALPACA_DAY_API_SECRET=your_day_secret_here
+
+# LLM provider (at least one)
+OPENAI_API_KEY=
+ANTHROPIC_API_KEY=
+GOOGLE_API_KEY=
+GROQ_API_KEY=
+DEEPSEEK_API_KEY=
+
+# Optional — trading mode (default: swing)
+TRADING_MODE=auto"
+zhound420/swarm-trader,493,other,False,project-specific executable,"# Morning health check (9:30 AM Mon-Fri)
+openclaw cron add --name swing-morning \
+  --cron ""30 9 * * 1-5"" --tz ""America/Los_Angeles"" --exact \
+  --agent swing-agent \
+  --model ""your-model"" \
+  --session isolated \
+  --announce --channel telegram --to YOUR_CHAT_ID \
+  --best-effort-deliver \
+  --message 'Morning health check.
+    1. Run: poetry run python portfolio_monitor.py --mode swing
+    2. Run: poetry run python risk_manager.py --status --mode swing
+    3. Run: poetry run python performance_tracker_v2.py --snapshot --force
+    4. Brief report: equity, stops triggered, SPY comparison.'
+
+# Midday analysis (12:00 PM Mon-Fri)
+openclaw cron add --name swing-midday \
+  --cron ""0 12 * * 1-5"" --tz ""America/Los_Angeles"" --exact \
+  --agent swing-agent \
+  --model ""your-model"" \
+  --session isolated \
+  --announce --channel telegram --to YOUR_CHAT_ID \
+  --best-effort-deliver \
+  --message 'Midday analysis.
+    1. Gather data: poetry run python gather_data.py
+    2. Analyze universe stocks for swing mode
+    3. Execute: echo trades | poetry run python execute_trades.py --mode swing
+    4. Report: trades executed, rejections from risk manager.'
+
+# Afternoon review (3:00 PM Mon-Fri)
+openclaw cron add --name swing-afternoon \
+  --cron ""0 15 * * 1-5"" --tz ""America/Los_Angeles"" --exact \
+  --agent swing-agent \
+  --model ""your-model"" \
+  --session isolated \
+  --announce --channel telegram --to YOUR_CHAT_ID \
+  --best-effort-deliver \
+  --message 'Afternoon review.
+    1. Run: poetry run python portfolio_monitor.py --mode swing
+    2. Run: poetry run python performance_tracker_v2.py --snapshot --force
+    3. EOD report: daily P&L, alpha vs SPY, overnight positions.'"
+zhound420/swarm-trader,538,other,False,project-specific executable,"# Pre-market scan (6:30 AM Mon-Fri)
+openclaw cron add --name day-morning \
+  --cron ""30 6 * * 1-5"" --tz ""America/Los_Angeles"" --exact \
+  --agent day-agent \
+  --model ""your-model"" \
+  --session isolated \
+  --announce --channel telegram --to YOUR_CHAT_ID \
+  --best-effort-deliver \
+  --message 'Pre-market scan.
+    1. Check VIX and economic calendar
+    2. Run: poetry run python scan_market.py --max 25 --json
+    3. Run: poetry run python gather_data.py --mode day
+    4. Report: VIX level, top targets with entry zones, caution flags.'
+
+# Midday position check (9:30 AM Mon-Fri)
+openclaw cron add --name day-midday \
+  --cron ""30 9 * * 1-5"" --tz ""America/Los_Angeles"" --exact \
+  --agent day-agent \
+  --model ""your-model"" \
+  --session isolated \
+  --announce --channel telegram --to YOUR_CHAT_ID \
+  --best-effort-deliver \
+  --message 'Midday check.
+    1. Run: poetry run python portfolio_monitor.py --mode day
+    2. Cut dead money, look for afternoon setups
+    3. Execute if setups confirm: echo trades | poetry run python execute_trades.py --mode day
+    4. Report: open positions + P&L, stops triggered.'
+
+# Mandatory EOD flatten (12:45 PM Mon-Fri)
+openclaw cron add --name day-flatten \
+  --cron ""45 12 * * 1-5"" --tz ""America/Los_Angeles"" --exact \
+  --agent day-agent \
+  --model ""your-model"" \
+  --session isolated \
+  --announce --channel telegram --to YOUR_CHAT_ID \
+  --best-effort-deliver \
+  --message 'FLATTEN — 15 min to close.
+    1. Run: poetry run python execute_trades.py --mode day --flatten
+    2. Verify flat: poetry run python portfolio_monitor.py --mode day
+    3. Run: poetry run python performance_tracker_v2.py --snapshot --force
+    4. EOD report: daily P&L, win rate, best/worst trade, alpha vs SPY.'"
+zhound420/swarm-trader,584,other,False,project-specific executable,"# Evolution run (5:00 PM Mon-Fri)
+openclaw cron add --name autoresearch-run \
+  --cron ""0 17 * * 1-5"" \
+  --agent my-agent \
+  --model ""google/gemini-2.5-flash"" \
+  --session isolated \
+  --timeout 10800 \
+  --message ""cd ~/swarm-trader && poetry run python autoresearch/evolve.py --iterations 50""
+
+# Results report (8:00 PM Mon-Fri)
+openclaw cron add --name autoresearch-report \
+  --cron ""0 20 * * 1-5"" \
+  --agent my-agent \
+  --model ""google/gemini-2.5-flash"" \
+  --session isolated \
+  --announce --channel telegram \
+  --message ""Read /tmp/autoresearch-latest.log. Summarize: experiments, best fitness, top findings."""
+zhound420/swarm-trader,606,other,False,project-specific executable,"openclaw cron list                        # See all jobs
+openclaw cron run swarm-morning           # Trigger manually
+openclaw cron disable swarm-midday        # Pause a job
+openclaw cron enable swarm-midday         # Resume
+openclaw cron rm <job-id>                 # Delete"
+PyThaiNLP/pythainlp,49,other,False,project-specific executable,"  thainlp data catalog  # List datasets
+  thainlp help          # Show usage"
+D4Vinci/Scrapling,399,usage,True,project-specific executable,scrapling shell
+D4Vinci/Scrapling,403,usage,True,project-specific executable,"scrapling extract get 'https://example.com' content.md
+scrapling extract get 'https://example.com' content.txt --css-selector '#fromSkipToProducts' --impersonate 'chrome'  # All elements matching the CSS selector '#fromSkipToProducts'
+scrapling extract fetch 'https://example.com' content.md --css-selector '#fromSkipToProducts' --no-headless
+scrapling extract stealthy-fetch 'https://nopecha.com/demo/cloudflare' captchas.html --css-selector '#padded_content a' --solve-cloudflare"
+davidlee/spec-driver,66,other,False,other package manager or system tool,"brew tap davidlee/spec-driver
+brew install spec-driver
+
+# try it out
+mkdir /tmp/test-driver && cd /tmp/test-driver && git init
+spec-driver install
+spec-driver doctor
+spec-driver tui
+# in another window
+claude"
+davidlee/spec-driver,117,other,False,other package manager or system tool,"brew tap davidlee/spec-driver
+brew install spec-driver"
+davidlee/spec-driver,124,other,False,project-specific executable,nix profile install github:davidlee/spec-driver
+davidlee/spec-driver,149,installation,True,project-specific executable,"# Initialize spec-driver workspace structure
+spec-driver install
+
+# This installs :
+# - .spec-driver/ (YAML registries & configuration)
+# - .claude/ project-local settings & skills
+# - .agents/ project-local settings & skills
+# - CLAUDE.md - adds a line to invoke boot script
+# - AGENTS.md - adds a line to invoke boot script"
+davidlee/spec-driver,163,installation,True,project-specific executable,claude
+davidlee/spec-driver,180,other,False,project-specific executable,"alias sdr=""spec-driver""
+# or
+alias sdr=""uv run spec-driver"""
+davidlee/spec-driver,189,other,False,project-specific executable,"# Idempotent - run after upgrading
+spec-driver install
+
+# Sync everything
+spec-driver sync
+
+# check all registries
+spec-driver validate
+
+# health check
+spec-driver doctor"
+SuperClaude-Org/SuperClaude_Framework,121,other,False,other package manager or system tool,"# Install from PyPI
+pipx install superclaude
+
+# Install commands (installs all 30 slash commands)
+superclaude install
+
+# Install MCP servers (optional, for enhanced capabilities)
+superclaude mcp --list         # List available MCP servers
+superclaude mcp                # Interactive installation
+superclaude mcp --servers tavily --servers context7  # Install specific servers
+
+# Verify installation
+superclaude install --list
+superclaude doctor"
+SuperClaude-Org/SuperClaude_Framework,160,development,True,"output, URL or other","# This feature is not yet available
+/plugin marketplace add SuperClaude-Org/superclaude-plugin-marketplace
+/plugin install superclaude"
+SuperClaude-Org/SuperClaude_Framework,172,other,False,comments only,"# Optional MCP servers for enhanced performance (via airis-mcp-gateway):
+# - Serena: Code understanding (2-3x faster)
+# - Sequential: Token-efficient reasoning (30-50% fewer tokens)
+# - Tavily: Web search for Deep Research
+# - Context7: Official documentation lookup
+# - Mindbase: Semantic search across all conversations (optional enhancement)
+
+# Note: Error learning available via built-in ReflexionMemory (no installation required)
+# Mindbase provides semantic search enhancement (requires ""recommended"" profile)
+# Install MCP servers: https://github.com/agiletec-inc/airis-mcp-gateway
+# See docs/mcp/mcp-integration-policy.md for details"
+SuperClaude-Org/SuperClaude_Framework,289,other,False,project-specific executable,"# List available MCP servers
+superclaude mcp --list
+
+# Install specific servers
+superclaude mcp --servers tavily context7
+
+# Interactive installation
+superclaude mcp"
+SuperClaude-Org/SuperClaude_Framework,409,usage,True,"output, URL or other","# Basic research with automatic depth
+/research ""latest AI developments 2024""
+
+# Controlled research depth (via options in TypeScript)
+/research ""quantum computing breakthroughs""  # depth: exhaustive
+
+# Specific strategy selection
+/research ""market analysis""  # strategy: planning-only
+
+# Domain-filtered research (Tavily MCP integration)
+/research ""React patterns""  # domains: reactjs.org,github.com"
+embeddings-benchmark/mteb,70,usage,True,project-specific executable,"mteb run \
+    -m sentence-transformers/all-MiniLM-L6-v2 \
+    -t ""Banking77Classification.v2"" \
+    --output-folder results"
+Emily3403/isisdl,65,other,False,project-specific executable,yay -S isisdl
+ethereum-optimism/specs,36,installation,True,project-specific executable,mise install
+ethereum-optimism/specs,56,installation,True,other package manager or system tool,brew install just
+ethereum-optimism/specs,62,run,True,project-specific executable,just serve
+ethereum-optimism/specs,74,test,True,project-specific executable,just lint-specs-toc-check
+ethereum-optimism/specs,80,test,True,project-specific executable,just lint-specs-toc
+ethereum-optimism/specs,88,test,True,project-specific executable,just lint-specs-md-check
+ethereum-optimism/specs,94,test,True,project-specific executable,just lint-specs-md
+ethereum-optimism/specs,102,test,True,project-specific executable,just lint-specs-spelling-check
+ethereum-optimism/specs,108,test,True,project-specific executable,just lint-specs-spelling
+ethereum-optimism/specs,116,test,True,project-specific executable,just lint-links-check
+ethereum-optimism/specs,124,test,True,project-specific executable,just lint-filenames-check
+ethereum-optimism/specs,130,test,True,project-specific executable,just lint-check
+ethereum-optimism/specs,136,test,True,project-specific executable,just lint
+idlesign/vininfo,43,usage,True,prompt-prefixed command,"$ vininfo --help
+
+; Print out VIN info:
+$ vininfo show XTAGFK330JY144213
+
+; Basic:
+; Country: USSR/CIS
+; Manufacturer: AvtoVAZ
+; Region: Europe
+; Years: 2018, 1988
+
+; Details:
+; Body: Station Wagon, 5-Door
+; Engine: 21179
+; Model: Vesta
+; Plant: Izhevsk
+; Serial: 144213
+; Transmission: Manual Renault
+
+; Verify checksum
+$ vininfo check 1M8GDM9AXKP042788
+; Checksum is valid"
+idlesign/vininfo,70,other,False,project-specific executable,"from vininfo import Vin
+
+vin = Vin('VF1LM1B0H36666155')
+
+vin.country  # France
+vin.manufacturer  # Renault
+vin.region  # Europe
+vin.wmi  # VF1
+vin.vds  # LM1B0H
+vin.vis  # 36666155
+
+annotated = vin.annotate()
+details = vin.details
+
+vin.verify_checksum()  # False
+Vin('1M8GDM9AXKP042788').verify_checksum()  # True"
+voxel51/fiftyone,234,installation,True,other package manager or system tool,"sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install python3-venv python3-dev build-essential git-all libgl1-mesa-dev"
+voxel51/fiftyone,244,installation,True,other package manager or system tool,"# Ubuntu
+sudo apt install libcurl4 openssl
+
+# Fedora
+sudo dnf install libcurl openssl"
+voxel51/fiftyone,264,installation,True,other package manager or system tool,sudo apt-get install ffmpeg
+voxel51/fiftyone,277,installation,True,project-specific executable,xcode-select --install
+voxel51/fiftyone,292,installation,True,other package manager or system tool,"brew install python@3.9
+brew install protobuf"
+voxel51/fiftyone,309,installation,True,other package manager or system tool,brew install ffmpeg
+technicalpickles/picklehome,23,ci,True,project-specific executable,"just climate-sync               # push schedule.yaml to Ecobee
+just climate-validate           # verify live schedule matches schedule.yaml
+just climate-comforts-sync      # push comfort setpoint temps
+just climate-status             # show current thermostat state
+just climate-weather            # show current outdoor temp + comfort recommendation
+just climate-comfort-switch auto  # auto-switch comfort mode based on outdoor temp"
+technicalpickles/picklehome,36,other,False,project-specific executable,"just network-status        # ISP + CDN health check
+just wifi-diag             # client-side WiFi + connectivity diagnostic
+just unifi clients         # UniFi clients, devices, WiFi, gateway diagnostics"
+technicalpickles/picklehome,46,installation,True,project-specific executable,"just install   # install Python deps
+just dotenv    # pull secrets from 1Password into .env"
+kubeflow/pipelines,59,other,False,project-specific executable,"just           # list available recipes
+just backend-test
+just backend-images"
+conda-forge/staged-recipes,74,build,True,project-specific executable,    pixi run build-linux
+conda-forge/staged-recipes,82,build,True,project-specific executable,  pixi run build-osx
+conda-forge/staged-recipes,91,build,True,project-specific executable,  pixi run build-win
+conda-forge/staged-recipes,130,other,False,"output, URL or other",$CONDA_EXE install -c conda-forge pixi
+conda-forge/staged-recipes,165,other,False,project-specific executable,       grayskull pypi --use-v1-format PACKAGE_ON_PYPI_HERE [ANOTHER...]
+conda-forge/staged-recipes,169,other,False,project-specific executable,       grayskull cran --use-v1-format PACKAGE_ON_CRAN_HERE [ANOTHER...]
+conda-forge/staged-recipes,178,other,False,project-specific executable,      pixi run pypi PACKAGE_ON_PYPI_HERE [ANOTHER...]
+conda-forge/staged-recipes,182,other,False,project-specific executable,      pixi run cran PACKAGE_ON_CRAN_HERE [ANOTHER...]
+cocoindex-io/cocoindex-code,48,installation,True,other package manager or system tool,"pipx install cocoindex-code       # first install
+pipx upgrade cocoindex-code       # upgrade"
+cocoindex-io/cocoindex-code,68,other,False,vocabulary command not matched,npx skills add cocoindex-io/cocoindex-code
+cocoindex-io/cocoindex-code,85,other,False,project-specific executable,claude mcp add cocoindex-code -- ccc mcp
+cocoindex-io/cocoindex-code,93,other,False,project-specific executable,codex mcp add cocoindex-code -- ccc mcp
+cocoindex-io/cocoindex-code,101,other,False,project-specific executable,opencode mcp add
+cocoindex-io/cocoindex-code,153,usage,True,project-specific executable,"ccc init                                # initialize project (creates settings)
+ccc index                               # build the index
+ccc search ""authentication logic""       # search!"
+cocoindex-io/cocoindex-code,180,other,False,project-specific executable,"ccc search database schema                           # basic search
+ccc search --lang python --lang markdown schema      # filter by language
+ccc search --path 'src/utils/*' query handler        # filter by path
+ccc search --offset 10 --limit 5 database schema     # pagination
+ccc search --refresh database schema                 # update index first, then search"
+cocoindex-io/cocoindex-code,427,other,False,configuration or data,COCOINDEX_CODE_DB_PATH_MAPPING=/workspace=/db-files
+cocoindex-io/cocoindex-code,435,other,False,configuration or data,"COCOINDEX_CODE_DB_PATH_MAPPING=/workspace=/db-files,/workspace2=/db-files2"
+cocoindex-io/cocoindex-code,451,other,False,other package manager or system tool,brew install python3
+cocoindex-io/cocoindex-code,458,other,False,other package manager or system tool,"pipx install cocoindex-code       # first install
+pipx upgrade cocoindex-code       # upgrade"
+IBM/transition-amr-parser,32,installation,True,project-specific executable,"# or e.g. put inside conda activate ./cenv_x86
+touch set_environment.sh"
+IBM/transition-amr-parser,104,other,False,project-specific executable,amr-parse -c $in_checkpoint -i $input_file -o file.amr
+IBM/transition-amr-parser,156,other,False,project-specific executable,amr-parse -c $in_checkpoint --in-doc $doc_input_file -o file.docamr
+dagster-io/erk,28,ci,True,project-specific executable,"# 1. Plan (in Claude Code)
+claude
+# → develop plan → save to GitHub issue #42
+
+# 2. Implement
+erk implement 42
+
+# 3. Submit PR
+erk pr submit
+
+# 4. Address feedback
+/erk:pr-address
+
+# 5. Land
+erk land"
+benkruger/flow,116,installation,True,"output, URL or other","/plugin marketplace add benkruger/flow
+/plugin install flow@flow-marketplace"
+benkruger/flow,123,installation,True,"output, URL or other",/flow-prime
+benkruger/flow,129,installation,True,"output, URL or other",/flow-start invoice pdf export
+benkruger/flow,306,ci,True,"output, URL or other","/flow-qa              # check current mode (dev or marketplace)
+/flow-qa --start      # switch to local dev mode
+/flow-qa --stop       # switch back to marketplace"
+benkruger/flow,314,ci,True,project-specific executable,claude --plugin-dir=$HOME/code/flow
+benkruger/flow,322,ci,True,other package manager or system tool,"claude plugin list                               # check if marketplace plugin is installed
+claude plugin uninstall flow@flow-marketplace    # remove it (if installed)
+rm -rf ~/.claude/plugins/cache/flow-marketplace  # nuke cache
+claude --plugin-dir=$HOME/code/flow              # test with local source
+claude plugin install flow@flow-marketplace      # reinstall when done"
+benkruger/flow,336,other,False,project-specific executable,claude plugin marketplace update flow-marketplace
+lucasimi/tda-mapper-python,148,other,False,project-specific executable,    tda-mapper-app
+enarjord/passivbot,68,installation,True,project-specific executable,py -3.12 -m venv venv
+enarjord/passivbot,80,installation,True,"output, URL or other",venv\Scripts\activate
+enarjord/passivbot,85,installation,True,"output, URL or other",.\venv\Scripts\Activate.ps1
+alibaizhanov/mengram,56,other,False,project-specific executable,"mengram hook status     # check what's installed
+mengram hook uninstall  # remove all hooks"
+alibaizhanov/mengram,91,installation,True,project-specific executable,mengram setup
+alibaizhanov/mengram,238,other,False,project-specific executable,"mengram import chatgpt ~/Downloads/chatgpt-export.zip --cloud   # ChatGPT history
+mengram import obsidian ~/Documents/MyVault --cloud              # Obsidian vault
+mengram import files notes/*.md --cloud                          # Any text/markdown"
+alibaizhanov/mengram,252,other,False,project-specific executable,mengram hook install
+alibaizhanov/mengram,318,other,False,project-specific executable,openclaw plugins install openclaw-mengram
+alibaizhanov/mengram,331,other,False,project-specific executable,"mengram search ""deployment"" --cloud
+mengram profile --cloud
+mengram import chatgpt export.zip --cloud
+mengram hook install"
+sezanzeb/input-remapper,49,other,False,other package manager or system tool,sudo apt install input-remapper
+sezanzeb/input-remapper,59,other,False,other package manager or system tool,"sudo dnf install input-remapper
+sudo systemctl enable --now input-remapper"
+sezanzeb/input-remapper,68,other,False,other package manager or system tool,"yay -S input-remapper-git
+sudo systemctl enable --now input-remapper"
+sezanzeb/input-remapper,77,other,False,other package manager or system tool,"sudo xbps-install -S input-remapper
+sudo ln -s /etc/sv/input-remapper /var/service
+sudo sv up input-remapper"
+sezanzeb/input-remapper,95,other,False,other package manager or system tool,sudo pip install evdev pydantic dasbus PyGObject
+sezanzeb/input-remapper,110,other,False,other package manager or system tool,sudo python3 -m install.uninstall
+huggingface/alignment-handbook,95,installation,True,project-specific executable,huggingface-cli login
+huggingface/alignment-handbook,101,installation,True,other package manager or system tool,sudo apt-get install git-lfs
+54yyyu/zotero-mcp,84,installation,True,other package manager or system tool,"pipx install zotero-mcp-server
+zotero-mcp setup  # Auto-configure (Claude Desktop supported)"
+54yyyu/zotero-mcp,111,installation,True,project-specific executable,"# Check for updates
+zotero-mcp update --check-only
+
+# Update to latest version (preserves all configurations)
+zotero-mcp update"
+54yyyu/zotero-mcp,127,installation,True,project-specific executable,"# Configure during initial setup (recommended)
+zotero-mcp setup
+
+# Or configure semantic search separately
+zotero-mcp setup --semantic-config-only"
+54yyyu/zotero-mcp,150,usage,True,project-specific executable,"# Build the semantic search database (fast, metadata-only)
+zotero-mcp update-db
+
+# Build with full-text extraction (slower, more comprehensive)
+zotero-mcp update-db --fulltext
+
+# Use your custom zotero.sqlite path
+zotero-mcp update-db --fulltext --db-path ""/Your_custom_path/zotero.sqlite""
+
+# If you have embedding conflicts or changed models, force a rebuild
+zotero-mcp update-db --force-rebuild
+
+# Check database status
+zotero-mcp db-status"
+54yyyu/zotero-mcp,193,other,False,project-specific executable,   zotero-mcp setup
+54yyyu/zotero-mcp,262,usage,True,project-specific executable,zotero-mcp setup --no-local --api-key YOUR_API_KEY --library-id YOUR_LIBRARY_ID
+54yyyu/zotero-mcp,286,other,False,project-specific executable,"# Run the server directly
+zotero-mcp serve
+
+# Specify transport method
+zotero-mcp serve --transport stdio|streamable-http|sse
+
+# Setup and configuration
+zotero-mcp setup --help                    # Get help on setup options
+zotero-mcp setup --semantic-config-only    # Configure only semantic search
+zotero-mcp setup-info                      # Show installation path and config info for MCP clients
+
+# Updates and maintenance
+zotero-mcp update                          # Update to latest version
+zotero-mcp update --check-only             # Check for updates without installing
+zotero-mcp update --force                  # Force update even if up to date
+
+# Semantic search database management
+zotero-mcp update-db                       # Update semantic search database (fast, metadata-only)
+zotero-mcp update-db --fulltext             # Update with full-text extraction (comprehensive but slower)
+zotero-mcp update-db --force-rebuild       # Force complete database rebuild
+zotero-mcp update-db --fulltext --force-rebuild  # Rebuild with full-text extraction
+zotero-mcp update-db --fulltext --db-path ""your_path_to/zotero.sqlite"" # Customize your zotero database path
+zotero-mcp db-status                       # Show database status and info
+
+# General
+zotero-mcp version                         # Show current version"
+KoljaB/RealtimeVoiceChat,172,installation,True,comments only,        # pip install torch torchaudio torchvision
+KoljaB/RealtimeVoiceChat,195,run,True,comments only,"    # Linux/macOS: source ../venv/bin/activate
+    # Windows: ..\venv\Scripts\activate"
+Raidensz/OTP-Bot-Telegram,134,deployment,True,project-specific executable,   ngrok http 5000
+jawah/charset_normalizer,132,usage,True,project-specific executable,normalizer ./data/sample.1.fr.srt
+juftin/browsr,61,installation,True,other package manager or system tool,pipx install browsr
+juftin/browsr,71,installation,True,other package manager or system tool,"pipx install ""browsr[all]"""
+juftin/browsr,83,other,False,project-specific executable,browsr ~/Downloads/
+juftin/browsr,100,deployment,True,project-specific executable,browsr s3://my-bucket
+juftin/browsr,108,other,False,project-specific executable,browsr ssh://username@example.com:22
+theOGognf/finagg,36,installation,True,project-specific executable,finagg install -ss economic -ts sec -z -r
+microsoft/apm,58,other,False,project-specific executable,irm https://aka.ms/apm-windows | iex
+microsoft/apm,90,other,False,project-specific executable,apm install microsoft/apm-sample-package#v1.0.0
+CharlesPikachu/freeproxy,219,other,False,"output, URL or other","C:\Users\Charles\Desktop>python test.py
+KuaidailiProxiedSession >>> adding country_code: 37it [00:05,  6.57it/s]                 | 1/4 [00:18<00:56, 18.95s/it]
+100%|████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:28<00:00,  7.17s/it]
+The proxy distribution for each source you specified is as follows:
++-----------+-------------------------------+------+-------+--------+--------+------------+-------+-------+
+|   Source  |       Retrieved Example       | HTTP | HTTPS | SOCKS4 | SOCKS5 | Chinese IP | Elite | Total |
++-----------+-------------------------------+------+-------+--------+--------+------------+-------+-------+
+|  Proxifly |   http://195.231.69.203:443   | 5112 |   0   |  1043  |  477   |     48     |  2157 |  6632 |
+| Kuaidaili |   http://113.45.158.25:3128   |  20  |   13  |   0    |   0    |     19     |   33  |   33  |
+|  Qiyunip  |   https://114.103.88.18:8089  |  6   |   9   |   0    |   0    |     15     |   14  |   15  |
+| Proxylist | socks4://184.181.217.206:4145 | 420  |   59  |  182   |  156   |     54     |  699  |  817  |
++-----------+-------------------------------+------+-------+--------+--------+------------+-------+-------+"
+CharlesPikachu/freeproxy,276,other,False,"output, URL or other","dict_keys([
+  'ProxiflyProxiedSession': ProxiflyProxiedSession, 'FreeproxylistProxiedSession': FreeproxylistProxiedSession, 'IP89ProxiedSession': IP89ProxiedSession, 'ProxyEliteProxiedSession': ProxyEliteProxiedSession,
+  'IP3366ProxiedSession': IP3366ProxiedSession, 'KuaidailiProxiedSession': KuaidailiProxiedSession, 'KxdailiProxiedSession': KxdailiProxiedSession, 'ProxydailyProxiedSession': ProxydailyProxiedSession, 
+  'ProxydbProxiedSession': ProxydbProxiedSession, 'ProxyhubProxiedSession': ProxyhubProxiedSession, 'ProxylistProxiedSession': ProxylistProxiedSession, 'QiyunipProxiedSession': QiyunipProxiedSession,
+  'SpysoneProxiedSession': SpysoneProxiedSession, 'Tomcat1235ProxiedSession': Tomcat1235ProxiedSession, 'DatabayProxiedSession': DatabayProxiedSession, 'FineProxyProxiedSession': FineProxyProxiedSession, 
+  'IPLocateProxiedSession': IPLocateProxiedSession, 'JiliuipProxiedSession': JiliuipProxiedSession, 'TheSpeedXProxiedSession': TheSpeedXProxiedSession, 'GeonodeProxiedSession': GeonodeProxiedSession, 
+  'FreeProxyDBProxiedSession': FreeProxyDBProxiedSession, 'ProxyScrapeProxiedSession': ProxyScrapeProxiedSession, 'SCDNProxiedSession': SCDNProxiedSession, 'GoodIPSProxiedSession': GoodIPSProxiedSession,
+  'SixSixDailiProxiedSession': SixSixDailiProxiedSession, 'DpangestuwProxiedSession': DpangestuwProxiedSession, 'ProxyNovaProxiedSession': ProxyNovaProxiedSession,
+])"
+HKUDS/LightRAG,578,other,False,other package manager or system tool,ollama pull qwen2
+HKUDS/LightRAG,584,other,False,other package manager or system tool,ollama show --modelfile qwen2 > Modelfile
+HKUDS/LightRAG,590,other,False,"output, URL or other",PARAMETER num_ctx 32768
+HKUDS/LightRAG,596,other,False,other package manager or system tool,ollama create -f Modelfile qwen2m
+HKUDS/LightRAG,1130,other,False,configuration or data,"# Connection
+MILVUS_URI=http://localhost:19530
+MILVUS_DB_NAME=lightrag
+# MILVUS_USER=root
+# MILVUS_PASSWORD=your_password
+# MILVUS_TOKEN=your_token
+
+# Storage selection
+LIGHTRAG_VECTOR_STORAGE=MilvusVectorDBStorage
+
+# Index configuration (all optional — sensible defaults apply)
+MILVUS_INDEX_TYPE=HNSW              # Default: AUTOINDEX
+MILVUS_METRIC_TYPE=COSINE           # Default: COSINE
+MILVUS_HNSW_M=16                    # Default: 16, range [2-2048]
+MILVUS_HNSW_EF_CONSTRUCTION=360     # Default: 360
+MILVUS_HNSW_EF=200                  # Default: 200
+
+# HNSW_SQ options (requires Milvus 2.6.8+)
+# MILVUS_INDEX_TYPE=HNSW_SQ
+# MILVUS_HNSW_SQ_TYPE=SQ8           # SQ4U, SQ6, SQ8, BF16, FP16
+# MILVUS_HNSW_SQ_REFINE=false       # Enable refinement
+# MILVUS_HNSW_SQ_REFINE_TYPE=FP32   # Refinement precision
+# MILVUS_HNSW_SQ_REFINE_K=10        # Refinement expansion factor
+
+# IVF options
+# MILVUS_IVF_NLIST=1024
+# MILVUS_IVF_NPROBE=16"
+Aherontas/Pycon_Greece_2025_Presentation_Agents,134,other,False,local script invocation,"# Stop the application
+./docker-stop.sh"
+Project-Babble/ProjectBabble,60,other,False,other package manager or system tool,sudo apt-get install v4l-utils
+Project-Babble/ProjectBabble,71,other,False,other package manager or system tool,sudo apt-get install python3-tk
+Project-Babble/ProjectBabble,75,other,False,other package manager or system tool,sudo dnf install python3-tkinter
+Project-Babble/ProjectBabble,79,other,False,other package manager or system tool,brew install python-tk
+nbogojevic/midea-beautiful-air,119,usage,True,project-specific executable,"midea-beautiful-air-cli --help
+midea-beautiful-air-cli discover --help
+midea-beautiful-air-cli set --help
+midea-beautiful-air-cli status --help"
+nbogojevic/midea-beautiful-air,130,other,False,project-specific executable,midea-beautiful-air-cli discover --account ACCOUNT_EMAIL --password PASSWORD
+nbogojevic/midea-beautiful-air,135,other,False,project-specific executable,midea-beautiful-air-cli discover --account ACCOUNT_EMAIL --password PASSWORD --credentials
+nbogojevic/midea-beautiful-air,141,other,False,project-specific executable,midea-beautiful-air-cli discover --account ACCOUNT_EMAIL --password PASSWORD --address 192.0.2.3 --credentials
+nbogojevic/midea-beautiful-air,147,other,False,project-specific executable,midea-beautiful-air-cli discover --account ACCOUNT_EMAIL --password PASSWORD --address 192.0.2.255 --credentials
+nbogojevic/midea-beautiful-air,153,other,False,project-specific executable,midea-beautiful-air-cli --verbose ---log DEBUG discover --account ACCOUNT --password PASSWORD --credentials --app MSmartHome
+nbogojevic/midea-beautiful-air,159,other,False,project-specific executable,midea-beautiful-air-cli --verbose ---log DEBUG discover --account ACCOUNT --password PASSWORD --credentials --appkey APPKEY --appid APPID --hmackey HMACKEY --iotkey IOTKEY --apiurl https://mp-prod.appsmb.com/mas/v5/app/proxy?alias= --proxied
+nbogojevic/midea-beautiful-air,167,other,False,project-specific executable,midea-beautiful-air-cli status --ip APPLIANCE_IP_ADDRESS --token TOKEN --key KEY
+nbogojevic/midea-beautiful-air,173,other,False,project-specific executable,midea-beautiful-air-cli status --ip APPLIANCE_IP_ADDRESS --account ACCOUNT_EMAIL --password PASSWORD
+nbogojevic/midea-beautiful-air,179,other,False,project-specific executable,midea-beautiful-air-cli status --id APPLIANCE_ID --account ACCOUNT_EMAIL --password PASSWORD --cloud
+nbogojevic/midea-beautiful-air,189,other,False,project-specific executable,midea-beautiful-air-cli set --ip APPLIANCE_IP_ADDRESS --token TOKEN --key KEY --target-humidity 55
+nbogojevic/midea-beautiful-air,193,other,False,project-specific executable,midea-beautiful-air-cli set --ip APPLIANCE_IP_ADDRESS --token TOKEN --key KEY --mode 1
+nbogojevic/midea-beautiful-air,197,other,False,project-specific executable,midea-beautiful-air-cli set --ip APPLIANCE_IP_ADDRESS --token TOKEN --key KEY --ion-mode 1
+nbogojevic/midea-beautiful-air,201,other,False,project-specific executable,midea-beautiful-air-cli set --ip APPLIANCE_IP_ADDRESS --token TOKEN --key KEY --running 1
+nbogojevic/midea-beautiful-air,205,other,False,project-specific executable,midea-beautiful-air-cli set --ip APPLIANCE_IP_ADDRESS --token TOKEN --key KEY --pump 1
+nbogojevic/midea-beautiful-air,209,other,False,project-specific executable,midea-beautiful-air-cli set --ip APPLIANCE_IP_ADDRESS --token TOKEN --key KEY --fan-speed 60 --target-humidity 50
+nbogojevic/midea-beautiful-air,213,other,False,project-specific executable,midea-beautiful-air-cli set --id APPLIANCE_ID --account ACCOUNT_EMAIL --password PASSWORD --target-humidity 55 --cloud
+nbogojevic/midea-beautiful-air,217,other,False,project-specific executable,midea-beautiful-air-cli set --help
+nbogojevic/midea-beautiful-air,228,other,False,project-specific executable,midea-beautiful-air-cli --log DEBUG discover --account ACCOUNT_EMAIL --password PASSWORD
+nbogojevic/midea-beautiful-air,232,other,False,project-specific executable,midea-beautiful-air-cli --log NOTSET discover --account ACCOUNT_EMAIL --password PASSWORD
+nbogojevic/midea-beautiful-air,236,other,False,project-specific executable,midea-beautiful-air-cli --log WARNING discover --account ACCOUNT_EMAIL --password PASSWORD
+nschloe/tiptop,43,other,False,project-specific executable,tiptop -h
+datamol-io/safe,150,run,True,project-specific executable,"safe-train --config <path to config> \
+    --model-path <path to model> \
+    --tokenizer  <path to tokenizer> \
+    --dataset <path to dataset> \
+    --num_labels 9 \
+    --torch_compile True \
+    --optim ""adamw_torch"" \
+    --learning_rate 1e-5 \
+    --prop_loss_coeff 1e-3 \
+    --gradient_accumulation_steps 1 \
+    --output_dir ""<path to outputdir>"" \
+    --max_steps 5"
+cre185/InstantSfM,108,installation,True,project-specific executable,"fatal error: cudss.h: No such file or directory
+   10 | #include <cudss.h>
+      |          ^~~~~~~~~
+compilation terminated"
+cre185/InstantSfM,156,usage,True,project-specific executable,ins-feat --data_path /path/to/folder
+cre185/InstantSfM,160,usage,True,project-specific executable,ins-sfm --data_path /path/to/folder
+cre185/InstantSfM,164,usage,True,project-specific executable,ins-gs --data_path /path/to/folder
+cre185/InstantSfM,168,usage,True,project-specific executable,ins-sfm --data_path /path/to/folder --enable_gui
+cre185/InstantSfM,172,usage,True,project-specific executable,ins-vis --data_path /path/to/folder
+nix-community/NUR,87,usage,True,prompt-prefixed command,"$ nix-shell -p nur.repos.mic92.hello-nur
+nix-shell> hello
+Hello, NUR!"
+nix-community/NUR,95,usage,True,prompt-prefixed command,$ nix-env -f '<nixpkgs>' -iA nur.repos.mic92.hello-nur
+nix-community/NUR,101,usage,True,"output, URL or other","# configuration.nix
+environment.systemPackages = with pkgs; [
+  nur.repos.mic92.hello-nur
+];"
+nix-community/NUR,269,other,False,prompt-prefixed command,"$ nix-shell --arg pkgs 'import <nixpkgs> {}' -A hello-nur
+nix-shell> hello
+nix-shell> find $buildInputs"
+nix-community/NUR,275,other,False,prompt-prefixed command,$ nix-build --arg pkgs 'import <nixpkgs> {}' -A hello-nur
+nix-community/NUR,288,other,False,prompt-prefixed command,$ nix-build -A hello-nur
+nix-community/NUR,373,test,True,project-specific executable,"nix-env -f . -qa \* --meta \
+  --allowed-uris https://static.rust-lang.org \
+  --option restrict-eval true \
+  --option allow-import-from-derivation true \
+  --drv-path --show-trace \
+  -I nixpkgs=$(nix-instantiate --find-file nixpkgs) \
+  -I ./ \
+  --json | jq -r 'values | .[].name'"
+thammegowda/mtdata,101,other,False,project-specific executable,"mtdata list -h
+usage: __main__.py list [-h] [-l L1-L2] [-n [NAME ...]] [-nn [NAME ...]] [-f] [-o OUT]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -l L1-L2, --langs L1-L2
+                        Language pairs; e.g.: deu-eng (default: None)
+  -n [NAME ...], --names [NAME ...]
+                        Name of dataset set; eg europarl_v9. (default: None)
+  -nn [NAME ...], --not-names [NAME ...]
+                        Exclude these names (default: None)
+  -f, --full            Show Full Citation (default: False)"
+thammegowda/mtdata,116,other,False,project-specific executable,"# List everything ; add | cut -f1  to see ID column only
+mtdata list | cut -f1
+
+# List a lang pair 
+mtdata list -l deu-eng 
+
+# List a dataset by name(s)
+mtdata list -n europarl
+mtdata list -n europarl news_commentary
+
+# list by both language pair and dataset name
+ mtdata list -l deu-eng -n europarl news_commentary newstest_deen  | cut -f1
+    Statmt-europarl-9-deu-eng
+    Statmt-europarl-7-deu-eng
+    Statmt-news_commentary-14-deu-eng
+    Statmt-news_commentary-15-deu-eng
+    Statmt-news_commentary-16-deu-eng
+    Statmt-newstest_deen-2014-deu-eng
+    Statmt-newstest_deen-2015-deu-eng
+    Statmt-newstest_deen-2016-deu-eng
+    Statmt-newstest_deen-2017-deu-eng
+    Statmt-newstest_deen-2018-deu-eng
+    Statmt-newstest_deen-2019-deu-eng
+    Statmt-newstest_deen-2020-deu-eng
+    Statmt-europarl-10-deu-eng
+    OPUS-europarl-8-deu-eng
+
+# get citation of a dataset (if available in index.py)
+mtdata list -l deu-eng -n newstest_deen --full"
+thammegowda/mtdata,191,installation,True,prompt-prefixed command,"$ mtdata list -l deu-eng | cut -f1  # see available datasets
+    Statmt-commoncrawl_wmt13-1-deu-eng
+    Statmt-europarl_wmt13-7-deu-eng
+    Statmt-news_commentary_wmt18-13-deu-eng
+    Statmt-europarl-9-deu-eng
+    Statmt-europarl-7-deu-eng
+    Statmt-news_commentary-14-deu-eng
+    Statmt-news_commentary-15-deu-eng
+    Statmt-news_commentary-16-deu-eng
+    Statmt-wiki_titles-1-deu-eng
+    Statmt-wiki_titles-2-deu-eng
+    Statmt-newstest_deen-2014-deu-eng
+    ....[truncated]"
+thammegowda/mtdata,207,installation,True,prompt-prefixed command," $ mtdata get -l deu-eng --out data/deu-eng --merge \
+     --train Statmt-europarl-10-deu-eng Statmt-news_commentary-16-deu-eng \
+     --dev Statmt-newstest_deen-2017-deu-eng  --test Statmt-newstest_deen-20{18,19,20}-deu-eng
+    # ...[truncated]   
+    INFO:root:Train stats:
+    {
+      ""total"": 2206240,
+      ""parts"": {
+        ""Statmt-news_commentary-16-deu-eng"": 388482,
+        ""Statmt-europarl-10-deu-eng"": 1817758
+      }
+    }
+    INFO:root:Dataset is ready at deu-eng"
+thammegowda/mtdata,223,installation,True,prompt-prefixed command,"$ cat deu-eng/mtdata.signature.txt
+mtdata get -l deu-eng -tr Statmt-europarl-10-deu-eng Statmt-news_commentary-16-deu-eng \
+   -ts Statmt-newstest_deen-2018-deu-eng Statmt-newstest_deen-2019-deu-eng Statmt-newstest_deen-2020-deu-eng \
+   -dv Statmt-newstest_deen-2017-deu-eng --merge -o <out-dir>
+mtdata version 0.3.0-dev"
+thammegowda/mtdata,277,other,False,project-specific executable,"mtdata list-recipe  # see all recipes
+mtdata get-recipe -ri <recipe_id> -o <out_dir>  # get recipe, recreate dataset"
+thammegowda/mtdata,375,usage,True,project-specific executable,mtdata-bcp47 eng English en-US en-GB eng-Latn kan Kannada-Deva hin-Deva kan-Latn
+thammegowda/mtdata,394,usage,True,prompt-prefixed command,"# --pipe/-p : maps stdin -> stdout  
+# -s express : expresses scripts (unlike BCP47, which supresses default script
+$ echo -e ""en\neng\nfr\nfra\nara\nkan\ntel\neng_Latn\nhin_deva""|  mtdata-bcp47 -p -s express
+eng_Latn
+eng_Latn
+fra_Latn
+fra_Latn
+ara_Arab
+kan_Knda
+tel_Telu
+eng_Latn
+hin_Deva"
+NaturalHistoryMuseum/ckanext-doi,78,installation,True,"output, URL or other",   . $INSTALL_FOLDER/bin/activate
+NaturalHistoryMuseum/ckanext-doi,99,installation,True,project-specific executable,   ckan -c $CONFIG_FILE db upgrade -p doi
+NaturalHistoryMuseum/ckanext-doi,157,other,False,project-specific executable,    ckan -c $CONFIG_FILE doi delete-dois
+NaturalHistoryMuseum/ckanext-doi,162,other,False,project-specific executable,    ckan -c $CONFIG_FILE doi update-doi [PACKAGE_ID]
+realgam3/pymultitor,96,other,False,project-specific executable,   pymultitor
+realgam3/pymultitor,128,usage,True,project-specific executable,pymultitor --help
+Delta-Icons/android,61,other,False,"output, URL or other",E0:72:D5:B7:6D:41:33:D8:5B:76:26:33:A7:50:87:18:48:F4:1C:ED:3D:6D:72:82:33:91:08:E9:BE:D1:5E:2E
+browser-use/browser-use,128,installation,True,other package manager or system tool,uvx browser-use init --template default
+browser-use/browser-use,148,usage,True,project-specific executable,"browser-use open https://example.com    # Navigate to URL
+browser-use state                       # See clickable elements
+browser-use click 5                     # Click element by index
+browser-use type ""Hello""                # Type text
+browser-use screenshot page.png         # Take screenshot
+browser-use close                       # Close browser"
+morissette/nfcu,61,installation,True,project-specific executable,pipenv install --dev
+morissette/nfcu,67,run,True,project-specific executable,pipenv run pytest test/
+morissette/nfcu,75,test,True,project-specific executable,"pipenv run pylint nfcu/
+pipenv run pycodestyle nfcu/"
+morissette/nfcu,82,run,True,project-specific executable,pipenv run pylint nfcu/ && pipenv run pycodestyle nfcu/ && pipenv run pytest test/
+morissette/nfcu,88,test,True,project-specific executable,pipenv run pytest test/ --cov=nfcu --cov-report=term-missing
+benkehoe/aws-sso-util,30,installation,True,other package manager or system tool,"brew install pipx
+pipx ensurepath"
+benkehoe/aws-sso-util,42,installation,True,other package manager or system tool,pipx install aws-sso-util
+benkehoe/aws-sso-util,47,installation,True,other package manager or system tool,aws-sso-util --help
+podgorki/TANGO,152,other,False,other package manager or system tool,"echo ""$PWD/third_party/depth_anything/metric_depth"" > \
+     $(python -c ""import site, sys; print(site.getsitepackages()[0])"")/zoedepth_local.pth"
+SolaceLabs/solace-agent-mesh,89,other,False,vocabulary command not matched,mkdir my-sam && cd my-sam
+SolaceLabs/solace-agent-mesh,98,installation,True,project-specific executable,sam -v
+SolaceLabs/solace-agent-mesh,112,installation,True,project-specific executable,sam init --gui
+SolaceLabs/solace-agent-mesh,117,run,True,project-specific executable,sam run
+SolaceLabs/solace-agent-mesh,126,other,False,project-specific executable,sam add agent --gui
+SolaceLabs/solace-agent-mesh,131,installation,True,project-specific executable,sam plugin add <your-component-name> --plugin <plugin-name>
+SolaceLabs/solace-agent-mesh,200,usage,True,project-specific executable,"# Run all tests
+hatch test
+
+# Run tests with tags
+hatch test -m ""<tag>"""
+arabcoders/ytptube,47,usage,True,project-specific executable,"mkdir -p ./{config,downloads/files,downloads/tmp} && docker run -itd --rm --user ""${UID}:${UID}"" --name ytptube \
+-e YTP_TEMP_PATH=/downloads/tmp -e YTP_DOWNLOAD_PATH=/downloads/files \
+-p 8081:8081 -v ./config:/config:rw -v ./downloads:/downloads:rw \
+ghcr.io/arabcoders/ytptube:latest"
+arabcoders/ytptube,84,usage,True,vocabulary command not matched,"mkdir -p ./{config,downloads/files,downloads/tmp} && docker compose -f compose.yaml up -d"
+litestar-org/litestar-vite,38,installation,True,project-specific executable,"litestar assets init --template vue
+litestar assets install
+litestar run --reload"
+gradio-app/gradio,178,other,False,project-specific executable,"gradio skills add --cursor   # or --claude, --codex, --opencode"
+gradio-app/gradio,186,other,False,project-specific executable,gradio skills add abidlabs/en2fr --cursor
+google-deepmind/mujoco_warp,83,other,False,project-specific executable,mjwarp-viewer benchmarks/humanoid/humanoid.xml
+google-deepmind/mujoco_warp,111,test,True,project-specific executable,mjwarp-testspeed benchmarks/humanoid/humanoid.xml --event_trace=True
+dj-bolt/django-bolt,137,other,False,project-specific executable,"# Build
+just build          # Build Rust extension
+just rebuild        # Clean and rebuild
+
+# Testing
+just test-py        # Run Python tests
+
+# Benchmarking
+just save-bench     # Run and save results
+"
+dexsuite/dex-retargeting,113,documentation,False,project-specific executable,"@inproceedings{qin2023anyteleop,
+  title     = {AnyTeleop: A General Vision-Based Dexterous Robot Arm-Hand Teleoperation System},
+  author    = {Qin, Yuzhe and Yang, Wei and Huang, Binghao and Van Wyk, Karl and Su, Hao and Wang, Xiaolong and Chao, Yu-Wei and Fox, Dieter},
+  booktitle = {Robotics: Science and Systems},
+  year      = {2023}
+}"
+etsap-TIMES/xl2times,26,installation,True,project-specific executable,xl2times --help
+etsap-TIMES/xl2times,31,installation,True,project-specific executable,xl2times benchmarks/xlsx/DemoS_001/
+etsap-TIMES/xl2times,68,test,True,project-specific executable,"xl2times ""C:\VEDA\VEDA_Models\My_TIMES-Model""  --ground_truth_dir=ground_truth -v"
+etsap-TIMES/xl2times,102,installation,True,project-specific executable,pre-commit install
+Dioptas/Dioptas,31,other,False,project-specific executable,find Dioptas_*.app -exec xattr -c {} \;
+Dioptas/Dioptas,45,build,True,project-specific executable,dioptas
+radiac/nanodjango,59,installation,True,project-specific executable,nanodjango run counter.py
+radiac/nanodjango,72,other,False,project-specific executable,nanodjango convert counter.py path/to/site --name=counter
+radiac/nanodjango,130,run,True,project-specific executable,nanodjango serve counter.py
+arc53/DocsGPT,98,installation,True,"output, URL or other",   PowerShell -ExecutionPolicy Bypass -File .\setup.ps1
+spack/spack,71,installation,True,project-specific executable,"# Now you're ready to install a package!
+spack install zlib-ng"
+huggingface/upskill,19,installation,True,project-specific executable,"upskill generate ""write good git commit messages""
+# or based on previous agent traces
+upskill generate ""document the pattern"" --from ./trace.md
+# Skills are saved to ./skills/{skill-name}/ by default"
+huggingface/upskill,28,installation,True,project-specific executable,"upskill generate ""write good git commit messages"" --model sonnet --eval-model haiku"
+huggingface/upskill,34,installation,True,project-specific executable,"upskill eval ./skills/git-commit-messages/ -m haiku -m sonnet
+# logs pretty printed to the terminal"
+huggingface/upskill,41,installation,True,project-specific executable,upskill runs --skill git-commit-messages
+huggingface/upskill,76,other,False,project-specific executable,upskill generate TASK [OPTIONS]
+huggingface/upskill,97,other,False,project-specific executable,"# Basic usage
+upskill generate ""parse JSON Schema files""
+
+# Make and evaluate skills for less powerful models
+upskill generate ""write git commits"" --model sonnet --eval-model haiku
+
+# Improve an existing skill (auto-detected as directory)
+upskill generate ""add more error handling examples"" --from ./skills/api-errors/
+
+# Generate from an agent trace file (auto-detected as file)
+upskill generate ""document the pattern"" --from ./trace.json
+
+# Skip evaluation during generation (evaluate separately with upskill eval)
+upskill generate ""parse YAML"" --no-eval"
+huggingface/upskill,139,other,False,project-specific executable,upskill eval SKILL_PATH [OPTIONS]
+huggingface/upskill,158,other,False,project-specific executable,"# Basic evaluation with baseline comparison
+upskill eval ./skills/my-skill/
+
+# With verbose output
+upskill eval ./skills/my-skill/ -v
+
+# Custom test cases
+upskill eval ./skills/my-skill/ --tests ./tests.json
+
+# Evaluate on specific model
+upskill eval ./skills/my-skill/ -m haiku
+
+# Multi-model benchmarking (compare models)
+upskill eval ./skills/my-skill/ -m haiku -m sonnet
+
+# Multiple runs per model for statistical significance
+upskill eval ./skills/my-skill/ -m haiku -m sonnet --runs 5
+
+# Evaluate a local model configured in fast-agent
+upskill eval ./skills/my-skill/ -m generic.my-model
+
+# Skip baseline (just test with skill)
+upskill eval ./skills/my-skill/ --no-baseline
+
+# Benchmark mode is triggered by multiple models OR --runs > 1
+upskill eval ./skills/my-skill/ -m haiku --runs 5
+
+# Disable run logging
+upskill eval ./skills/my-skill/ --no-log-runs"
+huggingface/upskill,223,other,False,project-specific executable,upskill list [OPTIONS]
+huggingface/upskill,233,other,False,project-specific executable,"# List skills in default directory
+upskill list
+
+# List from custom directory
+upskill list -d ./my-skills/
+
+# Show preview of skill contents
+upskill list -v"
+huggingface/upskill,268,other,False,project-specific executable,upskill runs [OPTIONS]
+huggingface/upskill,281,other,False,project-specific executable,"# View results plot (default)
+upskill runs
+
+# Filter by skill and models
+upskill runs -s my-skill -m haiku -m sonnet
+
+# Show token usage instead of success rate
+upskill runs --metric tokens
+
+# Export to CSV
+upskill runs --csv ./results.csv
+
+# Custom runs directory
+upskill runs -d ./my-runs/"
+huggingface/upskill,448,other,False,configuration or data,"# Required for Anthropic models
+ANTHROPIC_API_KEY=sk-ant-...
+
+# Required for OpenAI models
+OPENAI_API_KEY=sk-...
+
+# Optional: custom endpoints
+ANTHROPIC_BASE_URL=http://localhost:8080
+OPENAI_API_BASE=http://localhost:11434/v1
+
+# For local models (generic provider)
+GENERIC_BASE_URL=http://localhost:8080/v1
+GENERIC_API_KEY=local  # Optional, defaults to ""local"""
+huggingface/upskill,531,other,False,other package manager or system tool,"# Start Ollama (default port 11434)
+ollama serve
+
+# Configure endpoint via fast-agent config/env, then evaluate
+upskill eval ./skills/my-skill/ --model generic.llama3.2:latest"
+huggingface/upskill,541,other,False,local script invocation,"# Start llama.cpp server
+./llama-server -m model.gguf --port 8080
+
+# Configure endpoint via fast-agent config/env, then evaluate
+upskill eval ./skills/my-skill/ --model generic.my-model"
+marimo-team/marimo,168,installation,True,project-specific executable,marimo edit
+marimo-team/marimo,200,installation,True,project-specific executable,marimo tutorial --help
+The-OpenROAD-Project/OpenLane,63,usage,True,local script invocation,./flow.tcl -design spm
+vectimus/vectimus,16,installation,True,other package manager or system tool,"pipx install vectimus
+vectimus init"
+vectimus/vectimus,79,other,False,project-specific executable,"vectimus policy update    # Pull latest now
+vectimus policy status    # Check version and sync info"
+vectimus/vectimus,230,other,False,project-specific executable,"vectimus mcp allow github
+vectimus mcp allow slack
+vectimus mcp list"
+vectimus/vectimus,242,other,False,project-specific executable,"vectimus observe on       # Log only, no enforcement
+vectimus observe off      # Switch to enforcement
+vectimus observe status   # Show current mode"
+vectimus/vectimus,252,other,False,project-specific executable,"vectimus rule disable vectimus-destruct-003              # This project only
+vectimus rule disable vectimus-destruct-003 --global     # All projects
+vectimus rule overrides                                  # View overrides"
+vectimus/vectimus,264,other,False,project-specific executable,"vectimus daemon status   # Check if running
+vectimus daemon reload   # Pick up config changes immediately
+vectimus daemon stop     # Manual stop (restarts automatically)"
+vectimus/vectimus,285,other,False,project-specific executable,vectimus remove
+owkin/fedpydeseq2,69,installation,True,project-specific executable,fedpydeseq2-download-data --raw_data_output_path data/raw
+owkin/fedpydeseq2,76,installation,True,project-specific executable,fedpydeseq2-download-data --raw_data_output_path MY_RAW_PATH
+vivekchand/clawmetry,79,other,False,project-specific executable,"clawmetry --port 9000              # Custom port (default: 8900)
+clawmetry --host 127.0.0.1         # Bind to localhost only
+clawmetry --workspace ~/mybot      # Custom workspace path
+clawmetry --name ""Alice""           # Your name in Flow visualization"
+amnweb/yasb,36,other,False,other package manager or system tool,winget install --id AmN.yasb
+amnweb/yasb,44,other,False,other package manager or system tool,"scoop bucket add extras
+scoop install extras/yasb"
+amnweb/yasb,53,other,False,other package manager or system tool,choco install yasb
+StructuredLabs/preswald,65,other,False,project-specific executable,preswald export
+StructuredLabs/preswald,124,installation,True,project-specific executable,preswald run
+glomatico/votify,68,usage,True,project-specific executable,votify [OPTIONS] URLS...
+glomatico/votify,85,usage,True,project-specific executable,"votify ""https://open.spotify.com/track/18gqCQzqYb0zvurQPlRkpo"""
+glomatico/votify,90,usage,True,project-specific executable,"votify ""https://open.spotify.com/album/0r8D5N674HbTXlR3zNxeU1"""
+glomatico/votify,95,usage,True,project-specific executable,"votify ""https://open.spotify.com/episode/3kwxWnzGH8T6UY2Nq582zx"""
+glomatico/votify,100,usage,True,project-specific executable,"votify ""https://open.spotify.com/show/4rOoJ6Egrf8K2IrywzwOMk"""
+glomatico/votify,105,usage,True,project-specific executable,"votify ""https://open.spotify.com/track/31k4hgHmrbzorLZMvMWuzq"""
+glomatico/votify,110,usage,True,project-specific executable,"votify ""https://open.spotify.com/track/18gqCQzqYb0zvurQPlRkpo"" --prefer-video"
+glomatico/votify,115,usage,True,project-specific executable,"votify ""https://open.spotify.com/episode/3kwxWnzGH8T6UY2Nq582zx"" --prefer-video"
+glomatico/votify,120,usage,True,project-specific executable,"votify ""https://open.spotify.com/artist/0gxyHStUsqpMadRV0Di1Qt"""
+glomatico/votify,125,usage,True,project-specific executable,"votify ""https://open.spotify.com/artist/0gxyHStUsqpMadRV0Di1Qt"" --auto-media-option albums"
+glomatico/votify,130,usage,True,project-specific executable,votify --auto-media-option liked-tracks
+Q00/ouroboros,86,installation,True,project-specific executable,"claude plugin marketplace add Q00/ouroboros
+claude plugin install ouroboros@ouroboros"
+chubin/wttr.in,36,usage,True,"output, URL or other",Invoke-RestMethod https://wttr.in
+chubin/wttr.in,644,installation,True,other package manager or system tool,apt-get install llvm-7 llvm-7-dev
+FunctionError/PiratesTvPlus,44,other,False,configuration or data,https://raw.githubusercontent.com/FunctionError/PiratesTvPlus/main/PiratesPlus.m3u
+FunctionError/PiratesTvPlus,49,other,False,configuration or data,https://iptv.piratestv.workers.dev/all
+Jaganpro/sf-skills,52,other,False,vocabulary command not matched,npx skills add Jaganpro/sf-skills
+Jaganpro/sf-skills,60,other,False,vocabulary command not matched,"# Install a single skill
+npx skills add Jaganpro/sf-skills --skill sf-apex
+
+# List available skills before installing
+npx skills add Jaganpro/sf-skills --list"
+Jaganpro/sf-skills,556,usage,True,vocabulary command not matched,npx skills add Jaganpro/sf-skills
+Nubaeon/empirica,92,installation,True,other package manager or system tool,"brew tap nubaeon/tap
+brew install empirica
+empirica setup-claude-code"
+Nubaeon/empirica,128,other,False,project-specific executable,empirica onboard   # Interactive walkthrough of the full workflow
+PrimeIntellect-ai/verifiers,71,installation,True,project-specific executable,"# ~/dev/my-lab
+prime lab setup "
+PrimeIntellect-ai/verifiers,97,installation,True,project-specific executable,prime env init my-env # creates a new template in ./environments/my_env
+PrimeIntellect-ai/verifiers,101,installation,True,project-specific executable,prime env init my-openenv --openenv
+PrimeIntellect-ai/verifiers,133,installation,True,project-specific executable,prime env install my-env # installs from ./environments/my_env
+PrimeIntellect-ai/verifiers,138,installation,True,project-specific executable,prime env install primeintellect/math-python
+PrimeIntellect-ai/verifiers,143,installation,True,project-specific executable,prime eval run my-env -m gpt-5-nano # run and save eval results locally
+PrimeIntellect-ai/verifiers,149,installation,True,project-specific executable,prime eval tui
+PrimeIntellect-ai/verifiers,154,installation,True,project-specific executable,prime env push --path ./environments/my_env
+PrimeIntellect-ai/verifiers,159,installation,True,project-specific executable,prime eval run primeintellect/math-python
+superhac/vpinfe,156,installation,True,local script invocation,./vpinfe --gamepadtest
+PierreGode/Ragnar,207,other,False,other package manager or system tool,"sudo nmcli con mod ""YOUR_WIFI_SSID"" ipv4.method manual \
+  ipv4.addresses ""192.168.1.211/24"" \
+  ipv4.gateway ""192.168.1.1"" \
+  ipv4.dns ""192.168.1.1""
+sudo nmcli con up ""YOUR_WIFI_SSID"""
+PierreGode/Ragnar,218,other,False,other package manager or system tool,sudo /home/ragnar/Ragnar/scripts/fix_services.sh
+PierreGode/Ragnar,238,other,False,other package manager or system tool,"sudo ./install_ragnar.sh
+# Choose: 3. Install on WiFi Pineapple Pager"
+PierreGode/Ragnar,244,other,False,local script invocation,./scripts/install_pineapple_pager.sh [pager-ip]
+apptension/onetimepass,25,installation,True,prompt-prefixed command,$ pdm install
+apptension/onetimepass,30,installation,True,prompt-prefixed command,$ pdm install -G keyring
+apptension/onetimepass,78,other,False,prompt-prefixed command,"$ pdm run otp add uri AWS-root
+Enter URI:
+Repeat for confirmation:"
+apptension/onetimepass,90,other,False,prompt-prefixed command,"$ pdm run otp add totp AWS-root
+Enter secret:
+Repeat for confirmation:
+$ pdm run otp add hotp AWS-root
+Enter secret:
+Repeat for confirmation:"
+apptension/onetimepass,101,other,False,prompt-prefixed command,"$ pdm run otp rm <alias>
+Are you sure? [y/N]:"
+apptension/onetimepass,110,other,False,prompt-prefixed command,$ pdm run otp show <alias>
+apptension/onetimepass,119,other,False,prompt-prefixed command,$ pdm run otp show -w <seconds> <alias>
+apptension/onetimepass,130,other,False,prompt-prefixed command,$ pdm run otp show -w 10 <alias> | cut -d' ' -f2 | pbcopy; alert
+apptension/onetimepass,155,other,False,prompt-prefixed command,"$ pdm run zsh
+$ eval ""$(_OTP_COMPLETE=zsh_source otp)"""
+apptension/onetimepass,160,other,False,prompt-prefixed command,"$ pdm run bash
+$ eval ""$(_OTP_COMPLETE=bash_source otp)"""
+lcbcFoo/heimdall-mcp-server,65,other,False,other package manager or system tool,"# Copy or symlink your documentation to the monitored directory
+ln -r -s my-project-docs ./.heimdall/docs/project-docs
+
+# Start automatic monitoring (files are loaded instantly when changed)
+heimdall monitor start"
+lcbcFoo/heimdall-mcp-server,75,other,False,project-specific executable,"# Load documentation and files manually
+heimdall load docs/ --recursive
+heimdall load README.md"
+lcbcFoo/heimdall-mcp-server,87,other,False,project-specific executable,"# Load git commit history
+heimdall git-load ."
+lcbcFoo/heimdall-mcp-server,94,other,False,project-specific executable,"# Install the post-commit hook (Python-based, cross-platform)
+heimdall git-hooks install"
+harbor-framework/harbor,53,usage,True,project-specific executable,harbor run --help
+harbor-framework/harbor,59,usage,True,project-specific executable,harbor datasets list
+harbor-framework/harbor,65,usage,True,project-specific executable,"harbor run -d ""<dataset@version>"" -m ""<model>"" -a ""<agent>"""
+ipa-lab/hackingBuddyGPT,249,other,False,prompt-prefixed command,   $ tmux new-session -s <session_name>
+ipa-lab/hackingBuddyGPT,340,other,False,prompt-prefixed command,$ hackingBuddyGPT Viewer
+nick1udwig/ws-mcp,34,run,True,other package manager or system tool,uvx --refresh ws-mcp@latest
+nick1udwig/ws-mcp,41,run,True,other package manager or system tool,uvx --refresh ws-mcp@latest --config path/to/config --port 10125
+wengmister/LeFranX,43,other,False,local script invocation,./franka_server [YOUR_FRANKA_ROBOT_IP]
+wengmister/LeFranX,76,other,False,configuration or data,"# Use your corresponding python version
+[uv] pip install xhand_controller-1.1.7-cp312-cp312-linux_x86_64.whl "
+ergut/mcp-logseq,68,other,False,project-specific executable,"claude mcp add mcp-logseq \
+  --env LOGSEQ_API_TOKEN=your_token_here \
+  --env LOGSEQ_API_URL=http://localhost:12315 \
+  -- uv run --with mcp-logseq mcp-logseq"
+Quivnex/blankly-finance,137,installation,True,prompt-prefixed command,$ blankly init
+AllenMaxi/ContextGraph,153,other,False,project-specific executable,"# Sentinel operator surface
+cg sentinel health
+cg sentinel verdicts --status dispute
+
+# Agent lifecycle
+cg agents suspend agt_xxx --reason ""manual_review""
+cg agents wake agt_xxx
+cg agents delete agt_xxx"
+AllenMaxi/ContextGraph,184,other,False,project-specific executable,"cg discover --query analyst --visibility published
+cg agents show agt_xxx
+cg agents profile --visibility published --summary ""Cross-org market analyst"""
+AllenMaxi/ContextGraph,244,usage,True,project-specific executable,"cg auth login
+cg store ""TSMC lead times extending 3-5 weeks in Q3""
+cg recall ""TSMC lead times""
+cg claims review clm-xxx --attest --reason ""Confirmed with supplier""
+cg watch create --pattern '{""entities"":[""tsmc""],""min_confidence"":0.7}'
+cg feed"
+AllenMaxi/ContextGraph,409,run,True,project-specific executable,"contextgraph-server
+# API: http://localhost:8420
+# Dashboard: http://localhost:8420/dashboard
+# API docs: http://localhost:8420/docs"
+AllenMaxi/ContextGraph,475,other,False,project-specific executable,"# Store knowledge
+cg store ""TSMC lead times extending 3-5 weeks in Q3""
+cg store --file ./report.txt
+
+# Search knowledge
+cg recall ""supplier delays""
+cg recall ""TSMC"" --json | jq '.[] | .statement'
+
+# Entity relationships
+cg relate ""TSMC"" ""Samsung""
+
+# Pattern subscriptions
+cg watch create --pattern '{""entities"":[""acme""],""min_confidence"":0.7}'
+cg watch list
+
+# Claim management
+cg claims list
+cg claims show clm-xxx      # Full detail with provenance chain
+cg claims review clm-xxx --attest --reason ""Confirmed""
+
+# Social features
+cg follow agent agent-xxx
+cg discover --query analyst
+cg agents show agent-xxx
+cg agents profile --visibility published --summary ""Cross-org market analyst""
+cg follow topic semiconductor
+cg feed
+cg notifications
+
+# Governance
+cg sentinel health
+cg sentinel verdicts --status dispute
+
+# Server status
+cg status
+cg agents list
+cg agents trust agent-xxx"
+AllenMaxi/ContextGraph,520,usage,True,project-specific executable,"cg store ""Bug found: payment timeout after 30s on EU servers. Root cause: connection pool exhaustion.""
+cg recall ""payment timeout"""
+AllenMaxi/ContextGraph,526,usage,True,project-specific executable,"cg store ""Deployed v2.3.1 to production. Changes: EU timeout fix, new caching layer."""
+AllenMaxi/ContextGraph,531,usage,True,project-specific executable,"cg store ""Alert: payment_service p99 latency > 2s in region=EU since 14:30 UTC""
+cg watch create --pattern '{""entities"":[""payment_service""],""min_confidence"":0.5}'"
+AllenMaxi/ContextGraph,537,usage,True,project-specific executable,"#!/bin/bash
+cg auth login
+cg store ""Agent initialized for supply chain monitoring at $(date)""
+cg follow topic ""supply_chain""
+cg watch create --pattern '{""entities"":[""supplier""],""entity_types"":[""company""]}'"
+AllenMaxi/ContextGraph,690,other,False,project-specific executable,"# Each team member:
+cg auth login
+# Server URL: https://contextgraph.yourcompany.com
+# API key: (from admin)
+
+# Now all agents share one knowledge graph
+cg store ""Sprint 14 retrospective: caching reduced p99 by 40%""
+cg recall ""caching improvements"""
+druid-io/pydruid,254,usage,True,prompt-prefixed command,"$ pydruid http://localhost:8082/druid/v2/sql/
+> SELECT COUNT(*) AS cnt FROM places
+  cnt
+-----
+12345
+> SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES;
+TABLE_NAME
+----------
+test_table
+COLUMNS
+SCHEMATA
+TABLES
+> BYE;
+GoodBye!"
+Scottcjn/Rustchain,89,other,False,other package manager or system tool,"# Linux (systemd)
+systemctl --user status rustchain-miner
+journalctl --user -u rustchain-miner -f
+
+# macOS (launchd)
+launchctl list | grep rustchain
+tail -f ~/.rustchain/miner.log"
+threedle/DA-Wand,48,other,False,project-specific executable,blender --background --python blender_deform.py --datadir ./datasets/primitives --outdir ./datasets/deformed_primitives ... 
+cuga-project/cuga-agent,93,installation,True,configuration or data,"   # Edit ./src/cuga/settings.toml and change:
+   mode = 'hybrid'  # under [advanced_features] section"
+cuga-project/cuga-agent,103,installation,True,project-specific executable,   playwright install chromium
+cuga-project/cuga-agent,109,installation,True,project-specific executable,   cuga start demo
+cuga-project/cuga-agent,149,installation,True,configuration or data,"   # Edit ./src/cuga/settings.toml and ensure:
+   api_planner_hitl = true  # under [advanced_features] section"
+cuga-project/cuga-agent,156,installation,True,project-specific executable,   cuga start demo
+cuga-project/cuga-agent,465,other,False,project-specific executable,cuga start demo_supervisor
+cuga-project/cuga-agent,542,other,False,project-specific executable,   cuga start demo --sandbox
+cuga-project/cuga-agent,550,other,False,project-specific executable,"   # Test local sandbox (default)
+   cuga test-sandbox
+
+   # Test remote sandbox with Docker/Podman
+   cuga test-sandbox --remote"
+cuga-project/cuga-agent,607,other,False,project-specific executable,"# In a separate terminal, start ngrok tunnel to registry
+ngrok http 8001
+
+# You'll get a public URL like: https://abc123.ngrok.io
+# Copy this URL"
+cuga-project/cuga-agent,625,other,False,project-specific executable,"# In a separate terminal, start ngrok tunnel to CUGA
+ngrok http 7860
+
+# You'll get a public URL like: https://xyz789.ngrok.io
+# Copy this URL"
+cuga-project/cuga-agent,659,run,True,project-specific executable,"# Make sure ngrok is running in another terminal
+cuga start demo"
+cuga-project/cuga-agent,904,run,True,local script invocation,./src/scripts/run_tests.sh
+cuga-project/cuga-agent,910,run,True,local script invocation,./src/scripts/run_tests.sh unit_tests
+browser-use/web-ui,46,installation,True,"output, URL or other",.venv\Scripts\activate
+browser-use/web-ui,50,installation,True,"output, URL or other",.\.venv\Scripts\Activate.ps1
+browser-use/web-ui,65,installation,True,project-specific executable,playwright install --with-deps
+browser-use/web-ui,69,installation,True,project-specific executable,playwright install chromium --with-deps
+browser-use/web-ui,76,installation,True,project-specific executable,copy .env.example .env
+browser-use/web-ui,124,installation,True,project-specific executable,copy .env.example .env
+langbot-app/LangBot,60,run,True,other package manager or system tool,uvx langbot
+invcble/NoMoreBorder,66,run,True,project-specific executable,pyinstaller NoMoreBorder.spec
+SakanaAI/ShinkaEvolve,71,installation,True,project-specific executable,"shinka_launch variant=circle_packing_example
+shinka_launch task=novelty_generator database=island_small"
+SakanaAI/ShinkaEvolve,373,other,False,project-specific executable,"# Run with the shared default baseline
+shinka_launch
+
+# Run with custom parameters
+shinka_launch \
+    task=circle_packing \
+    database=island_large \
+    evolution=small_budget \
+    cluster=local \
+    evo_config.num_generations=20"
+SakanaAI/ShinkaEvolve,436,other,False,project-specific executable,"# Start your evolution experiment
+shinka_launch
+
+# In another terminal, launch the WebUI
+shinka_visualize --port 8888 --open"
+orcahand/orca_core,101,other,False,other package manager or system tool,sudo usermod -aG dialout $USER
+orcahand/orca_core,107,other,False,other package manager or system tool,sudo chmod 666 /dev/ttyUSB0
+roryeckel/wyoming_openai,547,test,True,project-specific executable,   ruff check .
+roryeckel/wyoming_openai,565,other,False,project-specific executable,   pyright
+Skyvern-AI/skyvern,86,run,True,project-specific executable,skyvern quickstart
+Skyvern-AI/skyvern,178,installation,True,project-specific executable,skyvern run all
+Skyvern-AI/skyvern,257,other,False,configuration or data,"# The path to your Chrome browser. This example path is for Mac.
+CHROME_EXECUTABLE_PATH=""/Applications/Google Chrome.app/Contents/MacOS/Google Chrome""
+BROWSER_TYPE=cdp-connect"
+Skyvern-AI/skyvern,269,deployment,True,project-specific executable,"# One command to start Chrome + create a tunnel to Skyvern Cloud
+skyvern browser serve --tunnel"
+Skyvern-AI/skyvern,322,other,False,project-specific executable,"# Launch the Skyvern Server Separately*
+skyvern run server
+
+# Launch the Skyvern UI
+skyvern run ui
+
+# Check status of the Skyvern service
+skyvern status
+
+# Stop the Skyvern service
+skyvern stop all
+
+# Stop the Skyvern UI
+skyvern stop ui
+
+# Stop the Skyvern Server Separately
+skyvern stop server"
+adbar/trafilatura,183,other,False,project-specific executable,"@inproceedings{barbaresi-2021-trafilatura,
+  title = {{Trafilatura: A Web Scraping Library and Command-Line Tool for Text Discovery and Extraction}},
+  author = ""Barbaresi, Adrien"",
+  booktitle = ""Proceedings of the Joint Conference of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing: System Demonstrations"",
+  pages = ""122--131"",
+  publisher = ""Association for Computational Linguistics"",
+  url = ""https://aclanthology.org/2021.acl-demo.15"",
+  year = 2021,
+}"
+djsudduth/keep-it-markdown,76,usage,True,prompt-prefixed command,"> Enter a keyword search, label search or '--all' to convert Keep notes to md or '--x' to exit:"
+gzerveas/mvts_transformer,92,usage,True,project-specific executable,tensorboard dev upload --name my_exp --logdir path/to/output_dir
+gzerveas/mvts_transformer,103,other,False,vocabulary command not matched,"python src/main.py --output_dir path/to/experiments --comment ""regression from Scratch"" --name $1_fromScratch_Regression --records_file Regression_records.xls --data_dir path/to/Datasets/Regression/$1/ --data_class tsra --pattern TRAIN --val_pattern TEST --epochs 100 --lr 0.001 --optimizer RAdam  --pos_encoding learnable --task regression"
+gzerveas/mvts_transformer,109,other,False,vocabulary command not matched,"python src/main.py --output_dir experiments --comment ""classification from Scratch"" --name $1_fromScratch --records_file Classification_records.xls --data_dir path/to/Datasets/Classification/$1/ --data_class tsra --pattern TRAIN --val_pattern TEST --epochs 400 --lr 0.001 --optimizer RAdam  --pos_encoding learnable  --task classification  --key_metric accuracy"
+gzerveas/mvts_transformer,130,other,False,vocabulary command not matched,"python src/main.py --output_dir experiments --comment ""finetune for regression"" --name BeijingPM25Quality_finetuned --records_file Regression_records.xls --data_dir /path/to/Datasets/Regression/BeijingPM25Quality/ --data_class tsra --pattern TRAIN --val_pattern TEST  --epochs 200 --lr 0.001 --optimizer RAdam --pos_encoding learnable --d_model 128 --load_model path/to/BeijingPM25Quality_pretrained/checkpoints/model_best.pth --task regression --change_output --batch_size 128"
+gzerveas/mvts_transformer,135,other,False,vocabulary command not matched,"python src/main.py --output_dir experiments --comment ""finetune for classification"" --name SpokenArabicDigits_finetuned --records_file Classification_records.xls --data_dir /path/to/Datasets/Classification/SpokenArabicDigits/ --data_class tsra --pattern TRAIN --val_pattern TEST --epochs 100 --lr 0.001 --optimizer RAdam --batch_size 128 --pos_encoding learnable --d_model 64 --load_model path/to/SpokenArabicDigits_pretrained/checkpoints/model_best.pth --task classification --change_output --key_metric accuracy"
+synth-mania/jarvis,30,installation,True,configuration or data,"# For OpenRouter
+LLM_API_TYPE=openrouter
+OPENROUTER_API_KEY=your_key_here
+
+USE_CALENDAR=enabled # enabled or disabled
+USE_TASKS=enabled
+USE_GMAIL=enabled
+
+# For local API
+#LLM_API_TYPE=local
+#LOCAL_API_KEY=your_local_key_here
+#LOCAL_API_URL=http://localhost:1234/v1/chat/completions
+#LOCAL_MODEL_NAME=your-local-model-name"
+synth-mania/jarvis,58,usage,True,local script invocation,./start-jarvis.sh
+dedupeio/dedupe,76,other,False,project-specific executable,workon dedupe
+yusufkaraaslan/Skill_Seekers,50,other,False,project-specific executable,"# One command → structured knowledge asset
+skill-seekers create https://docs.react.dev/
+# or: skill-seekers create facebook/react
+# or: skill-seekers create ./my-project
+
+# Export to any AI system
+skill-seekers package output/react --target claude      # → Claude AI Skill (ZIP)
+skill-seekers package output/react --target langchain   # → LangChain Documents
+skill-seekers package output/react --target llama-index # → LlamaIndex TextNodes
+skill-seekers package output/react --target cursor      # → .cursorrules"
+yusufkaraaslan/Skill_Seekers,105,other,False,project-specific executable,"# GitHub repository
+skill-seekers create facebook/react
+
+# Local project
+skill-seekers create ./my-project
+
+# PDF document
+skill-seekers create manual.pdf
+
+# Word document
+skill-seekers create report.docx
+
+# EPUB e-book
+skill-seekers create book.epub
+
+# Jupyter Notebook
+skill-seekers create notebook.ipynb
+
+# OpenAPI spec
+skill-seekers create openapi.yaml
+
+# PowerPoint presentation
+skill-seekers create presentation.pptx
+
+# AsciiDoc document
+skill-seekers create guide.adoc
+
+# Local HTML file
+skill-seekers create page.html
+
+# RSS/Atom feed
+skill-seekers create feed.rss
+
+# Man page
+skill-seekers create curl.1
+
+# Video (YouTube, Vimeo, or local file — requires skill-seekers[video])
+skill-seekers video --url https://www.youtube.com/watch?v=... --name mytutorial
+# First time? Auto-install GPU-aware visual deps:
+skill-seekers video --setup
+
+# Confluence wiki
+skill-seekers confluence --space TEAM --name wiki
+
+# Notion pages
+skill-seekers notion --database-id ... --name docs
+
+# Slack/Discord chat export
+skill-seekers chat --export-dir ./slack-export --name team-chat"
+yusufkaraaslan/Skill_Seekers,159,other,False,project-specific executable,"# Package for multiple platforms
+for platform in claude gemini openai langchain; do
+  skill-seekers package output/django --target $platform
+done"
+yusufkaraaslan/Skill_Seekers,364,other,False,project-specific executable,"# LangChain Documents (JSON)
+skill-seekers package output/django --target langchain
+# → output/django-langchain.json
+
+# LlamaIndex TextNodes (JSON)
+skill-seekers package output/django --target llama-index
+# → output/django-llama-index.json
+
+# Markdown (Universal)
+skill-seekers package output/django --target markdown
+# → output/django-markdown/SKILL.md + references/"
+yusufkaraaslan/Skill_Seekers,499,other,False,project-specific executable,"# One-time configuration (5 minutes)
+skill-seekers config --github
+
+# Use specific profile for private repos
+skill-seekers github --repo mycompany/private-repo --profile work
+
+# CI/CD mode (fail fast, no prompts)
+skill-seekers github --repo owner/repo --non-interactive
+
+# Resume interrupted job
+skill-seekers resume --list
+skill-seekers resume github_react_20260117_143022"
+yusufkaraaslan/Skill_Seekers,567,other,False,project-specific executable,"# Quick analysis (1-2 min, basic features only)
+skill-seekers analyze --directory tests/ --quick
+
+# Comprehensive analysis with AI (20-60 min, all features)
+skill-seekers analyze --directory tests/ --comprehensive
+
+# With AI enhancement
+skill-seekers analyze --directory tests/ --enhance"
+yusufkaraaslan/Skill_Seekers,661,installation,True,project-specific executable,skill-seekers-setup
+yusufkaraaslan/Skill_Seekers,750,documentation,False,project-specific executable,"# Scrape documentation website
+skill-seekers scrape --config configs/react.json
+
+# Quick scrape without config
+skill-seekers scrape --url https://react.dev --name react
+
+# With async mode (3x faster)
+skill-seekers scrape --config configs/godot.json --async --workers 8"
+yusufkaraaslan/Skill_Seekers,763,other,False,project-specific executable,"# Basic PDF extraction
+skill-seekers pdf --pdf docs/manual.pdf --name myskill
+
+# Advanced features
+skill-seekers pdf --pdf docs/manual.pdf --name myskill \
+    --extract-tables \        # Extract tables
+    --parallel \              # Fast parallel processing
+    --workers 8               # Use 8 CPU cores
+
+# Scanned PDFs (requires: pip install pytesseract Pillow)
+skill-seekers pdf --pdf docs/scanned.pdf --name myskill --ocr"
+yusufkaraaslan/Skill_Seekers,836,other,False,other package manager or system tool,"# Use existing unified configs
+skill-seekers unified --config configs/react_unified.json
+skill-seekers unified --config configs/django_unified.json
+
+# Or create unified config
+cat > configs/myframework_unified.json << 'EOF'
+{
+  ""name"": ""myframework"",
+  ""merge_mode"": ""rule-based"",
+  ""sources"": [
+    {
+      ""type"": ""documentation"",
+      ""base_url"": ""https://docs.myframework.com/"",
+      ""max_pages"": 200
+    },
+    {
+      ""type"": ""github"",
+      ""repo"": ""owner/myframework"",
+      ""code_analysis_depth"": ""surface""
+    }
+  ]
+}
+EOF
+
+skill-seekers unified --config configs/myframework_unified.json"
+yusufkaraaslan/Skill_Seekers,876,other,False,"output, URL or other","# Option 1: Using MCP tools (recommended)
+# Register your team's private repo
+add_config_source(
+    name=""team"",
+    git_url=""https://github.com/mycompany/skill-configs.git"",
+    token_env=""GITHUB_TOKEN""
+)
+
+# Fetch config from team repo
+fetch_config(source=""team"", config_name=""internal-api"")"
+yusufkaraaslan/Skill_Seekers,967,documentation,False,project-specific executable,"# Package skill
+skill-seekers package output/react/
+# → Creates output/react.zip
+
+# Then manually upload:
+# - Go to https://claude.ai/skills
+# - Click ""Upload Skill""
+# - Select output/react.zip"
+yusufkaraaslan/Skill_Seekers,991,installation,True,project-specific executable,"# Install to specific agent
+skill-seekers install-agent output/react/ --agent cursor
+
+# Install to all agents at once
+skill-seekers install-agent output/react/ --agent all
+
+# Preview without installing
+skill-seekers install-agent output/react/ --agent cursor --dry-run"
+yusufkaraaslan/Skill_Seekers,1052,other,False,project-specific executable,"# List all presets
+skill-seekers list-configs"
+yusufkaraaslan/Skill_Seekers,1140,other,False,other package manager or system tool,"# Force re-scrape
+rm -rf output/myframework_data/
+skill-seekers scrape --config configs/myframework.json"
+yusufkaraaslan/Skill_Seekers,1150,documentation,False,other package manager or system tool,"# Delete old data and re-scrape
+rm -rf output/godot_data/
+skill-seekers scrape --config configs/godot.json"
+yusufkaraaslan/Skill_Seekers,1157,other,False,other package manager or system tool,"# Check if API key is set
+echo $ANTHROPIC_API_KEY
+
+# Try LOCAL mode instead (uses Claude Code Max, no API key needed)
+skill-seekers enhance output/react/ --mode LOCAL
+
+# Monitor background enhancement status
+skill-seekers enhance-status output/react/ --watch"
+bennjordan/PlateShapez,234,development,True,local script invocation,"  ./scripts/dev format
+  ./scripts/dev lint
+  ./scripts/dev type
+  ./scripts/dev check
+  ./scripts/dev hooks install
+  ./scripts/dev pre-commit"
+Kepas-Beleglorn/EDXD,89,usage,True,prompt-prefixed command,$ nix profile install github:Kepas-Beleglorn/EDXD
+SolFoundry/solfoundry,263,run,True,project-specific executable,"# Point your AI agent at SolFoundry bounties
+# Your agent monitors GitHub Issues tagged `bounty`
+# Submits PRs with solutions
+# Receives $FNDRY on acceptance
+
+# Example: watch for new Tier 1 bounties
+gh api repos/SolFoundry/solfoundry/issues \
+  --jq '.[] | select(.labels[].name == ""bounty-tier-1"") | {title, url}'"
+SolFoundry/solfoundry,317,development,True,project-specific executable,"anchor keys sync
+anchor build"
+SolFoundry/solfoundry,324,development,True,project-specific executable,anchor test
+Ruya-AI/cozempic,102,installation,True,project-specific executable,"# One-time setup: wire hooks + slash command
+cozempic init
+
+# List all sessions with sizes
+cozempic list
+
+# Auto-detect and diagnose the current session
+cozempic current --diagnose
+
+# Dry-run the standard prescription on current session
+cozempic treat current
+
+# Apply with backup
+cozempic treat current --execute
+
+# Go aggressive on a specific session
+cozempic treat <session_id> -rx aggressive --execute
+
+# Save team/agent state right now (no pruning, instant)
+cozempic checkpoint --show
+
+# Guard auto-starts on session open (after cozempic init)
+# Or run manually with custom thresholds:
+cozempic guard --threshold 50 -rx standard
+
+# Guard now defaults to token-based thresholds automatically (75%/45% of context window)
+# Override if needed for heavy configs (many rules files, MCP servers):
+cozempic guard --system-overhead-tokens 34000
+
+# Run as background daemon (what the SessionStart hook uses):
+cozempic guard --daemon
+
+# Treat + auto-resume in a new terminal
+cozempic reload -rx gentle"
+Ruya-AI/cozempic,173,other,False,project-specific executable,"cozempic strategy progress-collapse <session_id> -v
+cozempic strategy thinking-blocks <session_id> --thinking-mode truncate"
+Ruya-AI/cozempic,207,other,False,project-specific executable,"# Save team state
+cozempic checkpoint
+
+# Save and print the state
+cozempic checkpoint --show"
+Ruya-AI/cozempic,290,other,False,project-specific executable,"# Standard — run in a separate terminal
+cozempic guard
+
+# Custom thresholds and interval
+cozempic guard --threshold 40 --soft-threshold 25 --interval 15 -rx standard
+
+# Without auto-reload (just clean, no restart)
+cozempic guard --threshold 50 --no-reload
+
+# Disable reactive overflow recovery (polling only)
+cozempic guard --no-reactive
+
+# Token thresholds are automatic — override only if needed
+cozempic guard --threshold 50 --threshold-tokens 160000 --soft-threshold-tokens 100000
+
+# Heavy config (many rules files, MCP servers) — increase overhead estimate for accuracy
+cozempic guard --system-overhead-tokens 35000
+
+# Aggressive at hard threshold, gentle at soft (automatic)
+cozempic guard --threshold 30 -rx aggressive"
+Ruya-AI/cozempic,449,other,False,project-specific executable,cozempic reload -rx gentle
+Ruya-AI/cozempic,464,other,False,project-specific executable,"cozempic doctor        # Diagnose issues
+cozempic doctor --fix  # Auto-fix where possible"
+dhondta/python-codext,48,other,False,prompt-prefixed command,"$ echo -en ""Test string"" | codext encode reverse
+gnirts tseT
+
+$ echo -en ""Test string"" | codext encode reverse morse
+--. -. .. .-. - ... / - ... . -
+
+$ echo -en ""Test string"" | codext encode reverse morse dna-2
+AGTCAGTCAGTGAGAAAGTCAGTGAGAAAGTGAGTGAGAAAGTGAGTCAGTGAGAAAGTCAGAAAGTGAGTGAGTGAGAAAGTTAGAAAGTCAGAAAGTGAGTGAGTGAGAAAGTGAGAAAGTC
+
+$ echo -en ""Test string"" | codext encode reverse morse dna-2 octal
+101107124103101107124103101107124107101107101101101107124103101107124107101107101101101107124107101107124107101107101101101107124107101107124103101107124107101107101101101107124103101107101101101107124107101107124107101107124107101107101101101107124124101107101101101107124103101107101101101107124107101107124107101107124107101107101101101107124107101107101101101107124103
+
+$ echo -en ""AGTCAGTCAGTGAGAAAGTCAGTGAGAAAGTGAGTGAGAAAGTGAGTCAGTGAGAAAGTCAGAAAGTGAGTGAGTGAGAAAGTTAGAAAGTCAGAAAGTGAGTGAGTGAGAAAGTGAGAAAGTC"" | codext -d dna-2 morse reverse
+test string"
+dhondta/python-codext,67,usage,True,prompt-prefixed command,"$ codext add-macro my-encoding-chain gzip base63 lzma base64
+
+$ codext list macros
+example-macro, my-encoding-chain
+
+$ echo -en ""Test string"" | codext encode my-encoding-chain
+CQQFAF0AAIAAABuTgySPa7WaZC5Sunt6FS0ko71BdrYE8zHqg91qaqadZIR2LafUzpeYDBalvE///ug4AA==
+
+$ codext remove-macro my-encoding-chain
+
+$ codext list macros
+example-macro"
+TomBadash/Mouser,188,other,False,"output, URL or other","$s = (New-Object -ComObject WScript.Shell).CreateShortcut(""$([Environment]::GetFolderPath('Desktop'))\Mouser.lnk"")
+$s.TargetPath = ""C:\path\to\mouser\.venv\Scripts\pythonw.exe""
+$s.Arguments = ""main_qml.py""
+$s.WorkingDirectory = ""C:\path\to\mouser""
+$s.IconLocation = ""C:\path\to\mouser\images\logo.ico, 0""
+$s.Save()"
+kunal12203/Codex-CLI-Compact,53,installation,True,project-specific executable,irm https://raw.githubusercontent.com/kunal12203/Codex-CLI-Compact/main/install.ps1 | iex
+kunal12203/Codex-CLI-Compact,58,installation,True,other package manager or system tool,"scoop bucket add dual-graph https://github.com/kunal12203/scoop-dual-graph
+scoop install dual-graph"
+kunal12203/Codex-CLI-Compact,71,other,False,project-specific executable,"dgc                              # scan current directory, launch Claude
+dgc /path/to/project             # scan a specific project
+dgc /path/to/project ""fix the login bug""   # start with a prompt"
+kunal12203/Codex-CLI-Compact,79,usage,True,project-specific executable,"dg                               # scan current directory, launch Codex
+dg /path/to/project              # scan a specific project
+dg /path/to/project ""add tests""  # start with a prompt"
+kunal12203/Codex-CLI-Compact,87,other,False,project-specific executable,"dgc .                            # from inside the project directory
+dgc ""D:\projects\my-app""         # any drive, any path
+dg ""C:\work\backend""             # Codex CLI"
+kunal12203/Codex-CLI-Compact,186,other,False,other package manager or system tool,"rm -rf ~/.dual-graph
+sed -i.bak '/\.dual-graph/d' ~/.zshrc ~/.bashrc 2>/dev/null
+rm -rf .dual-graph .claude/settings.local.json
+claude mcp remove token-counter --scope user 2>/dev/null
+claude mcp remove dual-graph 2>/dev/null
+rm -rf ~/.claude/token-counter
+rm -f ~/.claude/token-counter-stop.sh"
+kunal12203/Codex-CLI-Compact,197,other,False,project-specific executable,"Remove-Item ""$env:USERPROFILE\.dual-graph"" -Recurse -Force -ErrorAction SilentlyContinue
+$p = [Environment]::GetEnvironmentVariable(""PATH"",""User"") -split "";"" | Where-Object { $_ -notlike ""*\.dual-graph*"" }
+[Environment]::SetEnvironmentVariable(""PATH"", ($p -join "";""), ""User"")
+Remove-Item "".dual-graph"" -Recurse -Force -ErrorAction SilentlyContinue
+Remove-Item "".claude\settings.local.json"" -Force -ErrorAction SilentlyContinue
+claude mcp remove token-counter --scope user 2>$null
+claude mcp remove dual-graph 2>$null
+Remove-Item ""$env:USERPROFILE\.claude\token-counter"" -Recurse -Force -ErrorAction SilentlyContinue
+Remove-Item ""$env:USERPROFILE\.claude\token-counter-stop.ps1"" -Force -ErrorAction SilentlyContinue"
+NovaSky-AI/SkyThought,72,installation,True,project-specific executable,skythought evaluate --model NovaSky-AI/Sky-T1-32B-Preview --task aime24
+opsdisk/metagoofil,18,other,False,project-specific executable,"exiftool -r *.doc | egrep -i ""Author|Creator|Email|Producer|Template"" | sort -u"
+opsdisk/metagoofil,60,other,False,other package manager or system tool,apt install proxychains4 -y
+opsdisk/metagoofil,70,other,False,project-specific executable,vim /etc/proxychains4.conf
+opsdisk/metagoofil,74,other,False,project-specific executable,"round_robin
+chain_len = 1
+proxy_dns
+remote_dns_subnet 224
+tcp_read_time_out 15000
+tcp_connect_time_out 8000
+[ProxyList]
+socks4 127.0.0.1 9050
+socks4 127.0.0.1 9051"
+opsdisk/metagoofil,90,other,False,project-specific executable,"proxychains4 python metagoofil.py -d https://github.com -f -t pdf,doc,xls"
+kunickiaj/codemem,24,installation,True,other package manager or system tool,"# Homebrew
+brew install uv
+
+# mise
+mise use -g uv@latest"
+kunickiaj/codemem,47,installation,True,other package manager or system tool,"uvx codemem stats
+uvx codemem raw-events-status"
+kunickiaj/codemem,147,other,False,project-specific executable,codemem install-mcp
+kunickiaj/codemem,188,other,False,project-specific executable,"# Export current project
+codemem export-memories project.json
+
+# Import on another machine (idempotent, safe to re-run)
+codemem import-memories project.json --remap-project ~/workspace/myproject
+
+# Import from claude-mem
+codemem import-from-claude-mem ~/.claude-mem/claude-mem.db"
+kunickiaj/codemem,205,other,False,project-specific executable,"codemem sync enable        # generate device keys
+codemem sync pair          # generate pairing payload
+codemem sync daemon        # start sync daemon
+codemem sync install       # autostart on macOS + Linux"
+kunickiaj/codemem,240,installation,True,other package manager or system tool,uvx --from git+ssh://git@github.com/kunickiaj/codemem.git codemem stats
+kunickiaj/codemem,252,other,False,other package manager or system tool,uvx --from git+ssh://git@github.com/kunickiaj/codemem.git codemem install-plugin
+NPC-Worldwide/npcsh,30,other,False,local script invocation,"npc ./myagent.npc ""summarize this repo""     # run an NPC with a prompt
+npc ./script.jinx bash_command=""ls -la""     # run a jinx directly
+./myagent.npc ""hello""                       # or just execute it (with shebang)"
+NPC-Worldwide/npcsh,134,usage,True,"output, URL or other",    npcsh>can you help me identify what process is listening on port 5337?
+NPC-Worldwide/npcsh,139,usage,True,"output, URL or other",    npcsh>please read through the markdown files in the docs folder and suggest changes
+NPC-Worldwide/npcsh,144,usage,True,"output, URL or other","  /web_search ""cerulean city""            # Web search
+  /db_search ""query""                     # Database search
+  /file_search ""pattern""                 # File search
+  /memories                              # Interactive memory browser TUI
+  /kg                                    # Interactive knowledge graph TUI
+  /nql                                   # Database query TUI"
+NPC-Worldwide/npcsh,157,usage,True,"output, URL or other",  /computer_use
+NPC-Worldwide/npcsh,166,usage,True,"output, URL or other",  /vixynt 'generate an image of a rabbit eating ham in the brink of dawn' model='gpt-image-1' provider='openai'
+NPC-Worldwide/npcsh,174,usage,True,"output, URL or other",  /roll 'generate a video of a hat riding a dog' veo-3.1-fast-generate-preview  gemini
+NPC-Worldwide/npcsh,182,usage,True,"output, URL or other","  /convene ""Is the universe a simulation?"" npcs=alicanto,corca,guac rounds=3"
+NPC-Worldwide/npcsh,190,usage,True,"output, URL or other",  /serve --port 5337 --cors='http://localhost:5137/'
+mbailey/voicemode,31,other,False,project-specific executable,"# Add the VoiceMode marketplace
+claude plugin marketplace add mbailey/voicemode
+
+# Install VoiceMode plugin
+claude plugin install voicemode@voicemode
+
+## Install dependencies (CLI, Local Voice Services)
+
+/voicemode:install
+
+# Start talking!
+/voicemode:converse"
+mbailey/voicemode,129,other,False,other package manager or system tool,"sudo apt update
+sudo apt install -y ffmpeg gcc libasound2-dev libasound2-plugins libportaudio2 portaudio19-dev pulseaudio pulseaudio-utils python3-dev"
+mbailey/voicemode,138,other,False,other package manager or system tool,sudo dnf install alsa-lib-devel ffmpeg gcc portaudio portaudio-devel python3-devel
+mbailey/voicemode,144,other,False,other package manager or system tool,brew install ffmpeg node portaudio
+mbailey/voicemode,150,other,False,project-specific executable,"# Use development shell
+nix develop github:mbailey/voicemode
+
+# Or install system-wide
+nix profile install github:mbailey/voicemode"
+BUPT-GAMMA/OpenHGNN,258,run,True,project-specific executable,tensorboard --logdir=./openhgnn/output/{model_name}/
+BUPT-GAMMA/OpenHGNN,262,run,True,project-specific executable,tensorboard --logdir=./openhgnn/output/RGCN/
+BUPT-GAMMA/OpenHGNN,272,usage,True,"output, URL or other","LOAD CSV WITH HEADERS FROM ""file:///data.csv"" AS row
+CREATE (:graphname_labelname {ID: row.ID, ... });"
+atemerev/lethe,147,other,False,configuration or data,"# In your .env
+ANTHROPIC_AUTH_TOKEN=sk-ant-oat01-..."
+atemerev/lethe,172,other,False,configuration or data,"# In your .env
+OPENAI_AUTH_TOKEN=eyJ..."
+eddmpython/dartlab,247,other,False,project-specific executable,"dartlab modules                      # list all modules
+dartlab modules --category finance   # filter by category
+dartlab modules --search dividend    # search by keyword"
+eddmpython/dartlab,368,other,False,project-specific executable,"# terminal one-liner — no Python needed
+dartlab ask ""삼성전자 재무건전성 분석해줘"""
+eddmpython/dartlab,413,usage,True,project-specific executable,"# provider setup
+dartlab setup              # list all providers
+dartlab setup ollama       # local LLM (free)
+dartlab setup openai       # OpenAI API
+
+# status
+dartlab status             # all providers (table view)
+dartlab status --cost      # cumulative token/cost stats
+
+# ask questions (streaming by default)
+dartlab ask ""삼성전자 재무건전성 분석해줘""
+dartlab ask ""AAPL risk analysis"" -p ollama
+dartlab ask --continue ""배당 추세는?""
+
+# auto-generate report
+dartlab report ""삼성전자"" -o report.md
+
+# web UI
+dartlab                    # open browser UI"
+eddmpython/dartlab,487,other,False,project-specific executable,claude mcp add dartlab -- uv run dartlab mcp
+eddmpython/dartlab,520,other,False,project-specific executable,"dartlab mcp --config claude-desktop
+dartlab mcp --config claude-code
+dartlab mcp --config cursor"
+ADScanPro/adscan,29,installation,True,other package manager or system tool,"pipx install adscan
+adscan install
+adscan start"
+5ec1cff/payload-dumper,38,other,False,project-specific executable,payload_dumper payload.bin
+5ec1cff/payload-dumper,45,other,False,project-specific executable,"payload_dumper --partitions boot,dtbo,vendor payload.bin"
+5ec1cff/payload-dumper,52,other,False,project-specific executable,payload_dumper --diff payload.bin
+jaakkopasanen/AutoEq,54,installation,True,other package manager or system tool,sudo apt install python3-dev python3-pip python3-venv
+jaakkopasanen/AutoEq,74,installation,True,"output, URL or other","# On Windows
+venv\Scripts\activate.bat
+# On Linux and Mac
+. venv/bin/activate"
+jaakkopasanen/AutoEq,93,installation,True,vocabulary command not matched,"python -m autoeq --input-file=""measurements/oratory1990/data/over-ear/Sennheiser HD 800.csv"" --output-dir=""my_results"" --target=""targets/harman_over-ear_2018_wo_bass.csv"" --max-gain=24 --parametric-eq --parametric-eq-config=4_PEAKING_WITH_LOW_SHELF,4_PEAKING_WITH_HIGH_SHELF --bass-boost=6 --convolution-eq --fs=48000 --bit-depth=32 --f-res=16"
+jaakkopasanen/AutoEq,144,build,True,project-specific executable,copy /y README.md README.md.bak && copy /y autoeq\README.md README.md && python -m build && copy /y README.md.bak README.md && del README.md.bak
+jkulhanek/tetra-nerf,50,other,False,project-specific executable,ns-train tetra-nerf colmap --data <data folder>
+jkulhanek/tetra-nerf,66,other,False,project-specific executable,ns-train tetra-nerf colmap --data <data folder>
+jkulhanek/tetra-nerf,105,run,True,project-specific executable,ns-train tetra-nerf-original --pipeline.model.tetrahedra-path data/blender/<scene>/pointnerf-0.5.th blender-data --data data/blender/<scene>
+jkulhanek/tetra-nerf,109,run,True,project-specific executable,ns-train tetra-nerf-original --pipeline.model.tetrahedra-path data/nsvf-tanks-and-temples/<scene>/dense-1M.th minimal-parser --data data/nsvf-tanks-and-temples/<scene>
+jkulhanek/tetra-nerf,113,run,True,project-specific executable,ns-train tetra-nerf-original --pipeline.model.tetrahedra-path data/mipnerf360/<scene>/dense-1M.th minimal-parser --data data/mipnerf360/<scene>
+antgroup/echomimic,214,run,True,"output, URL or other","test_cases:
+  ""path/to/your/image"":
+    - ""path/to/your/audio"""
+jgravelle/jcodemunch-mcp,180,other,False,project-specific executable,claude mcp add jcodemunch uvx jcodemunch-mcp
+Peuqui/AIfred-Intelligence,1142,installation,True,comments only,"# Not yet fully implemented
+# See: https://github.com/theroyallab/tabbyAPI"
+Peuqui/AIfred-Intelligence,1191,installation,True,local script invocation,"./venv/bin/python -c ""
+import chromadb
+from chromadb.config import Settings
+
+client = chromadb.HttpClient(
+    host='localhost',
+    port=8000,
+    settings=Settings(anonymized_telemetry=False)
+)
+
+try:
+    client.delete_collection('research_cache')
+    print('✅ Collection deleted')
+except Exception as e:
+    print(f'⚠️ Error: {e}')
+"""
+Peuqui/AIfred-Intelligence,1256,installation,True,project-specific executable,reflex run
+Peuqui/AIfred-Intelligence,1634,installation,True,other package manager or system tool,"# 1. Copy service files
+sudo cp systemd/aifred-chromadb.service /etc/systemd/system/
+sudo cp systemd/aifred-intelligence.service /etc/systemd/system/
+
+# 2. Enable and start services
+sudo systemctl daemon-reload
+sudo systemctl enable aifred-chromadb.service aifred-intelligence.service
+sudo systemctl start aifred-chromadb.service aifred-intelligence.service
+
+# 3. Check status
+systemctl status aifred-chromadb.service
+systemctl status aifred-intelligence.service
+
+# 4. Create first user (required for login)
+./aifred-admin add yourusername
+# Then register in the web UI with username + password"
+Peuqui/AIfred-Intelligence,1659,usage,True,local script invocation,"./aifred-admin users              # List whitelist (who can register)
+./aifred-admin add <username>     # Add user to whitelist
+./aifred-admin remove <username>  # Remove from whitelist
+./aifred-admin accounts           # List registered accounts
+./aifred-admin delete <username>  # Delete account (with confirmation)
+./aifred-admin delete <username> --sessions  # Also delete user's sessions"
+Peuqui/AIfred-Intelligence,1722,other,False,configuration or data,"# Environment Mode (required for production)
+AIFRED_ENV=prod
+
+# Backend API URL for external access via nginx reverse proxy
+# Set this to your external domain/IP for HTTPS access
+AIFRED_API_URL=https://your-domain.com:8443
+
+# API Keys for web search (optional)
+BRAVE_API_KEY=your_brave_api_key
+TAVILY_API_KEY=your_tavily_api_key
+
+# Ollama Configuration
+OLLAMA_BASE_URL=http://localhost:11434
+# IMPORTANT: Set OLLAMA_NUM_PARALLEL=1 in Ollama service config (see Performance section below)
+
+# Backend URL for static files (HTML Preview, Images)
+# With NGINX: Leave empty or omit - NGINX routes /_upload/ to backend
+# Without NGINX (dev): Set to backend URL for direct access
+# BACKEND_URL=http://localhost:8002
+
+# Cloud LLM API Keys (optional - only needed if using cloud backends)
+DASHSCOPE_API_KEY=your_key_here      # Qwen (DashScope)
+DEEPSEEK_API_KEY=your_key_here       # DeepSeek
+ANTHROPIC_API_KEY=your_key_here      # Claude (Anthropic)
+MOONSHOT_API_KEY=your_key_here       # Kimi (Moonshot)"
+Peuqui/AIfred-Intelligence,1780,other,False,configuration or data,"# Set in .env:
+AIFRED_ENV=dev
+
+# Or remove --env prod from the systemd service"
+Peuqui/AIfred-Intelligence,1967,other,False,project-specific executable,tail -f data/logs/aifred_debug.log
+Peuqui/AIfred-Intelligence,1995,other,False,other package manager or system tool,"# Create override directory
+sudo mkdir -p /etc/systemd/system/ollama.service.d/
+
+# Create override file
+sudo tee /etc/systemd/system/ollama.service.d/override.conf << 'EOF'
+[Service]
+Environment=""OLLAMA_NUM_PARALLEL=1""
+EOF
+
+# Apply changes
+sudo systemctl daemon-reload
+sudo systemctl restart ollama"
+Peuqui/AIfred-Intelligence,2056,run,True,other package manager or system tool,"# Check logs
+journalctl -u aifred-intelligence -n 50
+# Check Ollama status
+systemctl status ollama"
+PlanExeOrg/PlanExe,182,usage,True,local script invocation,"# Create a plan from a text prompt
+./planexe create_plan \
+    --plan-text ""Small coffee shop in Copenhagen, Denmark"" \
+    --output-dir ./planexe-outputs/1984-12-31/MyCoffeeShop_v1
+
+# Or: read the plan prompt from a file
+./planexe create_plan \
+    --plan-file my_plan.txt \
+    --output-dir ./planexe-outputs/1984-12-31/MyCoffeeShop_v1"
+jacob-bd/notebooklm-mcp-cli,44,usage,True,project-specific executable,"nlm notebook list                              # List all notebooks
+nlm notebook create ""Research Project""         # Create a notebook
+nlm source add <notebook> --url ""https://...""  # Add sources
+nlm audio create <notebook> --confirm          # Generate podcast
+nlm download audio <notebook> <artifact-id>    # Download audio file
+nlm share public <notebook>                    # Enable public link"
+jacob-bd/notebooklm-mcp-cli,59,other,False,project-specific executable,"# Automatic setup — picks the right config for each tool
+nlm setup add claude-code
+nlm setup add gemini
+nlm setup add cursor
+nlm setup add cline
+nlm setup add antigravity
+
+# Generate JSON config for any other tool
+nlm setup add json"
+jacob-bd/notebooklm-mcp-cli,121,installation,True,other package manager or system tool,"uvx --from notebooklm-mcp-cli nlm --help
+uvx --from notebooklm-mcp-cli notebooklm-mcp"
+jacob-bd/notebooklm-mcp-cli,132,usage,True,other package manager or system tool,pipx install notebooklm-mcp-cli
+jacob-bd/notebooklm-mcp-cli,225,other,False,project-specific executable,nlm login
+jacob-bd/notebooklm-mcp-cli,251,other,False,project-specific executable,"nlm setup remove claude-code
+nlm setup remove cursor
+# ... or any configured tool"
+jacob-bd/notebooklm-mcp-cli,263,usage,True,project-specific executable,"# Auto mode: launches your browser, you log in, cookies extracted automatically
+nlm login
+
+# Check if already authenticated
+nlm login --check
+
+# Use a named profile (for multiple Google accounts)
+nlm login --profile work
+nlm login --profile personal
+
+# Manual mode: import cookies from a file
+nlm login --manual --file cookies.txt
+
+# External CDP provider (e.g., OpenClaw-managed browser)
+nlm login --provider openclaw --cdp-url http://127.0.0.1:18800"
+jacob-bd/notebooklm-mcp-cli,282,usage,True,project-specific executable,"nlm login --check                    # Show current auth status
+nlm login switch <profile>           # Switch the default profile
+nlm login profile list               # List all profiles with email addresses
+nlm login profile delete <profile>   # Delete a profile
+nlm login profile rename <old> <new> # Rename a profile"
+jacob-bd/notebooklm-mcp-cli,296,other,False,project-specific executable,"nlm login              # Auto mode (launches browser)
+nlm login --manual     # Manual file mode"
+jacob-bd/notebooklm-mcp-cli,315,installation,True,project-specific executable,"# Add to any supported tool
+nlm setup add claude-code
+nlm setup add claude-desktop
+nlm setup add gemini
+nlm setup add cursor
+nlm setup add windsurf
+
+# Generate JSON config for any other tool
+nlm setup add json
+
+# Check which tools are configured
+nlm setup list
+
+# Diagnose installation & auth issues
+nlm doctor"
+jacob-bd/notebooklm-mcp-cli,337,installation,True,project-specific executable,"# Install skill files
+nlm skill install cline
+nlm skill install openclaw
+nlm skill install codex
+nlm skill install antigravity
+
+# Update skills
+nlm skill update"
+jacob-bd/notebooklm-mcp-cli,350,other,False,project-specific executable,nlm setup remove claude-code
+jacob-bd/notebooklm-mcp-cli,358,installation,True,other package manager or system tool,"# Run CLI commands directly
+uvx --from notebooklm-mcp-cli nlm setup add cursor
+uvx --from notebooklm-mcp-cli nlm login"
+jacob-bd/notebooklm-mcp-cli,382,installation,True,project-specific executable,"claude mcp add --scope user notebooklm-mcp notebooklm-mcp
+gemini mcp add --scope user notebooklm-mcp notebooklm-mcp"
+ikalchev/HAP-python,239,run,True,prompt-prefixed command,"> sudo systemctl start HAP-python
+> systemctl status HAP-python
+> sudo journalctl -u HAP-python  # to see the output of the start up script.
+> sudo systemctl stop HAP-python"
+ikalchev/HAP-python,248,run,True,prompt-prefixed command,"> sudo systemctl enable HAP-python
+> sudo systemctl disable HAP-python"
+ikalchev/HAP-python,262,other,False,prompt-prefixed command,"$ sudo visudo # and add the line: ""<hap-user> ALL=NOPASSWD: /sbin/shutdown""."
+LlmKira/fast-langdetect,49,usage,True,project-specific executable,pdm add fast-langdetect
+agentstack-ai/AgentStack,75,other,False,project-specific executable,agentstack run
+agentstack-ai/AgentStack,86,build,True,project-specific executable,agentstack generate agent/task <name>
+agentstack-ai/AgentStack,102,other,False,project-specific executable,agentstack tools add
+ChesterRa/cccc,89,run,True,project-specific executable,cccc
+ChesterRa/cccc,185,other,False,project-specific executable,"cccc setup --runtime claude    # auto-configures MCP for this runtime
+cccc runtime list --all        # show all available runtimes
+cccc doctor                    # verify environment and runtime availability"
+ChesterRa/cccc,257,other,False,project-specific executable,"cccc im set telegram --token-env TELEGRAM_BOT_TOKEN
+cccc im start"
+ChesterRa/cccc,274,usage,True,project-specific executable,"# Lifecycle
+cccc                           # start daemon + web UI
+cccc daemon start|status|stop  # daemon management
+
+# Groups
+cccc attach .                  # bind current directory
+cccc groups                    # list all groups
+cccc use <group_id>            # switch active group
+cccc group start|stop          # start/stop all actors
+
+# Actors
+cccc actor add <id> --runtime <runtime>
+cccc actor start|stop|restart <id>
+
+# Messaging
+cccc send ""message"" --to @all
+cccc reply <event_id> ""response""
+cccc tail -n 50 -f             # follow the ledger
+
+# Inbox
+cccc inbox                     # show unread messages
+cccc inbox --mark-read         # mark all as read
+
+# Operations
+cccc doctor                    # environment check
+cccc setup --runtime <name>    # configure MCP
+cccc runtime list --all        # available runtimes
+
+# IM
+cccc im set <platform> --token-env <ENV_VAR>
+cccc im start|stop|status"
+OpenMined/PySyft,58,run,True,prompt-prefixed command,"$ syft launch --name=my-datasite --port=8080 --reset=True
+
+Starting syft-datasite server on 0.0.0.0:8080"
+ultralytics/ultralytics,78,usage,True,project-specific executable,"# Predict using a pretrained YOLO model (e.g., YOLO26n) on an image
+yolo predict model=yolo26n.pt source='https://ultralytics.com/images/bus.jpg'"
+Jamie-BitFlight/claude_skills,42,installation,True,"output, URL or other","# Add the marketplace (one-time setup)
+/plugin marketplace add Jamie-BitFlight/claude_skills
+
+# Install a plugin
+/plugin install plugin-name@jamie-bitflight-skills"
+Jamie-BitFlight/claude_skills,139,development,True,project-specific executable,"# Option 1: Load specific plugins for this session
+claude --plugin-dir ./plugins/python3-development --plugin-dir ./plugins/holistic-linting
+
+# Option 2: Add local marketplace for persistent enable/disable
+/plugin marketplace add ./.claude-plugin/marketplace.json
+
+# Install plugins you need (--scope local keeps it gitignored)
+/plugin install python3-development@jamie-bitflight-skills --scope local
+
+# Disable when not needed
+/plugin disable python3-development@jamie-bitflight-skills
+
+# Re-enable when needed
+/plugin enable python3-development@jamie-bitflight-skills"
+Jamie-BitFlight/claude_skills,170,other,False,"output, URL or other",/plugin list
+Jamie-BitFlight/claude_skills,178,other,False,"output, URL or other",/plugin list --all
+Jamie-BitFlight/claude_skills,190,other,False,"output, URL or other",/plugin install plugin-name@jamie-bitflight-skills
+marcomusy/vedo,140,usage,True,project-specific executable,vedo https://vedo.embl.es/examples/data/embryo.tif
+KoljaB/RealtimeTTS,245,other,False,other package manager or system tool,    brew install mpv
+KoljaB/RealtimeTTS,707,installation,True,other package manager or system tool,        sudo apt update && sudo apt install ffmpeg
+KoljaB/RealtimeTTS,712,installation,True,other package manager or system tool,        sudo pacman -S ffmpeg
+KoljaB/RealtimeTTS,717,installation,True,other package manager or system tool,        brew install ffmpeg
+KoljaB/RealtimeTTS,722,installation,True,other package manager or system tool,        choco install ffmpeg
+KoljaB/RealtimeTTS,727,installation,True,other package manager or system tool,        scoop install ffmpeg
+hauxir/rapidbay,45,deployment,True,other package manager or system tool,"# Ubuntu/Debian
+sudo apt install python3 python3-venv ffmpeg mediainfo nginx
+
+# macOS
+brew install python ffmpeg mediainfo nginx"
+QuantaAlpha/GitTaskBench,152,installation,True,project-specific executable,gittaskbench grade --taskid Trafilatura_01
+QuantaAlpha/GitTaskBench,162,installation,True,project-specific executable,gittaskbench grade --all
+QuantaAlpha/GitTaskBench,169,installation,True,project-specific executable,gittaskbench eval
+QuantaAlpha/GitTaskBench,243,test,True,project-specific executable,gittaskbench [-v] grade --taskid <taskid> [--output_dir <output_dir>] [--result <result>]
+QuantaAlpha/GitTaskBench,253,other,False,project-specific executable,gittaskbench eval  [--result <result>]
+openagents-org/openagents,56,other,False,project-specific executable,"openagents start openclaw                                  # start an agent
+openagents start claude                                    # or Claude Code
+openagents start openclaw --create-workspace ""my-team""     # create and connect
+openagents start openclaw --join-workspace <token>          # join and connect"
+openagents-org/openagents,91,other,False,project-specific executable,openagents workspace create
+openagents-org/openagents,99,other,False,project-specific executable,"openagents start openclaw          # starts OpenClaw and connects to your workspace
+openagents start claude            # or start Claude Code (requires subscription)
+openagents start openclaw --join-workspace <token>  # or join in one command"
+openagents-org/openagents,178,installation,True,project-specific executable,"openagents                        # Launch interactive TUI dashboard
+openagents setup                  # Same as above"
+openagents-org/openagents,185,other,False,project-specific executable,"openagents start <type>           # Start an agent (create + workspace prompt + daemon)
+openagents start <type> --create-workspace <name>   # Start + create workspace
+openagents start <type> --join-workspace <token>    # Start + join workspace
+openagents stop <name>            # Stop a specific agent
+openagents status                 # Show running agents and daemon health
+openagents install <type>         # Install an agent runtime
+openagents search <query>         # Search available agents
+openagents update                 # Update OpenAgents + check agent versions"
+openagents-org/openagents,198,other,False,project-specific executable,"openagents up                     # Start daemon (all configured agents)
+openagents down                   # Stop daemon
+openagents autostart              # Auto-start on login (launchd/systemd/Task Scheduler)
+openagents logs                   # View daemon logs
+openagents logs -f                # Follow logs in real time"
+openagents-org/openagents,208,other,False,project-specific executable,"openagents workspace create       # Create a workspace, get shareable token
+openagents workspace join <token> # Join with a token (no workspace ID needed)
+openagents workspace list         # List configured workspaces
+openagents workspace members      # List agents in a workspace"
+openagents-org/openagents,217,other,False,project-specific executable,"openagents network start          # Launch a self-hosted agent network
+openagents studio                 # Open the Studio monitoring UI
+openagents connect <name> <net>   # Attach agent to a network"
+FunctionError/PiratesTv,44,other,False,configuration or data,https://raw.githubusercontent.com/FunctionError/PiratesTv/main/combined_playlist.m3u
+FunctionError/PiratesTv,49,other,False,configuration or data,https://iptv.piratestv.workers.dev/all
+neulab/compare-mt,25,usage,True,project-specific executable,compare-mt --output_directory output/ example/ted.ref.eng example/ted.sys1.eng example/ted.sys2.eng
+neulab/compare-mt,70,test,True,project-specific executable,"compare-mt example/ted.ref.eng example/ted.sys1.eng example/ted.sys2.eng --compare_scores score_type=bleu,bootstrap=1000,prob_thresh=0.05"
+neulab/compare-mt,86,usage,True,project-specific executable,"compare-mt example/ted.ref.eng example/ted.sys1.eng example/ted.sys2.eng
+        --compare_word_accuracies bucket_type=freq,freq_corpus_file=example/ted.train.eng"
+neulab/compare-mt,99,usage,True,project-specific executable,"compare-mt example/ted.ref.eng example/ted.sys1.eng example/ted.sys2.eng
+        --compare_word_accuracies bucket_type=freq,freq_count_file=example/ted.train.counts"
+neulab/compare-mt,112,other,False,project-specific executable,"compare-mt example/ted.ref.eng example/ted.sys1.eng example/ted.sys2.eng 
+    --compare_word_accuracies bucket_type=label,ref_labels=example/ted.ref.eng.tag,out_labels=""example/ted.sys1.eng.tag;example/ted.sys2.eng.tag"",label_set=CC+DT+IN+JJ+NN+NNP+NNS+PRP+RB+TO+VB+VBP+VBZ 
+    --compare_ngrams compare_type=match,ref_labels=example/ted.ref.eng.tag,out_labels=""example/ted.sys1.eng.tag;example/ted.sys2.eng.tag"""
+neulab/compare-mt,124,other,False,project-specific executable,"compare-mt example/multited.ref.jpn example/multited.sys1.jpn example/multited.sys2.jpn 
+    --compare_word_accuracies bucket_type=multilabel,ref_labels=example/multited.ref.jpn.tag,out_labels=""example/multited.sys1.jpn.tag;example/multited.sys2.jpn.tag"",label_set=lexical+formality+pronouns+ellipsis"
+neulab/compare-mt,131,other,False,project-specific executable,"compare-mt example/ted.ref.eng example/ted.sys1.eng example/ted.sys2.eng 
+    --compare_word_accuracies bucket_type=numlabel,ref_labels=example/ted.ref.eng.rptag,out_labels=""example/ted.sys1.eng.rptag;example/ted.sys2.eng.rptag"""
+neulab/compare-mt,140,other,False,project-specific executable,"compare-mt example/ted.ref.eng example/ted.sys1.eng example/ted.sys2.eng 
+    --compare_sentence_buckets 'bucket_type=label,out_labels=example/ted.sys1.eng.senttag;example/ted.sys2.eng.senttag,label_set=0+10+20+30+40+50+60+70+80+90+100,statistic_type=score,score_measure=bleu'"
+neulab/compare-mt,152,other,False,project-specific executable,compare-mt example/ted.ref.eng example/ted.sys1.eng example/ted.sys2.eng --src_file example/ted.orig.slk --compare_src_word_accuracies ref_align_file=example/ted.ref.align
+neulab/compare-mt,160,other,False,project-specific executable,"compare-ll --ref example/ll_test.txt --ll-files example/ll_test.sys1.likelihood example/ll_test.sys2.likelihood --compare-word-likelihoods bucket_type=freq,freq_corpus_file=example/ll_test.txt"
+neulab/compare-mt,166,other,False,project-specific executable,"compare-ll --ref example/ll_test.txt --ll-files example/ll_test.sys1.likelihood example/ll_test.sys2.likelihood --compare-word-likelihoods bucket_type=label,label_corpus=example/ll_test.tag,label_set=CC+DT+IN+JJ+NN+NNP+NNS+PRP+RB+TO+VB+VBP+VBZ"
+neulab/compare-mt,176,other,False,project-specific executable,compare-mt example/sum.ref.eng example/sum.sys1.eng example/sum.sys2.eng --compare_scores 'score_type=rouge1' 'score_type=rouge2' 'score_type=rougeL'
+neulab/compare-mt,190,other,False,project-specific executable,"compare-mt example/ted.ref.eng example/ted.sys1.eng example/ted.sys2.eng --src_file example/ted.orig.slk \
+  --compare_scores score_type=comet \
+  --compare_sentence_buckets bucket_type=score,score_measure=sentcomet"
+usestrix/strix,153,usage,True,project-specific executable,"# Scan a local codebase
+strix --target ./app-directory
+
+# Security review of a GitHub repository
+strix --target https://github.com/org/repo
+
+# Black-box web application assessment
+strix --target https://your-app.com"
+usestrix/strix,166,usage,True,project-specific executable,"# Grey-box authenticated testing
+strix --target https://your-app.com --instruction ""Perform authenticated testing using credentials: user:pass""
+
+# Multi-target testing (source code + deployed app)
+strix -t https://github.com/org/app -t https://your-app.com
+
+# Focused testing with custom instructions
+strix --target api.your-app.com --instruction ""Focus on business logic flaws and IDOR vulnerabilities""
+
+# Provide detailed instructions through file (e.g., rules of engagement, scope, exclusions)
+strix --target api.your-app.com --instruction-file ./instruction.md"
+usestrix/strix,184,other,False,project-specific executable,strix -n --target https://your-app.com
+michelcrypt4d4mus/epstein_text_messages,25,usage,True,configuration or data,EPSTEIN_DOCS_DIR=path/to/source_data/ epstein_generate --help
+michelcrypt4d4mus/epstein_text_messages,31,usage,True,configuration or data,EPSTEIN_DOCS_DIR=path/to/source_data/ EPSTEIN_DOJ_TXTS_20260130_DIR=/path/to/doj/files/ epstein_generate --help
+michelcrypt4d4mus/epstein_text_messages,59,other,False,project-specific executable,"# Generate color highlighted texts/emails/other files
+epstein_generate
+
+# Search for a string:
+epstein_grep Bannon
+# Or a regex:
+epstein_grep '\bSteve\s*Bannon|Jeffrey\s*Epstein\b'
+
+# Show a file with color highlighting of keywords:
+epstein_show 030999
+# Show both the highlighted and raw versions of the file:
+epstein_show --raw 030999
+# The full filename is also accepted:
+epstein_show HOUSE_OVERSIGHT_030999
+
+# Count words used by Epstein and Bannon
+epstein_show --output-word-count --name 'Jeffrey Epstein' --name 'Steve Bannon'
+
+# Diff two epstein files after all the cleanup (stripping BOMs, matching newline chars, etc):
+epstein_diff 030999 020442"
+openakita/openakita,199,other,False,project-specific executable,"openakita                              # Interactive chat
+openakita run ""Build a calculator""     # Execute a single task
+openakita serve                        # Service mode (IM channels)
+openakita serve --dev                  # Dev mode with hot reload
+openakita daemon start                 # Background daemon
+openakita status                       # Check status"
+aiming-lab/AutoResearchClaw,242,other,False,project-specific executable,"# Just run — the agent uses its own credentials
+researchclaw run --config config.yaml --topic ""Your research idea"" --auto-approve"
+aiming-lab/AutoResearchClaw,366,installation,True,project-specific executable,"# 3. Run as usual — MetaClaw works transparently
+researchclaw run --config config.arc.yaml --topic ""Your idea"" --auto-approve"
+huashengdun/webssh,53,other,False,project-specific executable,"# start a http server with specified listen address and listen port
+wssh --address='2.2.2.2' --port=8000
+
+# start a https server, certfile and keyfile must be passed
+wssh --certfile='/path/to/cert.crt' --keyfile='/path/to/cert.key'
+
+# missing host key policy
+wssh --policy=reject
+
+# logging level
+wssh --logging=debug
+
+# log to file
+wssh --log-file-prefix=main.log
+
+# more options
+wssh --help"
+huashengdun/webssh,113,other,False,configuration or data,http://localhost:8888/?hostname=xx&username=yy&password=str_base64_encoded
+huashengdun/webssh,118,other,False,configuration or data,http://localhost:8888/#bgcolor=green
+huashengdun/webssh,123,other,False,configuration or data,http://localhost:8888/#fontcolor=red
+huashengdun/webssh,128,other,False,configuration or data,http://localhost:8888/?title=my-ssh-server
+huashengdun/webssh,133,other,False,configuration or data,http://localhost:8888/#encoding=gbk
+huashengdun/webssh,138,other,False,configuration or data,http://localhost:8888/#fontsize=24
+huashengdun/webssh,143,other,False,configuration or data,http://localhost:8888/?command=pwd
+huashengdun/webssh,148,other,False,configuration or data,http://localhost:8888/?term=xterm-256color
+huashengdun/webssh,185,deployment,True,project-specific executable,wssh --address='127.0.0.1' --port=8888 --policy=reject
+huashengdun/webssh,203,deployment,True,project-specific executable,wssh --port=8080 --sslport=4433 --certfile='cert.crt' --keyfile='cert.key' --xheaders=False --policy=reject
+miaucl/bring-api,256,development,True,project-specific executable,"pre-commit install
+
+# Run the commit hooks manually
+pre-commit run --all-files"
+reata/sqllineage,178,other,False,project-specific executable,"sqlite3 db.db 'CREATE TABLE IF NOT EXISTS baz (bar_id int, col1 int, col4 int)';
+sqlite3 db.db 'CREATE TABLE IF NOT EXISTS quux (quux_id int, col5 int, col6 int)';"
+reata/sqllineage,184,other,False,prompt-prefixed command,"$ SQLLINEAGE_DEFAULT_SCHEMA=main sqllineage -f test.sql -l column --sqlalchemy_url=sqlite:///db.db
+main.corge.col1 <- main.foo.col1 <- main.bar.col1
+main.corge.col2 <- main.foo.col2 <- main.bar.col1
+main.corge.col2 <- main.grault.col2
+main.foo.col3 <- c.col3_sum <- main.qux.col3
+main.foo.col4 <- main.baz.col4
+main.foo.col5 <- main.quux.col5
+main.foo.col6 <- main.quux.col6"
+husnainpk/SymDex,82,other,False,vocabulary command not matched,npx skills add https://github.com/husnainpk/SymDex --skill symdex-code-search --yes --global
+inworld-ai/tts,130,other,False,project-specific executable,"WANDB_PROJECT=""your_project"" \
+torchrun --nproc_per_node 8 ./tools/data/data_vectorizer.py \
+    --codec_model_path=/path/to/codec/model.pt \
+    --batch_size=16 \
+    --dataset_path=./example/configs/samples.jsonl \
+    --output_dir=/path/to/output_directory \
+    --use_wandb \
+    --run_name=test_vectorization"
+inworld-ai/tts,142,other,False,project-specific executable,"WANDB_PROJECT=""your_project"" \
+torchrun --nproc_per_node 8 ./tools/data/data_vectorizer.py \
+    --codec_model_path=/path/to/codec/model.pt \
+    --batch_size=16 \
+    --dataset_path=/path/to/your_data.jsonl \
+    --output_dir=/path/to/output_directory \
+    --use_wandb \
+    --run_name=vectorization_run"
+inworld-ai/tts,324,run,True,configuration or data,"# Update this path to your converted serving model
+VLLM_MODEL_PATH=""/path/to/your/serving/model"""
+inworld-ai/tts,331,run,True,local script invocation,"# Submit SLURM job with 2 nodes
+sbatch --nodes=2 --gpus-per-node=8 --cpus-per-task=114 \
+  --nodelist=gpu-node1,gpu-node2 --partition=compute \
+  ./tts/training/rlhf/run_rlhf_combine.sh"
+jmcentire/pact,58,installation,True,project-specific executable,"pact init my-project
+# Edit my-project/task.md with your task
+# Edit my-project/sops.md with your standards
+pact --help"
+jmcentire/pact,166,other,False,project-specific executable,"pact audit-init ./my-project --audit-dir ./my-project-audit
+pact sync ./my-project          # Sync visible tests (never Goodhart) to code repo
+pact certify ./my-project       # Tamper-evident certification proof"
+jmcentire/pact,205,other,False,project-specific executable,pact health my-project
+sair-lab/bae,95,installation,True,other package manager or system tool,"   sudo apt install cudss=0.6.0-1 cudss0=0.6.0-1 cudss-cuda-12=0.6.0.5-1 \
+   libcudss0-cuda-12=0.6.0.5-1 libcudss0-dev-cuda-12=0.6.0.5-1 libcudss0-static-cuda-12=0.6.0.5-1  "
+sair-lab/bae,100,installation,True,other package manager or system tool,   sudo apt install cudss-cuda-13
+ParisNeo/lollms_legacy,72,other,False,project-specific executable,lollms-settings
+ParisNeo/lollms_legacy,85,other,False,configuration or data,https://huggingface.co/TheBloke/airoboros-7b-gpt4-GGML/resolve/main/airoboros-7b-gpt4.ggmlv3.q4_1.bin
+stickerdaniel/linkedin-mcp-server,109,installation,True,other package manager or system tool,"# Run with debug logging
+uvx linkedin-scraper-mcp --log-level DEBUG"
+stickerdaniel/linkedin-mcp-server,116,installation,True,other package manager or system tool,uvx linkedin-scraper-mcp --transport streamable-http --host 127.0.0.1 --port 8080 --path /mcp
+stickerdaniel/linkedin-mcp-server,222,other,False,other package manager or system tool,uvx linkedin-scraper-mcp --login
+Tuxemon/Tuxemon,78,other,False,project-specific executable,"flatpak install flathub org.tuxemon.Tuxemon
+flatpak run org.tuxemon.Tuxemon"
+Tuxemon/Tuxemon,93,other,False,project-specific executable,"
+flatpak install Tuxemon.flatpak
+
+flatpak run org.tuxemon.Tuxemon
+"
+almanak-co/sdk,52,installation,True,other package manager or system tool,pipx install almanak
+almanak-co/sdk,58,installation,True,project-specific executable,almanak agent install
+almanak-co/sdk,67,installation,True,project-specific executable,   almanak strat new
+almanak-co/sdk,126,usage,True,project-specific executable,"# Gateway (auto-started by strat run, or start standalone)
+almanak gateway                # Start standalone gateway server
+almanak gateway --network anvil  # Start standalone for local Anvil testing
+
+# Direct DeFi actions (no strategy files needed)
+almanak ax price ETH                           # Get token price
+almanak ax balance USDC --chain base           # Check wallet balance
+almanak ax swap USDC ETH 100 --dry-run         # Simulate a swap
+almanak ax swap USDC ETH 100                   # Execute after confirmation
+almanak ax -n ""swap 5 USDC to WETH on base""   # Natural language mode
+
+# Strategy development
+almanak strat new              # Create new strategy from template
+almanak strat run --once       # Run single iteration (auto-starts gateway)
+almanak strat run --network anvil --once  # Run on local Anvil fork (auto-starts Anvil + gateway)
+almanak strat run --network anvil --dashboard  # Run with live dashboard
+
+# Backtesting
+almanak strat backtest pnl     # Historical price simulation
+almanak strat backtest sweep   # Parameter optimization
+almanak strat backtest paper   # Paper trading on Anvil
+
+# Advanced backtesting
+almanak strat backtest monte-carlo  # Statistical robustness analysis
+almanak strat backtest optimize     # Bayesian parameter optimization
+almanak strat backtest scenario     # Crisis scenario stress testing
+almanak strat backtest dashboard    # Interactive results dashboard
+"
+almanak-co/sdk,189,usage,True,project-specific executable,"# Historical PnL backtest
+almanak strat backtest pnl -s my_strategy --start 2024-01-01 --end 2024-06-01
+
+# Parameter sweep optimization
+almanak strat backtest sweep -s my_strategy --param ""window:10,20,30""
+
+# Paper trading on Anvil fork
+almanak strat backtest paper start -s my_strategy --chain arbitrum
+
+# Monte Carlo simulation (1000 price paths)
+almanak strat backtest monte-carlo -s my_strategy --n-paths 1000
+
+# Crisis scenario stress testing
+almanak strat backtest scenario -s my_strategy --scenario terra_collapse"
+almanak-co/sdk,359,other,False,configuration or data,"AGENT_LLM_API_KEY=sk-... almanak ax -n ""swap 5 USDC to WETH on base""
+AGENT_LLM_API_KEY=sk-... almanak ax -n ""what's the price of ETH?"""
+huggingface/lerobot,97,other,False,project-specific executable,"lerobot-train \
+  --policy=act \
+  --dataset.repo_id=lerobot/aloha_mobile_cabinet"
+huggingface/lerobot,117,run,True,project-specific executable,"# Evaluate a policy on the LIBERO benchmark
+lerobot-eval \
+  --policy.path=lerobot/pi0_libero_finetuned \
+  --env.type=libero \
+  --env.task=libero_object \
+  --eval.n_episodes=10"
